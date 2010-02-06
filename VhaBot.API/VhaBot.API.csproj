@@ -1,0 +1,131 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{95E2FC67-F6F4-4DDD-8C8D-18A337EEC537}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VhaBot.API</RootNamespace>
+    <AssemblyName>VhaBot.API</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Data.SqliteClient, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Mono.Data.SqliteClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Args\AltAddedArgs.cs" />
+    <Compile Include="Args\AltRemovedArgs.cs" />
+    <Compile Include="Args\BotStateChangedArgs.cs" />
+    <Compile Include="Args\ChannelMessageArgs.cs" />
+    <Compile Include="Args\CommandArgs.cs" />
+    <Compile Include="Args\ConfigurationChangedArgs.cs" />
+    <Compile Include="Args\IntraBotMessageArgs.cs" />
+    <Compile Include="Args\MemberAddedArgs.cs" />
+    <Compile Include="Args\MemberRemovedArgs.cs" />
+    <Compile Include="Args\MemberUpdatedArgs.cs" />
+    <Compile Include="Args\MessageArgs.cs" />
+    <Compile Include="Args\PrivateChannelMessageArgs.cs" />
+    <Compile Include="Args\PrivateMessageArgs.cs" />
+    <Compile Include="Args\SenderArgs.cs" />
+    <Compile Include="Args\SlaveArgs.cs" />
+    <Compile Include="Args\UserJoinChannelArgs.cs" />
+    <Compile Include="Args\UserLeaveChannelArgs.cs" />
+    <Compile Include="Args\UserLogoffArgs.cs" />
+    <Compile Include="Args\UserLogonArgs.cs" />
+    <Compile Include="AsyncInvoke.cs" />
+    <Compile Include="Ban.cs" />
+    <Compile Include="BotShell.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="CommandRights.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="ConfigurationEntry.cs" />
+    <Compile Include="Delegates.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Friend.cs" />
+    <Compile Include="PluginBase.cs" />
+    <Compile Include="PluginLoader.cs" />
+    <Compile Include="PluginSettings.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RichTextWindow.cs" />
+    <Compile Include="ScannedAssemlby.cs" />
+    <Compile Include="ShellModules\Bans.cs" />
+    <Compile Include="ShellModules\Commands.cs" />
+    <Compile Include="ShellModules\Configuration.cs" />
+    <Compile Include="ShellModules\Events.cs" />
+    <Compile Include="ShellModules\FriendList.cs" />
+    <Compile Include="ShellModules\IUsers.cs" />
+    <Compile Include="ShellModules\Plugins.cs" />
+    <Compile Include="ShellModules\PrivateChannel.cs" />
+    <Compile Include="ShellModules\SlaveEvents.cs" />
+    <Compile Include="ShellModules\Stats.cs" />
+    <Compile Include="ShellModules\Timers.cs" />
+    <Compile Include="ShellModules\Users.cs" />
+    <Compile Include="User.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AoLib\AoLib.csproj">
+      <Project>{D1F26DA9-8B99-4663-923B-2C4209B4F625}</Project>
+      <Name>AoLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VhaBot.Communication\VhaBot.Communication.csproj">
+      <Project>{4261E5AB-29E9-4129-8120-4D7F39B34B61}</Project>
+      <Name>VhaBot.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VhaBot.Configuration\VhaBot.Configuration.csproj">
+      <Project>{5F7CFB87-FD21-44F8-8CC2-73ED229BEDC3}</Project>
+      <Name>VhaBot.Configuration</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sqlite3.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

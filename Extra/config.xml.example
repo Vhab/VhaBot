@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Configuration>
+  <Core>
+    <CentralServer>central.vhabot.net</CentralServer>
+    <CentralAccount />
+    <CentralPassword />
+    <ConfigPath>config</ConfigPath>
+    <PluginsPath>plugins</PluginsPath>
+    <SkinsPath>skins</SkinsPath>
+    <CachePath>xmlcache</CachePath>
+    <Debug>false</Debug>
+  </Core>
+  <Bot>
+    <Account>Account</Account>
+    <Password>Password</Password>
+    <Character>Bot</Character>
+    <Admin>Vhab</Admin>
+    <Dimension>Atlantean</Dimension>
+    <Enabled>true</Enabled>
+    <Master>true</Master>
+    <Slave>
+      <Account>Account</Account>
+      <Password>Password</Password>
+      <Character>SlaveBot1</Character>
+      <Enabled>true</Enabled>
+    </Slave>
+    <Slave>
+      <Account>Account</Account>
+      <Password>Password</Password>
+      <Character>SlaveBot2</Character>
+      <Enabled>true</Enabled>
+    </Slave>
+  </Bot>
+  <Bot>
+    <Account>Account</Account>
+    <Password>Password</Password>
+    <Character>Bot2</Character>
+    <Admin>Vhab</Admin>
+    <Dimension>Rimor</Dimension>
+    <Enabled>true</Enabled>
+    <Master>false</Master>
+  </Bot>
+</Configuration>

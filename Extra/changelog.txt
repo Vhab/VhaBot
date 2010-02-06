@@ -1,0 +1,205 @@
+0.7.7a
+- Will update this shortly.
+
+
+0.7.7
+
+
+0.7.6
+- Updated XML addresses as FC changed those
+- Fixed some minor errors with !timers
+- Fixed an issue with VhaBot on mono on windows
+- Fixed an issue with !calc on mono (thanks Moepl!)
+- Fixed the 'cleaking' device
+- Added a user's history to !verify
+- Added PocketBoss plugin (thanks Tsuyoi!)
+- Added !aiarmor (thanks Neksus!)
+- Added !random (aka !lootorder) to Common Tools (thanks Fayelure!)
+- Added !plugins overview. This gives an overview of all plugins
+- Added !inspect (thanks Neksus!)
+- Added !aigen (thanks Moepl!)
+- Added an option to !online to make it display on logon
+- Added an option to !motd to make it display on logon
+- Added an option to disable !motd to make it display on any tell
+
+0.7.5
+- A new loader has been added, VhaBot.Lite. It accepts a config file as argument and loads only the first bot from the specified config file.
+- Chat server addresses have been updated
+- Fixed a problem caused by running bots with the same bot name and account on multiple dimensions
+- Fixed the test live address
+- Added naturalistic's aggdef command
+- Added an automated membership plugin
+- Added social commands (cybor is disabled by default. use "!commands vhsocial" to enable it)
+- Added the !tokens command
+- Added a Links/Bookmarks plugin
+- Added Timers plugin
+- Added AFK command
+- Added alts to online display
+- Updated the notifier to display a user's alts when he logs on
+
+0.7.4
+- Ported Iriche's Tellonce plugin and called it MOTD
+- Removed some calls to the deprecated BotShell.ToString()
+- Added a city cloak plugin
+- Gave !is support for checking multiple people at once
+- Added !level, !xp, !research, !axp, !mission commands
+- Removed some (BETA) tags from the plugin names as the entire bot is beta
+- Changed the alts management commands: 'alts add/remove' is now 'alts admin add/remove'. 2 new commands for members have been added: 'alts add/remove'. Be sure to read the updated help
+- Added automated reinvites to the Private Group Manager
+- Made the notification targets of the Private Group Manager configurable
+- Added the !bio command (ported from Iriche's 0.5 branch plugin)
+- Prevented the use of !whois on TestLive
+- Added help to the notify manager commands
+
+0.7.3
+- Fixed support for running VhaBot using firedaemon
+- Fixed !core functions when running on mono
+- Added SendPluginMessageAndWait() and similar commands to ease the reply handling in plugins
+- Did some styling changes and included Flood Protection plugin
+- SQLite updated to 3.3.17
+- Mono.Data.SqliteClient updated to 1.2.4
+- Fixed internal messages not accepting commands without arguments
+- Raid plugins will be included with the bot from this release on
+- Added Roster Manager plugin
+- Added Notifier plugin
+
+0.7.2
+- Now runs on the latest mono version on unix and linux
+- Fixed some problems with the configuration tool
+
+0.7.1
+- Added compile-level-ifs to seperate the Community Edition from the Advanced Edition
+- Visual tweaks to !version
+- First release in preperation for a public VhaBot
+
+0.7.0
+- WARNING: IntraBotMessage API has been rewritten. Plugins using this feature will require an update
+- BotMessages now work at an async level
+- Multi-Bot system has been rewritten to isolate bots by process rather than application domains
+- Alot of code has been restructured and moved to different assemblies
+- The core (manages and starts bots) has been completely rewritten
+- Stability and fault recovery has been drastically improved
+- BotShell.Account has been removed. Plugins have no reason to know the account
+
+0.6.7b
+- Disabled the auto-ban feature on public channels. It lags the bot too much
+- Fixed a minor issue in BotShell.IsBot() that could throw an error
+- Updated text.mdb to 17.2.0.1
+
+0.6.7
+- Tuned the SenderWhois feature to only do a whois request when it's actually used
+- Applied some performance tricks on the core
+- Added a command called !core that provides information useful for debugging or fault tracking
+
+0.6.6
+- Fixed a bug where a user's faction would appear as firstname on whois results
+- Many args now have SenderWhois available. If the value is not null it contains a filled WhoisResult object
+- Modified the auto-ban API to be less confusing and more efficient
+
+0.6.5
+- Added help to various core plugins
+- Implemented !commands map
+- Added credits to !version
+
+0.6.4
+- My dog ate the changelog
+
+0.6.3
+- Many minor fixes that speed up the core and general user experience
+- Extended the API to allow you to override the current user management
+- Minor enchantments to various plugins
+- Help added to quite a few plugins
+- Split user management into 2 plugins, manager and viewer
+- Added IntraBot Messaging, this allows plugins to communicate intra- and cross-bot
+- Added Rally Plugin
+
+0.6.2
+- WARNING: The db structure of users has been changed. Please delete all your users.db files before upgrading
+- Really fixed assembly unlocking this time
+- Implemented support for alts
+- Added Iriche's news plugin
+- Minor enchantments to various plugins
+
+0.6.1
+- All bots within the core are now isolated from each other.
+- Added the !shutdown and !restart command
+- Changed the way the core starts.
+- All assemblies (except VhaBot.exe) are now unlocked at runtime, which means you can overwrite them while the bot runs.
+- Now only major changes should require a full VhaBot.Core restart, for most changes a VhaBot.BotShell restart will do.
+- Improved the way plugins are unloaded
+- Gave the Loader a new look
+- Removed the obsolete SendReply(CommandArgs args, string message, string[] windows)
+
+0.6.0
+- WARNING: When upgrading from 0.5.x delete all files except configuration files
+- WARNING: PluginBase has been given a different layout
+- Core Plugins are now embedded within VhaBot.Core binary (but still treated as plugins by the system)
+- Plugins can now be in source format too (place as .cs file in /plugins/)
+- While registering commands you can define whether they have a help topic (remember to handle it in OnHelp)
+- Help has been added
+- Most plugins have been included as source files instead of binaries
+- Various enchantments to the plugins while porting them to the new system
+- Various commands previously marked as deprecated have been removed
+- Updated text.mdb shipped with VhaBot
+- Changed Whois handler to not bother will requests for the test server. It will return null instantly
+- Updated AoLib to use unsigned 32 bit integers for character ID's
+
+0.5.1
+- WARNING: due to configuration changes some plugins may have lost their settings with this release
+- New command: configuration. This will allow you to configure plugins that support it
+- New ShellModule: BotShell.Configuration has been added, this module will eventually replace BotShell.Config so please start using it.
+- New Event: BotShell.Events.ConfigurationChangedEvent. This event will fire when a configuration setting has been changed
+- Added BotShell.IsBot(string username). This function allows you to check whether the given username is a bot (the main bot or one of it's slaves)
+- SimpleIRC has been extended with several new features like !whois, !is and notifying when people join or leave the private channel
+- SimpleIRC output is now send using notices instead of spamming the channel
+- AoLib.Utils.Format has been added. This class allows you to format whois results, time and dates.
+- BotShell.UppercaseFirst() has been deprecated, please use AoLib.Utils.Format.UppercaseFirst()
+- PluginSettings.RegisterCommand(string command, CommandRights rights) has been deprecated.
+- Various functions in VhaBot.Config have been deprecated. Look for similar functionality in BotShell.Configuration
+- Buckload of very minor changes to various plugins (naming issues, etc)
+- WhoisResult has been extended with 2 booleans, .Success and .InOrganization
+- AoLib.Utils.TimeStamp has been trained how to deal with UTC properly
+- Fixed a typo at UserLogoffArgs. Section was intended to be called Sections.
+- Fixed some graphical issues in !version
+- Made !sb a tiny bit smarter
+- Bundled Iriche's !calc, !oe and !coords commands, added !date and !time to that same plugin
+- Disallowed adding bots (the bot itself and slaves) to the friendlist
+- Told AoLib to not kick off other clients if the user is already logged in
+- Loader now has "-service" and "-start" args available
+- The !online command has gained quite a few settings you can change using !config
+
+0.5.0c
+- Fixed a bug preventing you from editing commands that have spaces in them
+- Properly enabled BotShell.Timers, the events should now be available to be hooked
+
+0.5.0b
+- Fixed BotShell.Organization (which bugged plugins using it like !online)
+- Small changes to SimpleIRC
+- Small changes to Private Channel Plugin
+
+0.5.0 Beta
+- WARNING: Major changes to the configuration. Please delete your config directory.
+- WARNING: The tell event now also triggers on the bot's own tells. Check e.Self before processing!
+- WARNING: Config lib changed! No longer using namespace System.Data.Common, but instead System.Data. Use IDbCommand instead of DbCommand. Use IDataReader instead of DbDataReader
+- VhaBot is now likely to run on mono (untested)
+- To setup bots use Configure.exe before starting VhaBot
+- BotCommandRights has been deprecated. Use CommandRights
+- BotCommandType has been deprecated. Use CommandType
+- Many internal changes, Recompile all plugins before using them
+- Configuration structure revamped. Plugins are recommended to use their own config file if they have their own tables: new Config(this.Bot.ToString(), this.Settings.InternalName, false);
+- this.Bot.ID (or sender.ID) is no longer reliable and should not be used for longer than 1 session as it may change the next reboot. use this.Bot.ToString() (or sender.ToString()) to identify the bot. (Will return a string with Character@Dimension)
+- Many core classes starting with Bot* (except BotShell) have been renamed and moved to a different Namespace
+- Many changes done to make BotShell more independant with as ultimate goal to have it run on a seperate application domain
+- Several Members, Methods and Types called Guild or having Guild in their name have been renamed to Organization
+- New PluginState: "Core". This state is only to be used as default state for essential plugins that are loaded by default and can't be unloaded. Also Core plugins can't have dependencies
+- Plugin Loading revamped. All plugin related functions have been renamed and moved to BotShell.Plugins
+- New plugin manager plugin
+- Command rights storage revamped. Command rights will only be stored in the database when they are non-default. Functions to modify or read rights are located at BotShell.Commands
+- New command rights manager plugin
+- It's now possible to register/unregister commands at runtime. Look at BotShell.Commands on which functions to use.
+- New timers events. BotShell.Timers holds various events you can register to for time based events
+- BotShell.SendReply(args, message, windows[]) // Will send the message for each window available, also will try to use only 1 slave for outputting
+- Extended MessageArgs with boolean .Self, indicates if it was the bot who send this message.
+- SimpleIRC: Now using a different irc lib and some internal changes for stability
+- SimpleIRC: Now converts itemrefs to url's and back
+- SimpleIRC: Now displays nick changes
