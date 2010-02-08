@@ -49,13 +49,10 @@ namespace VhaBot.Plugins
             this._timer = new Timer(this._senddelay * 60000);
             this._timer.AutoReset = true;
             this._timer.Elapsed += new ElapsedEventHandler(this.OnTimerTick);
-            if (this._autosend)
-            {
-                this._timer.Start();
-            }
+            this.LoadConfiguration(bot);
         }
 
-        public override void OnUnload(BotShell bot) 
+        public override void OnUnload(BotShell bot)
         {
             bot.Events.ConfigurationChangedEvent -= new ConfigurationChangedHandler(ConfigurationChangedEvent);
             if (this._timer != null)
@@ -180,7 +177,7 @@ namespace VhaBot.Plugins
                 {
                     using (IDbCommand command = this._database.Connection.CreateCommand())
                     {
-                        
+
                         command.CommandText = "SELECT [id] FROM [quotes] ORDER BY [id] DESC";
                         IDataReader reader = command.ExecuteReader();
                         if (reader.Read())
