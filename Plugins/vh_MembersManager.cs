@@ -241,7 +241,7 @@ namespace VhaBot.Plugins
                 return;
             }
             bot.Users.RemoveAlt(alt);
-            bot.SendReply(e, HTML.CreateColorString(bot.ColorHeaderHex, alt) + " has been removed from this bot");
+            bot.SendReply(e, HTML.CreateColorString(bot.ColorHeaderHex, alt) + " has been removed as your alt");
         }
 
         private void OnAltsAdminAddCommand(BotShell bot, CommandArgs e)
@@ -325,7 +325,7 @@ namespace VhaBot.Plugins
                 return;
             }
             bot.Users.RemoveAlt(alt);
-            bot.SendReply(e, HTML.CreateColorString(bot.ColorHeaderHex, alt) + " has been removed from this bot");
+            bot.SendReply(e, HTML.CreateColorString(bot.ColorHeaderHex, alt) + " has been removed as your alt");
         }
 
         public override string OnHelp(BotShell bot, string command)
