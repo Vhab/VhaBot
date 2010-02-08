@@ -1,32 +1,32 @@
 /*
- * 247102 / 247103 = Pristine Kyr'Ozch Bio-Material (DNA soup) 
- * 247104 / 247105 = Mutated Kyr'Ozch Bio-Material (DNA soup) 
- * 247697 / 247698 = Kyr'Ozch Bio-Material - Type 76 (Weapon Upgrade) 
- * 247699 / 247700 = ??? (Type 112) 
- * 247701 / 247702 = ??? (Type 240) 
- * 247703 / 247704 = ??? (Type 880) 
- * 247705 / 247706 = ??? (Type 992) 
- * 247707 / 247708 = Kyr'Ozch Bio-Material - Type 1 (Weapon Upgrade) 
- * 247709 / 247710 = Kyr'Ozch Bio-Material - Type 2 (Weapon Upgrade) 
- * 247711 / 247712 = ??? (Type 4) 
- * 247713 / 247714 = ??? (Type 5) 
- * 247715 / 247716 = ??? (Type 12) 
- * 247717 / 247718 = ??? (Type 3) 
- * 247719 / 247720 = ??? (Type 13) 
- * 247764 / 254804 = Kyr'Ozch Viral Serum (Making high QL buildings) 
- * 256035 = Useless Kyr'Ozch Bio-Material 
- * 
- * Type 1 = Fling Shot 
- * Type 112 = Brawl, Dimach and Fast Attack 
- * Type 12 = Burst and Full Auto 
- * Type 13 = Burst, Fling Shot and Full Auto 
- * Type 2 = Aimed Shot 
- * Type 240 = Brawl, Dimach, Fast Attack and Sneak Attack 
- * Type 3 = Fling Shot and Aimed Shot 
- * Type 4 = Burst 
- * Type 5 = Fling Shot and Burst 
- * Type 76 = Brawl and Fast Attack 
- * Type 880 = Dimach, Fast Attack, Parry and Riposte 
+ * 247102 / 247103 = Pristine Kyr'Ozch Bio-Material (DNA soup)
+ * 247104 / 247105 = Mutated Kyr'Ozch Bio-Material (DNA soup)
+ * 247697 / 247698 = Kyr'Ozch Bio-Material - Type 76 (Weapon Upgrade)
+ * 247699 / 247700 = ??? (Type 112)
+ * 247701 / 247702 = ??? (Type 240)
+ * 247703 / 247704 = ??? (Type 880)
+ * 247705 / 247706 = ??? (Type 992)
+ * 247707 / 247708 = Kyr'Ozch Bio-Material - Type 1 (Weapon Upgrade)
+ * 247709 / 247710 = Kyr'Ozch Bio-Material - Type 2 (Weapon Upgrade)
+ * 247711 / 247712 = ??? (Type 4)
+ * 247713 / 247714 = ??? (Type 5)
+ * 247715 / 247716 = ??? (Type 12)
+ * 247717 / 247718 = ??? (Type 3)
+ * 247719 / 247720 = ??? (Type 13)
+ * 247764 / 254804 = Kyr'Ozch Viral Serum (Making high QL buildings)
+ * 256035 = Useless Kyr'Ozch Bio-Material
+ *
+ * Type 1 = Fling Shot
+ * Type 112 = Brawl, Dimach and Fast Attack
+ * Type 12 = Burst and Full Auto
+ * Type 13 = Burst, Fling Shot and Full Auto
+ * Type 2 = Aimed Shot
+ * Type 240 = Brawl, Dimach, Fast Attack and Sneak Attack
+ * Type 3 = Fling Shot and Aimed Shot
+ * Type 4 = Burst
+ * Type 5 = Fling Shot and Burst
+ * Type 76 = Brawl and Fast Attack
+ * Type 880 = Dimach, Fast Attack, Parry and Riposte
  * Type 992 = Dimach, Fast Attack, Sneak Attack, Parry and Riposte
  */
 using System;

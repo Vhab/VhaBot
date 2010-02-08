@@ -41,7 +41,7 @@ namespace VhaBot.Plugins
         }
 
         public override void OnLoad(BotShell bot)
-        {          
+        {
             this._regex = new Regex(@"(([^0-9])(\.\d+))", RegexOptions.Compiled);
 
             this._random = new Random();
@@ -391,7 +391,7 @@ namespace VhaBot.Plugins
                 "public static string Solve() { return Convert.ToString((float)";
             string close = ");}}";
             string Source = open + formula + close;
-            
+
             // Calculate
             CompilerResults results = _compiler.CompileAssemblyFromSource(_parameters, Source);
             if (results.Errors.Count == 0)
@@ -404,7 +404,7 @@ namespace VhaBot.Plugins
                     string result = (string)mi.Invoke(null, null);
                     if (result != null && result != string.Empty)
                     {
-                        bot.SendReply(e, e.Words[0].ToLower() + " = " + HTML.CreateColorString(bot.ColorHeaderHex, result));                      
+                        bot.SendReply(e, e.Words[0].ToLower() + " = " + HTML.CreateColorString(bot.ColorHeaderHex, result));
                     }
                 }
                 catch { }

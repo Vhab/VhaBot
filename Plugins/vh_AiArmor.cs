@@ -1,7 +1,7 @@
 using System;
 using AoLib.Utils;
 
-namespace VhaBot.Plugins 
+namespace VhaBot.Plugins
 {
     public class VhAIArmor : PluginBase
     {
@@ -104,7 +104,7 @@ namespace VhaBot.Plugins
                         break;
                     case "co":
                         result = co;
-                        source = spiritual;   
+                        source = spiritual;
                         target = arithmetic;
                         break;
                     case "cp":
@@ -119,7 +119,7 @@ namespace VhaBot.Plugins
                         break;
                     case "ss":
                         result = ss;
-                        source = observant;	   
+                        source = observant;
                         target = supple;
                         break;
                     default:
