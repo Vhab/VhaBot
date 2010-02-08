@@ -135,17 +135,21 @@ namespace VhaBot.Plugins
 
         private void OnAltsCommand(BotShell bot, CommandArgs e)
         {
+            string username = "";
             if (e.Args.Length < 1)
+            //{
+            //     bot.SendReply(e, "Correct Usage: " + e.Command + " [username]");
+            //     return;
+            //}
+                 username = e.Sender;
+            else
+                 username = e.Args[0];
+            if (bot.GetUserID(username) < 1)
             {
-                bot.SendReply(e, "Correct Usage: " + e.Command + " [username]");
+                bot.SendReply(e, "No such user: " + HTML.CreateColorString(bot.ColorHeaderHex, username));
                 return;
             }
-            if (bot.GetUserID(e.Args[0]) < 1)
-            {
-                bot.SendReply(e, "No such user: " + HTML.CreateColorString(bot.ColorHeaderHex, e.Args[0]));
-                return;
-            }
-            string main = bot.Users.GetMain(e.Args[0]);
+            string main = bot.Users.GetMain(username);
             RichTextWindow window = this.GetAltsWindow(bot, main);
             if (window == null)
             {
