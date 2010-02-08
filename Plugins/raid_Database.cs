@@ -81,7 +81,8 @@ namespace VhaBot.Plugins
                 string host = this._bot.Configuration.GetString(this.InternalName, "host", "127.0.0.1");
                 int port = this._bot.Configuration.GetInteger(this.InternalName, "port", 3306);
                 string database = this._bot.Configuration.GetString(this.InternalName, "database", "raid");
-                this._connectString = "server=" + host + ";port=" + port + ";uid=" + user + ";pwd=" + password + ";database=" + database + ";";
+                string connectA = "server=" + host + ";port=" + port + ";connect timeout=20;pooling=false;protocol=socket";
+                this._connectString = connectA + ";uid=" + user + ";pwd=" + password + ";database=" + database + ";";
             }
             if (this._connection != null)
                 lock (this._connection)
