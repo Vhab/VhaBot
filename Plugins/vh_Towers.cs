@@ -78,6 +78,7 @@ namespace VhaBot.Plugins
             bot.Configuration.Register(ConfigType.Boolean, this.InternalName, "sendgc", "Send notifications to the organization channel", this._sendgc);
             bot.Configuration.Register(ConfigType.Boolean, this.InternalName, "sendpg", "Send notifications to the private channel", this._sendpg);
             this.Download("lca.xml", this._urlLCA);
+            this.LoadConfiguration(bot);
         }
 
         public override void OnUnload(BotShell bot)
@@ -136,21 +137,21 @@ namespace VhaBot.Plugins
                                 int atkrLvl = whois.Stats.Level;
                                 int atkrAiLvl = whois.Stats.DefenderLevel;
                                 string atkrProf = whois.Stats.Profession;
-                                string message = HTML.CreateColorString(bot.ColorHeaderHex, atkrOrg) + " " + HTML.CreateColorString(bot.ColorHeaderHex, "(") + 
-                                    this.sideColor(atkrSide, atkrSide) + HTML.CreateColorString(bot.ColorHeaderHex, ")") + " has attacked " + 
-                                    HTML.CreateColorString(bot.ColorHeaderHex, defOrg) + " " + HTML.CreateColorString(bot.ColorHeaderHex, "(") + 
-                                    this.sideColor(defSide, defSide) + HTML.CreateColorString(bot.ColorHeaderHex, ")") + " in " + zone + " at " + 
-                                    HTML.CreateColorString(bot.ColorHeaderHex, "(x" + LCA.ToString() + " " + x_coord.ToString() + "x" + y_coord.ToString() + 
+                                string message = HTML.CreateColorString(bot.ColorHeaderHex, atkrOrg) + " " + HTML.CreateColorString(bot.ColorHeaderHex, "(") +
+                                    this.sideColor(atkrSide, atkrSide) + HTML.CreateColorString(bot.ColorHeaderHex, ")") + " has attacked " +
+                                    HTML.CreateColorString(bot.ColorHeaderHex, defOrg) + " " + HTML.CreateColorString(bot.ColorHeaderHex, "(") +
+                                    this.sideColor(defSide, defSide) + HTML.CreateColorString(bot.ColorHeaderHex, ")") + " in " + zone + " at " +
+                                    HTML.CreateColorString(bot.ColorHeaderHex, "(x" + LCA.ToString() + " " + x_coord.ToString() + "x" + y_coord.ToString() +
                                     ")") + ". Attacker: " + HTML.CreateColorString(bot.ColorHeaderHex, atkrName) +
-                                    " " + HTML.CreateColorString(bot.ColorHeaderHex, "(") + this.sideColor(atkrLvl + "/" + atkrAiLvl + " " + atkrProf, atkrSide) + 
+                                    " " + HTML.CreateColorString(bot.ColorHeaderHex, "(") + this.sideColor(atkrLvl + "/" + atkrAiLvl + " " + atkrProf, atkrSide) +
                                     HTML.CreateColorString(bot.ColorHeaderHex, ")");
                                 this.sendMessage(bot, message);
                                 try
                                 {
                                     using (IDbCommand command = this._database.Connection.CreateCommand())
                                     {
-                                        command.CommandText = "INSERT INTO [towerhistory] (victory, time, atkrSide, atkrOrg, atkrName, defSide, defOrg, zone, xCoord, yCoord, LCA) VALUES (0," + 
-                                            TimeStamp.Now + ", '" + atkrSide + "', '" + atkrOrg + "', '" + atkrName + "', '" + defSide + "', '" + defOrg + "', '" + zone + "', " + x_coord + ", " + 
+                                        command.CommandText = "INSERT INTO [towerhistory] (victory, time, atkrSide, atkrOrg, atkrName, defSide, defOrg, zone, xCoord, yCoord, LCA) VALUES (0," +
+                                            TimeStamp.Now + ", '" + atkrSide + "', '" + atkrOrg + "', '" + atkrName + "', '" + defSide + "', '" + defOrg + "', '" + zone + "', " + x_coord + ", " +
                                             y_coord + ", " + LCA + ")";
                                         IDataReader reader = command.ExecuteReader();
                                     }
@@ -168,7 +169,7 @@ namespace VhaBot.Plugins
                                 {
                                     using (IDbCommand command = this._database.Connection.CreateCommand())
                                     {
-                                        command.CommandText = "INSERT INTO [towerhistory] (victory, time, defSide, defOrg, zone) VALUES (1, " + 
+                                        command.CommandText = "INSERT INTO [towerhistory] (victory, time, defSide, defOrg, zone) VALUES (1, " +
                                             TimeStamp.Now + ", '" + lostSide + "', '" + lostOrg + "', '" + lostZone + "')";
                                         IDataReader reader = command.ExecuteReader();
                                     }
@@ -203,11 +204,11 @@ namespace VhaBot.Plugins
                         int atkrAiLvl = whois.Stats.DefenderLevel;
                         string atkrProf = whois.Stats.Profession;
                         string atkrSide = whois.Stats.Faction;
-                        string message = HTML.CreateColorString(bot.ColorHeaderHex, atkrName) + " " + HTML.CreateColorString(bot.ColorHeaderHex, "(") + 
-                            this.sideColor(atkrLvl + "/" + atkrAiLvl + " " + atkrProf, atkrSide) + HTML.CreateColorString(bot.ColorHeaderHex, ")") + 
-                            " has attacked " + HTML.CreateColorString(bot.ColorHeaderHex, defOrg) + " " + HTML.CreateColorString(bot.ColorHeaderHex, "(") + 
+                        string message = HTML.CreateColorString(bot.ColorHeaderHex, atkrName) + " " + HTML.CreateColorString(bot.ColorHeaderHex, "(") +
+                            this.sideColor(atkrLvl + "/" + atkrAiLvl + " " + atkrProf, atkrSide) + HTML.CreateColorString(bot.ColorHeaderHex, ")") +
+                            " has attacked " + HTML.CreateColorString(bot.ColorHeaderHex, defOrg) + " " + HTML.CreateColorString(bot.ColorHeaderHex, "(") +
                             this.sideColor(defSide, defSide) + HTML.CreateColorString(bot.ColorHeaderHex, ")") + " in " + zone + " at " +
-                            HTML.CreateColorString(bot.ColorHeaderHex, "(x" + LCA.ToString() + " " + x_coord.ToString() + "x" + y_coord.ToString() + ")") + 
+                            HTML.CreateColorString(bot.ColorHeaderHex, "(x" + LCA.ToString() + " " + x_coord.ToString() + "x" + y_coord.ToString() + ")") +
                             HTML.CreateColorString(bot.ColorHeaderHex, ")") + ".";
                         this.sendMessage(bot, message);
                         try
@@ -240,7 +241,7 @@ namespace VhaBot.Plugins
                         {
                             using (IDbCommand command = this._database.Connection.CreateCommand())
                             {
-                                command.CommandText = "INSERT INTO [towerhistory] (victory, time, atkrSide, atkrOrg, defSide, defOrg, zone) VALUES (1, " + 
+                                command.CommandText = "INSERT INTO [towerhistory] (victory, time, atkrSide, atkrOrg, defSide, defOrg, zone) VALUES (1, " +
                                     TimeStamp.Now + ", '" + atkrSide + "', '" + atkrOrg + "', '" + defSide + "', '" + defOrg + "', '" + zone + "')";
                                 IDataReader reader = command.ExecuteReader();
                             }
@@ -375,13 +376,10 @@ namespace VhaBot.Plugins
             {
                 case "clan":
                     return HTML.CreateColorString(RichTextWindow.ColorOrange, CultureInfo.CurrentCulture.TextInfo.ToTitleCase(orgName));
-                    break;
                 case "neutral":
                     return HTML.CreateColorString("FFFFFF", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(orgName));
-                    break;
                 case "omni":
                     return HTML.CreateColorString(RichTextWindow.ColorBlue, CultureInfo.CurrentCulture.TextInfo.ToTitleCase(orgName));
-                    break;
                 default:
                     return HTML.CreateColorString("FFFFFF", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(orgName));
             }
@@ -394,10 +392,8 @@ namespace VhaBot.Plugins
             {
                 case "clan":
                     return RichTextWindow.ColorOrange;
-                    break;
                 case "neutral":
                     return "FFFFFF";
-                    break;
                 case "omni":
                     return RichTextWindow.ColorBlue;
                 default:
@@ -441,14 +437,14 @@ namespace VhaBot.Plugins
 
         private int grabLCA(string zone, int x, int y)
         {
-            int Limit = 290;
+            int limit = 290;
             foreach (VhTowers_LCAs_Entry Entry in this.GetLCAs().Entries)
             {
                 if (Entry.Zone == zone)
                 {
-                    if (Entry.X >= (x - 290) && Entry.X <= (x + 290))
+                    if (Entry.X >= (x - limit) && Entry.X <= (x + limit))
                     {
-                        if (Entry.Y >= (y - 290) && Entry.Y <= (y + 290))
+                        if (Entry.Y >= (y - limit) && Entry.Y <= (y + limit))
                         {
                             return Entry.Number;
                         }
