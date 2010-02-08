@@ -276,7 +276,7 @@ namespace VhaBot.Plugins
             catch { }
             return false;
         }
-        
+
         public override string OnHelp(BotShell bot, string command)
         {
             switch (command)
