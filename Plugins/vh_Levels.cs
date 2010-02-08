@@ -109,15 +109,15 @@ namespace VhaBot.Plugins
 
         public VhLevels()
         {
-			this.Name = "Levels and Experience";
+            this.Name = "Levels and Experience";
             this.InternalName = "VhLevels";
-			this.Author = "Naturalistic / Iriche / Vhab";
-			this.Version = 100;
-			this.DefaultState = PluginState.Installed;
+            this.Author = "Naturalistic / Iriche / Vhab";
+            this.Version = 100;
+            this.DefaultState = PluginState.Installed;
             this.Description = "Levels and experience calculations and information.\n'Tokens' was originally developed for BeBot by Siocuffin (rk1).";
-			this.Commands = new Command[] 
-			{
-				new Command("xp", true, UserLevel.Guest),
+            this.Commands = new Command[]
+            {
+                new Command("xp", true, UserLevel.Guest),
                 new Command("sk","xp"),
                 new Command("level", true, UserLevel.Guest),
                 new Command("l","level"),
