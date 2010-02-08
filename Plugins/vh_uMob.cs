@@ -14,7 +14,6 @@ namespace VhaBot.Plugins
     {
         private string Server = "unimob.dastof.com";
         private string UrlTemplate = "http://{0}/query.php?search={1}";
-        private int Max = 100;
         private int NonPageSize = 3;
 
         public UniqueMobs()

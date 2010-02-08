@@ -67,8 +67,7 @@ namespace VhaBot.Plugins
             }
         }
 
-        public override void OnUnload(BotShell bot) 
-        { }
+        public override void OnUnload(BotShell bot) { }
 
         private void TrickleStr(BotShell bot, CommandArgs e)
         {
