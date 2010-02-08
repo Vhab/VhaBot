@@ -27,7 +27,7 @@ namespace VhaBot.Plugins
         }
 
         public override void OnUnload(BotShell bot)
-        {  
+        {
         }
 
         public override void OnCommand(BotShell bot, CommandArgs e)
@@ -39,17 +39,17 @@ namespace VhaBot.Plugins
                 window.AppendLineBreak();
                 window.AppendNormal("1. Level 1-14 - 4000 IP (Level 1 = 1500 IP)");
                 window.AppendLineBreak();
-                window.AppendNormal("2. Level 15-49 - 10.000 IP");
+                window.AppendNormal("2. Level 15-49 - 10,000 IP");
                 window.AppendLineBreak();
-                window.AppendNormal("3. Level 50-99 - 20.000 IP");
+                window.AppendNormal("3. Level 50-99 - 20,000 IP");
                 window.AppendLineBreak();
-                window.AppendNormal("4. Level 100-149 - 40.000 IP");
+                window.AppendNormal("4. Level 100-149 - 40,000 IP");
                 window.AppendLineBreak();
-                window.AppendNormal("5. Level 150-189 - 80.000 IP");
+                window.AppendNormal("5. Level 150-189 - 80,000 IP");
                 window.AppendLineBreak();
-                window.AppendNormal("6. Level 190-204 - 150.000 IP (160.000 at level 200)");
+                window.AppendNormal("6. Level 190-204 - 150,000 IP (160,000 at level 200)");
                 window.AppendLineBreak();
-                window.AppendNormal("7. Level 205-220 - 600.000 IP");
+                window.AppendNormal("7. Level 205-220 - 600,000 IP");
 
                 bot.SendReply(e, "TitleLevels »» ", window);
             }
@@ -61,28 +61,28 @@ namespace VhaBot.Plugins
                         bot.SendReply(e, "Level 1-14 - 4000 IP (Level 1 = 1500 IP)");
                         break;
                     case "2":
-                        bot.SendReply(e, "Level 15-49 - 10.000 IP");
+                        bot.SendReply(e, "Level 15-49 - 10,000 IP");
                         break;
                     case "3":
-                        bot.SendReply(e, "Level 50-99 - 20.000 IP");
+                        bot.SendReply(e, "Level 50-99 - 20,000 IP");
                         break;
                     case "4":
-                        bot.SendReply(e, "Level 100-149 - 40.000 IP");
+                        bot.SendReply(e, "Level 100-149 - 40,000 IP");
                         break;
                     case "5":
-                        bot.SendReply(e, "Level 150-189 - 80.000 IP");
+                        bot.SendReply(e, "Level 150-189 - 80,000 IP");
                         break;
                     case "6":
-                        bot.SendReply(e, "Level 190-204 - 150.000 IP (160.000 at level 200)");
+                        bot.SendReply(e, "Level 190-204 - 150,000 IP (160.000 at level 200)");
                         break;
                     case "7":
-                        bot.SendReply(e, "Level 205-220 - 600.000 IP");
+                        bot.SendReply(e, "Level 205-220 - 600,000 IP");
                         break;
                     default:
                         bot.SendReply(e, "Correct Usage: tl {[1-8]}");
                         break;
                 }
-            }            
+            }
         }
 
 
