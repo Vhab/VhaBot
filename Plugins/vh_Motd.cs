@@ -37,10 +37,7 @@ namespace VhaBot.Plugins
             bot.Configuration.Register(ConfigType.Boolean, this.InternalName, "send_logon", "Send MOTD on Logon", this._sendLogon);
             bot.Configuration.Register(ConfigType.Boolean, this.InternalName, "send_tell", "Send MOTD on Receiving Any Tell", this._sendTell);
             bot.Configuration.Register(ConfigType.String, this.InternalName, "message", "Message of the Day", this._message);
-
-            this._message = bot.Configuration.GetString(this.InternalName, "message", this._message);
-            this._sendLogon = bot.Configuration.GetBoolean(this.InternalName, "send_logon", this._sendLogon);
-            this._sendTell = bot.Configuration.GetBoolean(this.InternalName, "send_tell", this._sendTell);
+            this.LoadConfiguration(bot);
 
             bot.Events.PrivateMessageEvent += new PrivateMessageHandler(Events_PrivateMessageEvent);
             bot.Events.ConfigurationChangedEvent += new ConfigurationChangedHandler(Events_ConfigurationChangedEvent);
@@ -52,11 +49,17 @@ namespace VhaBot.Plugins
 
         private void Events_ConfigurationChangedEvent(BotShell bot, ConfigurationChangedArgs e)
         {
-            if (e.Section == this.InternalName)
-            {
-                this._message = bot.Configuration.GetString(this.InternalName, "message", this._message);
-            }
+            if (e.Section != this.InternalName) return;
+            this.LoadConfiguration(bot);
         }
+
+        private void LoadConfiguration(BotShell bot)
+        {
+            this._message = bot.Configuration.GetString(this.InternalName, "message", this._message);
+            this._sendLogon = bot.Configuration.GetBoolean(this.InternalName, "send_logon", this._sendLogon);
+            this._sendTell = bot.Configuration.GetBoolean(this.InternalName, "send_tell", this._sendTell);
+        }
+
 
         public override void OnUnload(BotShell bot)
         {
