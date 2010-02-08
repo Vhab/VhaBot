@@ -125,7 +125,7 @@ namespace VhaBot.Plugins
             lock (this._bans)
                 this._bans.Clear();
         }
-        
+
         private void StartedEvent(object sender, EventArgs e)
         {
             if (this.CreditsEnabled)

@@ -52,7 +52,7 @@ namespace VhaBot.Plugins
             catch { throw new Exception("Unable to connect to 'Raid :: Database' Plugin!"); }
             bot.Events.PrivateChannelMessageEvent += new PrivateChannelMessageHandler(OnPrivateChannelMessageEvent);
             this._database.ExecuteNonQuery("CREATE TABLE IF NOT EXISTS glyphs (id INT NOT NULL AUTO_INCREMENT, item INT NOT NULL, looter VARCHAR(255), time INT NOT NULL, visible ENUM('true','false') NOT NULL, PRIMARY KEY (id))");
-            
+
             this._items = new Dictionary<int, string>();
             this._items.Add(218348, "Blue Glyph of Aban");
             this._items.Add(218349, "Blue Glyph of Enel");
@@ -269,7 +269,7 @@ namespace VhaBot.Plugins
                     bot.SendReply(e, "This plugin hasn't been properly configured for raffling");
                     return;
                 }
-                
+
                 int i = 0;
                 this._raffleJoined.Clear();
                 foreach (KeyValuePair<int, string> kvp in this._items)

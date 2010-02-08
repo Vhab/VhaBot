@@ -221,7 +221,7 @@ namespace VhaBot.Plugins
             this._database.ExecuteNonQuery("UPDATE raids SET activity = activity + 10 WHERE id = " + this.RaidID);
             this._database.ExecuteNonQuery("UPDATE raiders SET activity = activity + 10 WHERE raidID = " + this.RaidID + " AND onRaid = 1");
             this._database.ExecuteNonQuery("UPDATE points, raiders SET points.activity = points.activity + 10 WHERE raiders.raidID = " + this.RaidID + " AND raiders.onRaid = 1 AND raiders.main = points.main");
-           
+
         }
 
         public override void OnCommand(BotShell bot, CommandArgs e)

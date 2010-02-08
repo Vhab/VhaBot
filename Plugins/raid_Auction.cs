@@ -47,7 +47,7 @@ namespace VhaBot.Plugins
                 new Command("remains of", "loot")
             };
         }
-       
+
         public override void OnLoad(BotShell bot)
         {
             try { this._database = (RaidDatabase)bot.Plugins.GetPlugin("RaidDatabase"); }
@@ -56,7 +56,7 @@ namespace VhaBot.Plugins
             catch { throw new Exception("Unable to connect to 'Raid :: Core' Plugin!"); }
             if (!this._database.Connected)
                 throw new Exception("Not connected to the database!");
-            
+
             this._database.ExecuteNonQuery("CREATE TABLE IF NOT EXISTS loot_history (id INT NOT NULL AUTO_INCREMENT, main VARCHAR(14), admin VARCHAR(14), points INT NOT NULL, date INT NOT NULL, item INT NOT NULL, PRIMARY KEY (id))");
             this._database.ExecuteNonQuery("CREATE TABLE IF NOT EXISTS loot (id INT NOT NULL AUTO_INCREMENT, name VARCHAR(255), monster VARCHAR(255), lowid INT NOT NULL, highid INT NOT NULL, ql INT NOT NULL, icon INT NOT NULL, visible ENUM('true','false') NOT NULL, PRIMARY KEY (id))");
 
@@ -327,7 +327,7 @@ namespace VhaBot.Plugins
                         monsters.AppendBotCommand("View", "loot " + reader.GetString(0));
                         monsters.AppendNormal("]");
                         monsters.AppendLineBreak();
-                        
+
                     }
                     reader.Close();
                 }

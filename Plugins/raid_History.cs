@@ -103,7 +103,7 @@ namespace VhaBot.Plugins
                     window.AppendNormal(" [");
                     window.AppendBotCommand("Loot log", "lootlog " + raid.RaidID);
                     window.AppendNormal("]");
-                
+
                 }
                 window.AppendLineBreak(2);
             }
@@ -203,10 +203,10 @@ namespace VhaBot.Plugins
                 window.AppendString("] ");
 
                 window.AppendString(log.Message);
-                
+
                 if (log.Admin != null && log.Admin != string.Empty)
                     window.AppendString(" (Admin: " + log.Admin + ")");
-             
+
                 window.AppendColorEnd();
                 window.AppendLineBreak();
             }
