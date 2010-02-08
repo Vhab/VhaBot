@@ -29,12 +29,12 @@ namespace VhaBot.Plugins
         private int nanoCap;
         private int hpPerBD;
 
-        public BreedStats(string[] Name, 
-            int MinStr, int MaxStr, string ColorStr, 
-            int MinAgil, int MaxAgil, string ColorAgil, 
-            int MinSta, int MaxSta, string ColorSta, 
-            int MinInt, int MaxInt, string ColorInt, 
-            int MinSen, int MaxSen, string ColorSen, 
+        public BreedStats(string[] Name,
+            int MinStr, int MaxStr, string ColorStr,
+            int MinAgil, int MaxAgil, string ColorAgil,
+            int MinSta, int MaxSta, string ColorSta,
+            int MinInt, int MaxInt, string ColorInt,
+            int MinSen, int MaxSen, string ColorSen,
             int MinPsy, int MaxPsy, string ColorPsy,
             int NanoCap, int HPPerBD)
         {
@@ -65,23 +65,23 @@ namespace VhaBot.Plugins
         public string MinStr { get { return minStr.ToString(); } }
         public string MaxStr { get { return maxStr.ToString(); } }
         public string ColorStr { get { return colorStr; } }
-        
+
         public string MinAgil { get { return minAgil.ToString(); } }
         public string MaxAgil { get { return maxAgil.ToString(); } }
         public string ColorAgil { get { return colorAgil; } }
-        
+
         public string MinSta { get { return minSta.ToString(); } }
         public string MaxSta { get { return maxSta.ToString(); } }
         public string ColorSta { get { return colorSta; } }
-        
+
         public string MinInt { get { return minInt.ToString(); } }
         public string MaxInt { get { return maxInt.ToString(); } }
         public string ColorInt { get { return colorInt; } }
-        
+
         public string MinSen { get { return minSen.ToString(); } }
         public string MaxSen { get { return maxSen.ToString(); } }
         public string ColorSen { get { return colorSen; } }
-        
+
         public string MinPsy { get { return minPsy.ToString(); } }
         public string MaxPsy { get { return maxPsy.ToString(); } }
         public string ColorPsy { get { return colorPsy; } }
@@ -113,11 +113,11 @@ namespace VhaBot.Plugins
             Breeds = new BreedStats[] {new BreedStats(new string[] { "Atrox", "trox" }, 512, 912, "Green", 480, 780, "Blue", 512, 912, "Green", 400, 600, "Dark Blue", 400, 600, "Dark Blue", 400, 600, "Dark Blue", 45, 4),
             new BreedStats(new string[] { "Solitus", "soli", "sol" }, 472, 772, "Blue", 480, 780, "Blue", 480, 780, "Blue", 480, 780, "Blue", 480, 780, "Blue", 480, 780, "Blue", 50, 3),
             new BreedStats(new string[] { "Opifex", "opi", "fex" }, 464, 764, "Blue", 544, 944, "Green", 480, 680, "Dark Blue", 464, 764, "Blue", 512, 912, "Green", 448, 748, "Blue", 50, 3),
-            new BreedStats(new string[] { "Nanomage", "nano", "mage", "nm" }, 464, 664, "Dark Blue", 464, 664, "Blue", 448, 748, "Blue", 512, 912, "Green", 480, 780, "Dark Blue", 512, 912, "Dark Blue", 55, 2)};           
+            new BreedStats(new string[] { "Nanomage", "nano", "mage", "nm" }, 464, 664, "Dark Blue", 464, 664, "Blue", 448, 748, "Blue", 512, 912, "Green", 480, 780, "Dark Blue", 512, 912, "Dark Blue", 55, 2)};
         }
 
         public override void OnUnload(BotShell bot)
-        {  
+        {
         }
 
         public override void OnCommand(BotShell bot, CommandArgs e)
@@ -142,7 +142,7 @@ namespace VhaBot.Plugins
                              *  Intelligence - ### / ###
                              *  Sense        - ### / ###
                              *  Psychic      - ### / ###
-                             * 
+                             *
                              *  NanoCost%    - ##%
                              *  HP / BodyDev - #
                              */
@@ -190,16 +190,12 @@ namespace VhaBot.Plugins
             {
                 case "Green":
                     return "00FF00";
-                    break;
                 case "Blue":
                     return "00CCFF";
-                    break;
                 case "Dark Blue":
                     return "0066FF";
-                    break;
                 default:
                     return "FFFFFF";
-                    break;
             }
         }
 
