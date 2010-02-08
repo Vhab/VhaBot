@@ -33,7 +33,7 @@ namespace VhaBot.Plugins
             this.Name = "Roster Manager";
             this.InternalName = "vhRosterManager";
             this.Author = "Vhab";
-            this.Version = 100;
+            this.Version = 102;
             this.DefaultState = PluginState.Installed;
             this.Commands = new Command[] {
                 new Command("roster", true, UserLevel.Admin),
@@ -47,15 +47,25 @@ namespace VhaBot.Plugins
         public override void OnLoad(BotShell bot) {
             this._bot = bot;
             this._database = new Config(bot.ID, this.InternalName);
-            this.LoadSettings(bot);
             this._database.ExecuteNonQuery("CREATE TABLE IF NOT EXISTS organizations (ID INTEGER PRIMARY KEY, GuildName VARCHAR(255), LastUpdated INTEGER)");
             this._database.ExecuteNonQuery("CREATE TABLE IF NOT EXISTS members (Username VARCHAR(255) PRIMARY KEY, LastSeen INTEGER)");
             bot.Timers.Hour += new EventHandler(UpdateTimer_Elapsed);
+            bot.Events.ConfigurationChangedEvent += new ConfigurationChangedHandler(ConfigurationChangedEvent);
             bot.Configuration.Register(ConfigType.Integer, this.InternalName, "interval", "The interval in hours between each roster update", this._rosterInterval, 8, 16, 24, 48);
             bot.Configuration.Register(ConfigType.Boolean, this.InternalName, "enabled", "Enables/disables the automated roster update", this._rosterEnabled);
+            this.LoadSettings(bot);
         }
 
-        public override void OnUnload(BotShell bot) { }
+        public override void OnUnload(BotShell bot) {
+            bot.Events.ConfigurationChangedEvent -= new ConfigurationChangedHandler(ConfigurationChangedEvent);
+            bot.Timers.Hour -= new EventHandler(UpdateTimer_Elapsed);
+        }
+
+        private void ConfigurationChangedEvent(BotShell bot, ConfigurationChangedArgs e)
+        {
+            if (e.Section != this.InternalName) return;
+            this.LoadSettings(bot);
+        }
 
         public override void OnUninstall(BotShell bot)
         {
@@ -452,7 +462,7 @@ namespace VhaBot.Plugins
                 if (!newMembers.Contains(member))
                     removeMembers.Add(member);
                 this._progressValue++;
-            }   
+            }
 
             this._state = RosterState.RemovingMembers;
             this._progressMax = removeMembers.Count;
