@@ -10,7 +10,7 @@ namespace AoLib
     public class BlobArgs
     {
         private readonly ArrayList _args = null;
-        protected Encoding _enc = Encoding.GetEncoding("iso-8859-1");
+        protected Encoding _enc = Encoding.GetEncoding("utf-8");
 
         public BlobArgs(String blob)
         {

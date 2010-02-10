@@ -111,7 +111,7 @@ namespace AoLib.Net
         /// <summary>
         /// the encoding used to convert bytes into strings
         /// </summary>
-        protected Encoding _enc = Encoding.GetEncoding("iso-8859-1");
+        protected Encoding _enc = Encoding.GetEncoding("utf-8");
 
         protected PacketQueue.Priority _priority = PacketQueue.Priority.Standard;
         public PacketQueue.Priority Priority
@@ -224,7 +224,7 @@ namespace AoLib.Net
             AoString ret;
             if (data.Length >= len && len > 0)
             {
-                ret = new AoString(Encoding.GetEncoding("iso-8859-1").GetString(data, offset, len));
+                ret = new AoString(Encoding.GetEncoding("utf-8").GetString(data, offset, len));
             }
             else
             {

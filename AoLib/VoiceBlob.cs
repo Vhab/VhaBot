@@ -32,7 +32,7 @@ namespace AoLib
         protected bool tell = false;
         protected VoiceStyle style = VoiceStyle.simple;
         protected VoiceCommand cmd = VoiceCommand.no;
-        protected Encoding _enc = Encoding.GetEncoding("iso-8859-1");
+        protected Encoding _enc = Encoding.GetEncoding("utf-8");
 
         public VoiceBlob() {}
         internal VoiceBlob(byte[] data, bool FromTell)

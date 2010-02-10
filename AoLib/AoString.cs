@@ -12,7 +12,7 @@ namespace AoLib
     {
         protected String _str;
         protected short _len;
-        protected Encoding enc = Encoding.GetEncoding("iso-8859-1");
+        protected Encoding enc = Encoding.GetEncoding("utf-8");
         public AoString(byte[] data): this(data, 0) {}
         public AoString(byte[] data, int StartIndex)
         {
@@ -53,19 +53,15 @@ namespace AoLib
         }
         public byte[] GetBytes()
         {
-            if (this.Value == null)
+            if (this._str == null)
                 return null;
             else
             {
-                StringBuilder ret = new StringBuilder(this.Value);
-
-                this._str = ret.ToString();
-                this._len = (short)ret.Length;
-
-                byte[] b = new byte[this.TotalLength];
-                BitConverter.GetBytes(IPAddress.HostToNetworkOrder(this.Length)).CopyTo(b, 0);
-                enc.GetBytes(this.Value).CopyTo(b, 2);
-                return b;
+                byte[] value = this.enc.GetBytes(this._str);
+                byte[] bytes = new byte[value.Length + 2];
+                BitConverter.GetBytes(IPAddress.HostToNetworkOrder((short)value.Length)).CopyTo(bytes, 0);
+                value.CopyTo(bytes, 2);
+                return bytes;
             }
         }
     }
