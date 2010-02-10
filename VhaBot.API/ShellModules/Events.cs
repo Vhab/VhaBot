@@ -7,6 +7,7 @@ namespace VhaBot.ShellModules
     public class Events
     {
         public event BotStateChangedHandler BotStateChangedEvent;
+        public event ChannelJoinEventHandler ChannelJoinEvent;
 
         public event UserJoinChannelHandler UserJoinChannelEvent;
         public event UserLeaveChannelHandler UserLeaveChannelEvent;
@@ -31,6 +32,12 @@ namespace VhaBot.ShellModules
         {
             if (this.BotStateChangedEvent != null)
                 try { this.BotStateChangedEvent(bot, e); }
+                catch { }
+        }
+        internal void OnChannelJoin(BotShell bot, ChannelJoinEventArgs e)
+        {
+            if (this.ChannelJoinEvent != null)
+                try { this.ChannelJoinEvent(bot, e); }
                 catch { }
         }
         internal void OnUserJoinChannel(BotShell bot, UserJoinChannelArgs e)

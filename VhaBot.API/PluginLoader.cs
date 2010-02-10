@@ -11,7 +11,7 @@ namespace VhaBot
         public readonly string Type;
         public readonly string File;
         private readonly Assembly Assembly;
-        public readonly AssemlbyType AssemblyType;
+        public readonly AssemblyType AssemblyType;
 
         public readonly string Name;
         public readonly string InternalName;
@@ -22,7 +22,7 @@ namespace VhaBot
         public readonly string[] Dependencies;
         public readonly Command[] Commands;
 
-        public PluginLoader(string file, string type, AssemlbyType assemblyType, Assembly assembly)
+        public PluginLoader(string file, string type, AssemblyType assemblyType, Assembly assembly)
         {
             this.Assembly = assembly;
             this.Type = type;

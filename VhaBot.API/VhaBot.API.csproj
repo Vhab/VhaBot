@@ -55,6 +55,7 @@
     <Compile Include="Args\AltAddedArgs.cs" />
     <Compile Include="Args\AltRemovedArgs.cs" />
     <Compile Include="Args\BotStateChangedArgs.cs" />
+    <Compile Include="Args\ChannelJoinEventArgs.cs" />
     <Compile Include="Args\ChannelMessageArgs.cs" />
     <Compile Include="Args\CommandArgs.cs" />
     <Compile Include="Args\ConfigurationChangedArgs.cs" />
@@ -86,7 +87,7 @@
     <Compile Include="PluginSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RichTextWindow.cs" />
-    <Compile Include="ScannedAssemlby.cs" />
+    <Compile Include="ScannedAssembly.cs" />
     <Compile Include="ShellModules\Bans.cs" />
     <Compile Include="ShellModules\Commands.cs" />
     <Compile Include="ShellModules\Configuration.cs" />

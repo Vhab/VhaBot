@@ -40,8 +40,8 @@ namespace VhaBot.ShellModules
 
                 List<ScannedAssembly> assemblies = new List<ScannedAssembly>();
 
-                // Add this Assemlby to the list
-                assemblies.Add(new ScannedAssembly(Assembly.LoadFrom("VhaBot.Plugins.dll"), AssemlbyType.Buildin, "VhaBot.Plugins.dll"));
+                // Add this Assembly to the list
+                assemblies.Add(new ScannedAssembly(Assembly.LoadFrom("VhaBot.Plugins.dll"), AssemblyType.Buildin, "VhaBot.Plugins.dll"));
 
                 // Scan for DLLs
                 string dllPath = this.PluginsPath.Contains(";") ? this.PluginsPath.Substring(0, this.PluginsPath.IndexOf(';')) : this.PluginsPath;
@@ -59,14 +59,14 @@ namespace VhaBot.ShellModules
                     BotShell.Output("[Plugins] Found DLL: " + shortDll, true);
                     try
                     {
-                        assemblies.Add(new ScannedAssembly(Assembly.LoadFrom(dll), AssemlbyType.Binary, shortDll));
+                        assemblies.Add(new ScannedAssembly(Assembly.LoadFrom(dll), AssemblyType.Binary, shortDll));
                     }
                     catch (Exception ex)
                     {
                         BotShell.Output("[Plugins] Failed Loading DLL " + shortDll + ": " + ex.ToString());
                     }
                 }
-               
+
                 // Scan for plugin files
                 string[] paths = this.PluginsPath.Split(new char[] {';'}, StringSplitOptions.RemoveEmptyEntries);
                 foreach (string path in paths)
@@ -105,7 +105,7 @@ namespace VhaBot.ShellModules
 
                         // Add reference DLL's
                         foreach (ScannedAssembly assembly in assemblies)
-                            if (assembly.Type == AssemlbyType.Binary)
+                            if (assembly.Type == AssemblyType.Binary)
                                 options.ReferencedAssemblies.Add(dllPath + Path.DirectorySeparatorChar + assembly.File);
 
                         for (int i = 0; i < 2; i++)
@@ -147,7 +147,7 @@ namespace VhaBot.ShellModules
                                 if (!errors)
                                 {
                                     BotShell.Output("[Plugins] Compiled: " + shortFile);
-                                    assemblies.Add(new ScannedAssembly(results.CompiledAssembly, AssemlbyType.Source, path));
+                                    assemblies.Add(new ScannedAssembly(results.CompiledAssembly, AssemblyType.Source, path));
                                 }
                             }
                             catch (Exception ex)
@@ -158,7 +158,7 @@ namespace VhaBot.ShellModules
                         }
                     }
                 }
-                
+
                 // Scan for plugins
                 foreach (ScannedAssembly assembly in assemblies)
                 {
@@ -190,7 +190,7 @@ namespace VhaBot.ShellModules
                                         BotShell.Output("[Error] Core plugins can't have dependencies (" + loader.InternalName + ")! Plugin skipped!");
                                         continue;
                                     }
-                                    if (loader.AssemblyType != AssemlbyType.Buildin && loader.DefaultState == PluginState.Core)
+                                    if (loader.AssemblyType != AssemblyType.Buildin && loader.DefaultState == PluginState.Core)
                                     {
                                         BotShell.Output("[Error] Only buildin plugins can have DefaultState = Core (" + loader.InternalName + ")! Plugin skipped!");
                                         continue;
@@ -319,6 +319,13 @@ namespace VhaBot.ShellModules
             if (!this.Exists(internalName))
                 return string.Empty;
             return this.GetLoader(internalName).Name + " v" + this.GetLoader(internalName).Version;
+        }
+
+        public int GetVersion(string internalName)
+        {
+            if (!this.Exists(internalName))
+                return 0;
+            return this.GetLoader(internalName).Version;
         }
 
         public PluginLoader GetLoader(string internalName)

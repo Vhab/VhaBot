@@ -19,7 +19,7 @@ namespace AoLib.Utils
         protected StringBuilder _builder = new StringBuilder();
         protected Int32 _characterLimit = 14000;
 
-        public TextMode Mode { 
+        public TextMode Mode {
             get { return this._mode; }
             set
             {
@@ -93,6 +93,17 @@ namespace AoLib.Utils
         public void AppendCommand(string name, string command, bool disableStyle)
         {
             this._builder.Append(HTML.CreateCommand(name, command, disableStyle, this._innerQuotes));
+        }
+
+        /// <summary>
+        /// Appends a clickable command without escaping it
+        /// </summary>
+        /// <param name="name">Name of the command</param>
+        /// <param name="command">The command itself</param>
+        public void AppendRawCommand(string name, string command) { this.AppendRawCommand(name, command, false); }
+        public void AppendRawCommand(string name, string command, bool disableStyle)
+        {
+            this._builder.Append(HTML.CreateCommand(name, command, disableStyle, this._innerQuotes, true));
         }
 
         public void AppendCommandStart(string command) { this.AppendCommandStart(command, false); }

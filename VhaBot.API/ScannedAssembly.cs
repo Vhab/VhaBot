@@ -8,10 +8,10 @@ namespace VhaBot
     public class ScannedAssembly
     {
         public readonly Assembly Assembly;
-        public readonly AssemlbyType Type;
+        public readonly AssemblyType Type;
         public readonly string File;
 
-        public ScannedAssembly(Assembly assembly, AssemlbyType type, string file)
+        public ScannedAssembly(Assembly assembly, AssemblyType type, string file)
         {
             this.Assembly = assembly;
             this.Type = type;

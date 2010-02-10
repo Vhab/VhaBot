@@ -20,9 +20,9 @@ namespace VhaBot
 {
     public sealed class BotShell
     {
-        public static readonly string VERSION = "0.7.7b";
+        public static readonly string VERSION = "0.7.7c";
         public static readonly string BRANCH = "Beta";
-        public static readonly int BUILD = 20070826;
+        public static readonly int BUILD = 20100208;
 #if ADVANCED
         public static readonly string EDITION = "Advanced";
         public static readonly bool Advanced = true;
@@ -191,6 +191,7 @@ namespace VhaBot
                 this._userIDs = new Dictionary<string, UInt32>();
 
                 this._chat = new Chat();
+                this._chat.ChannelJoinEvent += new AoLib.Net.ChannelJoinEventHandler(OnChannelJoin);
                 this._chat.ChannelMessageEvent += new ChannelMessageEventHandler(OnChannelMessage);
                 this._chat.PrivateGroupMessageEvent += new PrivChannelMessageEventHandler(OnPrivateChannelMessage);
                 this._chat.TellEvent += new TellEventHandler(OnPrivateMessage);
@@ -756,6 +757,18 @@ namespace VhaBot
                 else
                     this.SlaveEvents.OnUserLeaveChannel(this, new SlaveArgs(bot.Character, this.GetSlaveID(bot.Character)), args);
             }
+        }
+
+        private void OnChannelJoin(object sender, AoLib.Net.ChannelJoinEventArgs e)
+        {
+            if (e.GroupType == AoLib.Net.ChannelType.Organization)
+            {
+                this._organizationID = e.GroupID.IntValue();
+                this._organization = e.GroupName;
+            }
+            ChannelType chanType = (ChannelType)Enum.Parse(typeof(ChannelType),e.GroupType.ToString());
+            ChannelJoinEventArgs args = new ChannelJoinEventArgs(e.GroupID, e.GroupName, e.Mute, e.Logging, chanType);
+            this.Events.OnChannelJoin(this, args);
         }
 
         private void OnStateChanged(object sender, StatusChangeEventArgs e)

@@ -46,29 +46,23 @@ namespace VhaBot.Plugins
 
             // Credits
             window.AppendHeader("Credits");
-            window.AppendHighlight("*Helpbot Developers*");
-            window.AppendLineBreak();
-            window.AppendNormal("- Naturalistic (rk1)");
-            window.AppendLineBreak();
-            window.AppendNormal("- Iriche (rk1)");
-            window.AppendLineBreak();
-            window.AppendNormal("- Toxor (rk2) (aka Demerzel)");
-            window.AppendLineBreak();
-            window.AppendHighlight("*Core Developer*");
+            window.AppendHighlight("Core Developer");
             window.AppendLineBreak();
             window.AppendNormal("- Vhab (rk1)");
             window.AppendLineBreak();
-            window.AppendHighlight("*Vhabot Developers*");
-            window.AppendLineBreak();
-            window.AppendNormal("- Naturalistic (rk1)"); 
+            window.AppendHighlight("Developers");
             window.AppendLineBreak();
             window.AppendNormal("- Iriche (rk1)");
             window.AppendLineBreak();
-            window.AppendNormal("- Toxor (rk2) (aka Demerzel)");
+            window.AppendNormal("- Naturalistic (rk1)");
             window.AppendLineBreak();
             window.AppendNormal("- Tsuyoi (rk1)");
             window.AppendLineBreak();
-            window.AppendHighlight("*Contributors*");
+            window.AppendNormal("- veremit (rk1)");
+            window.AppendLineBreak();
+            window.AppendHighlight("Contributors");
+            window.AppendLineBreak();
+            window.AppendNormal("- Toxor (rk2) (aka Techboy)");
             window.AppendLineBreak();
             window.AppendNormal("- Telperion (rk1)");
             window.AppendLineBreak();

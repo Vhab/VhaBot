@@ -17,10 +17,10 @@ namespace VhaBot.Core
 {
     public class Core
     {
-        public static readonly string VERSION = "0.1.0";
-        public static readonly string BRANCH = "Alpha";
-        public static readonly int BUILD = 20070501;
-        
+        public static readonly string VERSION = "0.7.7";
+        public static readonly string BRANCH = "Beta";
+        public static readonly int BUILD = 20100101;
+
         private static object _consoleLock = new object();
         private string _configurationFile;
         private Dictionary<string, BotManager> _bots = new Dictionary<string,BotManager>();
@@ -217,7 +217,7 @@ namespace VhaBot.Core
 
             // Prepare bot managers
             foreach (ConfigurationBot configurationBot in configuration.Bots)
-            {   
+            {
                 lock (this._bots)
                 {
                     BotManager bot;
@@ -274,7 +274,7 @@ namespace VhaBot.Core
                     startInfo = new ProcessStartInfo("VhaBot.Shell.exe", args);
                 else
                     startInfo = new ProcessStartInfo("mono", "VhaBot.Shell.exe " + args);
-                
+
                 startInfo.CreateNoWindow = true;
                 startInfo.RedirectStandardError = true;
                 startInfo.RedirectStandardInput = true;
@@ -388,7 +388,7 @@ namespace VhaBot.Core
             if (message == null) return MessageResult.InvalidMessage;
             if (sender == null) return MessageResult.InvalidSource;
             if (sender.ID != message.Source) return MessageResult.InvalidSource;
-            
+
             lock (this._bots)
             {
                 if (!this._bots.ContainsKey(message.Target))

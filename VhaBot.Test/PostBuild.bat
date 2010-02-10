@@ -1,5 +1,5 @@
 @echo off
-cd %1
+cd /d %1
 
 mkdir VhaBot.Test\bin\%2\Plugins
 

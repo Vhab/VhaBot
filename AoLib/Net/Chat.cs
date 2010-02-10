@@ -45,7 +45,7 @@ namespace AoLib.Net
     public class Chat
     {
         public static readonly int BUILD = 20070821;
-        public static readonly string VERSION = "0.7.7 Beta";
+        public static readonly string VERSION = "0.8.6 Beta";
 
         public bool AutoReconnect = true;
         public int ReconnectDelay = 5000;

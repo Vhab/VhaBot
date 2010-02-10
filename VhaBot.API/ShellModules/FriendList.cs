@@ -284,6 +284,11 @@ namespace VhaBot.ShellModules
                 this.Parent.GetMainBot().SendFriendRemove(friend.UserID);
         }
 
+        public void RemoveAll()
+        {
+            this.Config.ExecuteNonQuery("DELETE FROM CORE_Notify");
+        }
+
         public string[] Online(string section)
         {
             List<string> users = new List<string>();
@@ -302,7 +307,7 @@ namespace VhaBot.ShellModules
                 if (this.IsFriend(user))
                     if (this.IsOnline(user) != OnlineState.Online)
                         users.Add(user);
-            
+
             users.Sort();
             return users.ToArray();
         }

@@ -44,6 +44,7 @@ namespace VhaBot.Plugins
 
             bot.Events.ConfigurationChangedEvent += new ConfigurationChangedHandler(Events_ConfigurationChangedEvent);
             bot.Events.BotStateChangedEvent += new BotStateChangedHandler(Events_BotStateChangedEvent);
+            bot.Events.ChannelJoinEvent += new ChannelJoinEventHandler(Events_ChannelJoinEvent);
 
             bot.CommandSyntax = bot.Configuration.GetString(this.InternalName, "syntax", bot.CommandSyntax);
             bot.MaxWindowSizePrivateMessage = bot.Configuration.GetInteger(this.InternalName, "maxwindowsize_privatemessage", bot.MaxWindowSizePrivateMessage);
@@ -60,6 +61,7 @@ namespace VhaBot.Plugins
         {
             bot.Events.ConfigurationChangedEvent -= new ConfigurationChangedHandler(Events_ConfigurationChangedEvent);
             bot.Events.BotStateChangedEvent -= new BotStateChangedHandler(Events_BotStateChangedEvent);
+            bot.Events.ChannelJoinEvent -= new ChannelJoinEventHandler(Events_ChannelJoinEvent);
         }
 
         private void Events_ConfigurationChangedEvent(BotShell bot, ConfigurationChangedArgs e)
@@ -101,6 +103,13 @@ namespace VhaBot.Plugins
             if (e.IsSlave) return;
             if (e.State == BotState.Connected)
                 bot.SendPrivateChannelMessage(bot.ColorHighlight + "System »» Online");
+        }
+
+        private void Events_ChannelJoinEvent(BotShell bot, ChannelJoinEventArgs e)
+        {
+            //Console.WriteLine("Joining channel: " + e.GroupType.ToString());
+            if (e.GroupType == ChannelType.Organization)
+                bot.SendOrganizationMessage(bot.ColorHighlight + "System »» Online");
         }
 
         public override void OnCommand(BotShell bot, CommandArgs e)

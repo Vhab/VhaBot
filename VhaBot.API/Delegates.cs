@@ -6,6 +6,7 @@ using VhaBot.Communication;
 namespace VhaBot
 {
     public delegate void BotStateChangedHandler(BotShell bot, BotStateChangedArgs e);
+    public delegate void ChannelJoinEventHandler(BotShell bot, ChannelJoinEventArgs e);
 
     public delegate void UserJoinChannelHandler(BotShell bot, UserJoinChannelArgs e);
     public delegate void UserJoinChannelSlaveHandler(BotShell bot, SlaveArgs slave, UserJoinChannelArgs e);

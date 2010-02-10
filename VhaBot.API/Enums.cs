@@ -81,7 +81,7 @@ namespace VhaBot
         Custom      //.*
     }
 
-    public enum AssemlbyType
+    public enum AssemblyType
     {
         Binary,
         Source,

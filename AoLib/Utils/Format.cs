@@ -10,6 +10,7 @@ namespace AoLib.Utils
     public enum FormatStyle
     {
         Compact,
+        Small,
         Medium,
         Large
     }
@@ -31,6 +32,9 @@ namespace AoLib.Utils
             string result = whois.Name.Nickname;
             switch (style)
             {
+                case FormatStyle.Small:
+                    result += string.Format(" (L {0}/{1} {2})", whois.Stats.Level, whois.Stats.DefenderLevel, whois.Stats.Profession);
+                    break;
                 case FormatStyle.Compact:
                     result += string.Format(" (L {0}/{1} {2} {3})", whois.Stats.Level, whois.Stats.DefenderLevel, whois.Stats.Faction, whois.Stats.Profession);
                     break;
@@ -56,6 +60,8 @@ namespace AoLib.Utils
             {
                 case FormatStyle.Compact:
                     return date.ToString("dd/MM/yyyy", dtfi);
+                case FormatStyle.Small:
+                    return date.ToString("dd/MM", dtfi);               
                 case FormatStyle.Large:
                     return date.ToString("dddd, MMMM d, yyyy", dtfi);
                 default:
@@ -73,6 +79,7 @@ namespace AoLib.Utils
         {
             switch (style)
             {
+                case FormatStyle.Small:
                 case FormatStyle.Compact:
                     return string.Format("{0:00}:{1:00}", Math.Floor(time.TotalHours), time.Minutes);
                 case FormatStyle.Large:
@@ -86,6 +93,7 @@ namespace AoLib.Utils
         {
             switch (style)
             {
+                case FormatStyle.Small:
                 case FormatStyle.Compact:
                     return string.Format("{0:00}:{1:00}", time.Hour, time.Minute);
                 default:

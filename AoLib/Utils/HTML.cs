@@ -63,19 +63,24 @@ namespace AoLib.Utils
 
         public static string CreateCommand(string name, string command) { return CreateCommand(name, command, false, "'"); }
         public static string CreateCommand(string name, string command, bool disableStyle) { return CreateCommand(name, command, disableStyle, "'"); }
-        public static string CreateCommand(string name, string command, bool disableStyle, string quotes)
+        public static string CreateCommand(string name, string command, bool disableStyle, string quotes) { return CreateCommand(name, command, disableStyle, "'", false); }
+        public static string CreateCommand(string name, string command, bool disableStyle, string quotes, bool rawMode)
         {
-            return String.Format("{0}{1}{2}", CreateCommandStart(command, disableStyle, quotes), EscapeString(name), CreateLinkEnd());
+            return String.Format("{0}{1}{2}", CreateCommandStart(command, disableStyle, quotes, rawMode), EscapeString(name), CreateLinkEnd());
         }
 
-        public static string CreateCommandStart(string command) { return CreateCommandStart(command, false, "'"); }
-        public static string CreateCommandStart(string command, bool disableStyle) { return CreateCommandStart(command, disableStyle, "'"); }
-        public static string CreateCommandStart(string command, bool disableStyle, string quotes)
+        public static string CreateCommandStart(string command) { return CreateCommandStart(command, false, "'", false); }
+        public static string CreateCommandStart(string command, bool disableStyle) { return CreateCommandStart(command, disableStyle, "'", false); }
+        public static string CreateCommandStart(string command, bool disableStyle, string quotes) { return CreateCommandStart(command, disableStyle, quotes, false); }
+        public static string CreateCommandStart(string command, bool disableStyle, string quotes, bool rawMode)
         {
             string style = "";
             if (disableStyle)
                 style = String.Format(CleanLink, quotes);
-            return String.Format(CommandLink, quotes, HTML.EscapeString(command), style);
+            if (rawMode)
+               return String.Format(CommandLink, quotes, command, style);
+            else
+               return String.Format(CommandLink, quotes, HTML.EscapeString(command), style);
         }
 
         public static string CreateWindow(string link, string contents) { return CreateWindow(link, contents, false, "\""); }
@@ -300,7 +305,7 @@ namespace AoLib.Utils
                 stream = client.GetStream();
                 byte[] buffer = Encoding.ASCII.GetBytes(request);
                 stream.Write(buffer, 0, buffer.Length);
-                
+
                 // Get Response
                 StreamReader reader = new StreamReader(stream);
                 string response = reader.ReadLine();
