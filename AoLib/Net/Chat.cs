@@ -1036,6 +1036,8 @@ namespace AoLib.Net
 
         public virtual string GetUserName(UInt32 userID)
         {
+            if (userID == 0 || userID == UInt32.MaxValue)
+                return "";
             if (this._users == null)
                 return "";
             lock (this._users)

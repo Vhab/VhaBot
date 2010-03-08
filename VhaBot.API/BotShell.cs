@@ -426,7 +426,7 @@ namespace VhaBot
 
         public string GetUserName(UInt32 userID)
         {
-            if (userID == 0)
+            if (userID == 0 || userID == UInt32.MaxValue)
                 return null;
             lock (this._userIDs)
             {
