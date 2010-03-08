@@ -313,5 +313,23 @@ namespace VhaBot.Configuration
         {
             MessageBox.Show("This tool is designed to create and edit configuration files for VhaBot.\nVhaBot is an Anarchy Online chat bot created by Vhab.\nVhaBot is a free product created by and for the Anarchy Online community and may not to used for commercial purposes.\nFor more information visit our forums at: http://forums.vhabot.net/\n\nVhaBot © 2005-2007 Vhab", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void txtCharacter_Leave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(this.txtCharacter.Text))
+                return;
+            this.txtCharacter.Text =
+                this.txtCharacter.Text.Substring(0, 1).ToUpper() +
+                this.txtCharacter.Text.Substring(1).ToLower();
+        }
+
+        private void txtAdmin_Leave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(this.txtAdmin.Text))
+                return;
+            this.txtAdmin.Text =
+                this.txtAdmin.Text.Substring(0, 1).ToUpper() +
+                this.txtAdmin.Text.Substring(1).ToLower();
+        }
     }
 }
