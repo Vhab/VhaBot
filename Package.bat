@@ -9,6 +9,7 @@ echo Copying Assemblies
 copy /Y AoLib\bin\Release\AoLib.dll Package\
 copy /Y VhaBot.API\bin\Release\VhaBot.API.dll Package\
 copy /Y VhaBot.API\bin\Release\Mono.Data.SqliteClient.dll Package\
+copy /Y VhaBot.API\bin\Release\sqlite3.dll Package\
 copy /Y VhaBot.Communication\bin\Release\VhaBot.Communication.dll Package\
 copy /Y VhaBot.Configuration\bin\Release\VhaBot.Configuration.dll Package\
 copy /Y VhaBot.ConfigurationTool\bin\Release\Configure.exe Package\
