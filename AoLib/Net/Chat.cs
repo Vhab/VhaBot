@@ -383,10 +383,17 @@ namespace AoLib.Net
                             Thread.Sleep(10);
                         }
                         ParsePacketData packetData = new ParsePacketData(type, lenght, buffer);
-                        if (packetData.type == Packet.Type.MESSAGE_SYSTEM || packetData.type == Packet.Type.NAME_LOOKUP)
-                            this.ParsePacket(packetData);
-                        else
-                            ThreadPool.QueueUserWorkItem(new WaitCallback(this.ParsePacket), packetData);
+                        switch (packetData.type)
+                        {
+                            case Packet.Type.MESSAGE_SYSTEM:
+                            case Packet.Type.NAME_LOOKUP:
+                            case Packet.Type.PING:
+                                this.ParsePacket(packetData);
+                                break;
+                            default:
+                                ThreadPool.QueueUserWorkItem(new WaitCallback(this.ParsePacket), packetData);
+                                break;
+                        }
                     }
                     Thread.Sleep(10);
                 }

@@ -20,7 +20,7 @@ namespace VhaBot
 {
     public sealed class BotShell
     {
-        public static readonly string VERSION = "0.7.7c";
+        public static readonly string VERSION = "0.7.8";
         public static readonly string BRANCH = "Beta";
         public static readonly int BUILD = 20100208;
 #if ADVANCED
