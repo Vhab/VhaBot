@@ -7,7 +7,7 @@ using AoLib.Utils;
 using AoLib.Net;
 using VhaBot.Communication;
 
-namespace VhaBot.Plugins
+namespace VhaBot.CorePlugins
 {
     public class CoreManager : PluginBase
     {

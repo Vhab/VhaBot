@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using AoLib.Utils;
 
-namespace VhaBot.Plugins
+namespace VhaBot.CorePlugins
 {
     public class HelpManager : PluginBase
     {

@@ -7,8 +7,8 @@
     <ProjectGuid>{078F5EDB-EA7C-4CCA-95E9-07B984732DA0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VhaBot.Plugins</RootNamespace>
-    <AssemblyName>VhaBot.Plugins</AssemblyName>
+    <RootNamespace>VhaBot.CorePlugins</RootNamespace>
+    <AssemblyName>VhaBot.CorePlugins</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

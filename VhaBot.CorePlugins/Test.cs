@@ -5,7 +5,7 @@ using AoLib.Utils;
 using System.Diagnostics;
 using VhaBot.Communication;
 
-namespace VhaBot.Plugins
+namespace VhaBot.CorePlugins
 {
     /*public class Test : PluginBase
     {

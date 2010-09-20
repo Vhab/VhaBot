@@ -4,7 +4,7 @@ using System.Text;
 using AoLib.Utils;
 using System.Diagnostics;
 
-namespace VhaBot.Plugins
+namespace VhaBot.CorePlugins
 {
     public class Version : PluginBase
     {

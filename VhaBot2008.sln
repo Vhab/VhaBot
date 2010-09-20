@@ -26,7 +26,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VhaBot.Shell", "VhaBot.Shel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VhaBot.API", "VhaBot.API\VhaBot.API.csproj", "{95E2FC67-F6F4-4DDD-8C8D-18A337EEC537}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VhaBot.Plugins", "VhaBot.Plugins\VhaBot.Plugins.csproj", "{078F5EDB-EA7C-4CCA-95E9-07B984732DA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VhaBot.CorePlugins", "VhaBot.CorePlugins\VhaBot.CorePlugins.csproj", "{078F5EDB-EA7C-4CCA-95E9-07B984732DA0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VhaBot.ConfigurationTool", "VhaBot.ConfigurationTool\VhaBot.ConfigurationTool.csproj", "{520E362B-3C8B-4F0F-993D-73327FF54398}"
 EndProject

@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 using AoLib.Utils;
 using AoLib.Net;
 
-namespace VhaBot.Plugins
+namespace VhaBot.CorePlugins
 {
     public class ConfigurationManager : PluginBase
     {
