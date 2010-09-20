@@ -1,15 +1,17 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{730F7BC4-2FB4-4373-8051-62F08E0A54E6}</ProjectGuid>
+    <ProjectGuid>{62A32798-E194-4A5F-8338-63B71A3D9D0A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VhaBot.Core</RootNamespace>
-    <AssemblyName>VhaBot.Core</AssemblyName>
+    <RootNamespace>Plugins.Raid</RootNamespace>
+    <AssemblyName>Plugins.Raid</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -27,38 +29,31 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x86</PlatformTarget>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
-    <PlatformTarget>x86</PlatformTarget>
-    <OutputPath>bin\x86\Debug\</OutputPath>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
-    <PlatformTarget>x86</PlatformTarget>
-    <OutputPath>bin\x86\Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BotManager.cs" />
-    <Compile Include="Core.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AoLib\AoLib.csproj">
+      <Project>{D1F26DA9-8B99-4663-923B-2C4209B4F625}</Project>
+      <Name>AoLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VhaBot.API\VhaBot.API.csproj">
+      <Project>{95E2FC67-F6F4-4DDD-8C8D-18A337EEC537}</Project>
+      <Name>VhaBot.API</Name>
+    </ProjectReference>
     <ProjectReference Include="..\VhaBot.Communication\VhaBot.Communication.csproj">
       <Project>{4261E5AB-29E9-4129-8120-4D7F39B34B61}</Project>
       <Name>VhaBot.Communication</Name>
     </ProjectReference>
-    <ProjectReference Include="..\VhaBot.Configuration\VhaBot.Configuration.csproj">
-      <Project>{5F7CFB87-FD21-44F8-8CC2-73ED229BEDC3}</Project>
-      <Name>VhaBot.Configuration</Name>
-    </ProjectReference>
   </ItemGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
