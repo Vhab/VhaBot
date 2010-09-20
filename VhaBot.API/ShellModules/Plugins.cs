@@ -41,7 +41,7 @@ namespace VhaBot.ShellModules
                 List<ScannedAssembly> assemblies = new List<ScannedAssembly>();
 
                 // Add this Assembly to the list
-                assemblies.Add(new ScannedAssembly(Assembly.LoadFrom("VhaBot.Plugins.dll"), AssemblyType.Buildin, "VhaBot.Plugins.dll"));
+                assemblies.Add(new ScannedAssembly(Assembly.LoadFrom("VhaBot.CorePlugins.dll"), AssemblyType.Buildin, "VhaBot.CorePlugins.dll"));
 
                 // Scan for DLLs
                 string dllPath = this.PluginsPath.Contains(";") ? this.PluginsPath.Substring(0, this.PluginsPath.IndexOf(';')) : this.PluginsPath;

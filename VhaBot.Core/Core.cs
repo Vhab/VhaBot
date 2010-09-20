@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Runtime.Remoting;
 using System.Runtime.Remoting.Channels;
-using System.Runtime.Remoting.Channels.Tcp;
+using System.Runtime.Remoting.Channels.Ipc;
 using System.Runtime.Serialization.Formatters;
 using System.Diagnostics;
 using System.IO;
@@ -27,7 +27,8 @@ namespace VhaBot.Core
         private Dictionary<int, string> _processes = new Dictionary<int, string>();
         private ConfigurationCore _configuration;
         private bool _running = true;
-        private TcpChannel _channel = null;
+        private IpcChannel _channel = null;
+        private string _channelName = "VhaBotCore";
         private Queue<CoreMessage> _queue = new Queue<CoreMessage>();
         private static Dictionary<string, ConsoleColor> _colors = new Dictionary<string, ConsoleColor>();
         private static int _colorsCount = 0;
@@ -62,9 +63,8 @@ namespace VhaBot.Core
                 BinaryServerFormatterSinkProvider serverFormatter = new BinaryServerFormatterSinkProvider();
                 serverFormatter.TypeFilterLevel = TypeFilterLevel.Full;
                 Hashtable channelSettings = new Hashtable();
-                channelSettings["name"] = "VhaBot" + this._configuration.RemotePort;
-                channelSettings["port"] = this._configuration.RemotePort;
-                this._channel = new TcpChannel(channelSettings, null, serverFormatter);
+                this._channelName += new Random().Next(int.MaxValue);
+                this._channel = new IpcChannel(this._channelName);
                 ChannelServices.RegisterChannel(this._channel, false);
                 Core.Output("Core", "Registered remoting channel");
             }
@@ -267,7 +267,7 @@ namespace VhaBot.Core
                     Core.Output("Core", "Closed previous running process of " + botManager.ID);
                 }
                 // Prepare new process
-                string args = "port=" + this._configuration.RemotePort + " id=" + bot + " key=" + botManager.Configuration.ToSecretKey() + " pid=" + Process.GetCurrentProcess().Id;
+                string args = "channel=" + this._channelName + " id=" + bot + " key=" + botManager.Configuration.ToSecretKey() + " pid=" + Process.GetCurrentProcess().Id;
                 ProcessStartInfo startInfo;
                 Type mono = Type.GetType("Mono.Runtime");
                 if (mono == null)

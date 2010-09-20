@@ -15,6 +15,5 @@ namespace VhaBot.Configuration
         public string SkinsPath = "skins";
         public string CachePath = "xmlcache";
         public bool Debug = false;
-        public int RemotePort = 8422;
     }
 }

@@ -31,15 +31,14 @@ namespace VhaBot.Shell
             }
 
             // Verify arguments
-            int port = -1;
-            if (arguments.ContainsKey("port"))
+            string channelName = "";
+            if (arguments.ContainsKey("channel"))
             {
-                try { port = Convert.ToInt32(arguments["port"]); }
-                catch { }
+                channelName = arguments["channel"];
             }
-            if (port < 1)
+            if (string.IsNullOrEmpty(channelName))
             {
-                Console.WriteLine("No valid remoting port specified");
+                Console.WriteLine("No valid remoting channel specified");
                 Environment.Exit(ExitCodes.INVALID_ARGUMENT);
                 return;
             }
@@ -93,11 +92,11 @@ namespace VhaBot.Shell
             }
 
             // Connect to core
-            Console.WriteLine("Connecting to VhaBot.Core on port " + port);
+            Console.WriteLine("Connecting to VhaBot.Core on channel " + channelName);
             ClientCommunication communication;
             try
             {
-                ServerCommunication server = (ServerCommunication)Activator.GetObject(typeof(ServerCommunication), "tcp://127.0.0.1:" + port + "/ServerCommunication");
+                ServerCommunication server = (ServerCommunication)Activator.GetObject(typeof(ServerCommunication), "ipc://" + channelName + "/ServerCommunication");
                 communication = server.AuthorizeClient(id, key);
                 if (communication == null)
                 {
