@@ -14,7 +14,7 @@ copy /Y VhaBot.Communication\bin\Release\VhaBot.Communication.dll Package\
 copy /Y VhaBot.Configuration\bin\Release\VhaBot.Configuration.dll Package\
 copy /Y VhaBot.ConfigurationTool\bin\Release\Configure.exe Package\
 copy /Y VhaBot.Core\bin\Release\VhaBot.Core.dll Package\
-copy /Y VhaBot.Plugins\bin\Release\VhaBot.Plugins.dll Package\
+copy /Y VhaBot.CorePlugins\bin\Release\VhaBot.CorePlugins.dll Package\
 copy /Y VhaBot\bin\Release\VhaBot.exe Package\
 copy /Y VhaBot.Shell\bin\Release\VhaBot.Shell.exe Package\
 copy /Y VhaBot.Shell\bin\Release\VhaBot.Shell.exe.config Package\
