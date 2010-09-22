@@ -2,6 +2,7 @@
 cd %1
 
 echo Creating directories
+rmdir /s /q Package
 mkdir Package
 mkdir Package\Plugins
 
