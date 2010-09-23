@@ -7,6 +7,8 @@ In order to automatically debug VhaBot with the character there is some manual s
    Don't worry, SVN is setup to automatically ignore this file.
    Your account details will not be committed to SVN.
 2. Edit '/config.xml' with your account and character details
-3. Open 'VhaBot.sln'
+3. Open 'VhaBot2008.sln'
 4. Inside Visual Studio: Right click 'VhaBot.Test' and select 'Set as StartUp Project'
-5. Compile and debug the application as you would normally
+5a. Select 'Debug' as target when working on Default and Raid plugins
+5b. Select 'Incubator' as target when working on Incubator plugins
+6. Hit F5 to compile and debug the application as you would normally
