@@ -48,8 +48,6 @@
     <Compile Include="vhanet_MembersClient.cs" />
     <Compile Include="vhanet_MembersHost.cs" />
     <Compile Include="vhanet_Security.cs" />
-    <Compile Include="vhanet_TrackerClient.cs" />
-    <Compile Include="vhanet_TrackerHost.cs" />
     <Compile Include="vhanet_WebLink.cs" />
   </ItemGroup>
   <ItemGroup>
