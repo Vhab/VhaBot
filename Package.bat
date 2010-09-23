@@ -21,6 +21,8 @@ copy /Y VhaBot.Shell\bin\Release\VhaBot.Shell.exe Package\
 copy /Y VhaBot.Shell\bin\Release\VhaBot.Shell.exe.config Package\
 copy /Y VhaBot.Lite\bin\Release\VhaBot.Lite.exe Package\
 copy /Y VhaBot.Lite\bin\Release\VhaBot.Lite.exe.config Package\
-copy /Y Plugins\*.cs Package\Plugins\
-copy /Y Plugins\*.dll Package\Plugins\
+copy /Y Plugins.Default\*.cs Package\Plugins\
+copy /Y Plugins.Default\*.dll Package\Plugins\
+copy /Y Plugins.Raid\*.cs Package\Plugins\
+copy /Y Plugins.Raid\*.dll Package\Plugins\
 copy /Y Extra\* Package\
