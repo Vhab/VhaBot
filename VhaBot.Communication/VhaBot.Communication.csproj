@@ -29,7 +29,6 @@
     <Compile Include="ClientCommunication.cs" />
     <Compile Include="CoreMessage.cs" />
     <Compile Include="ExitCodes.cs" />
-    <Compile Include="ManagerCommunication.cs" />
     <Compile Include="MessageBase.cs" />
     <Compile Include="PluginMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

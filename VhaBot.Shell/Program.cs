@@ -145,8 +145,9 @@ namespace VhaBot.Shell
                     Environment.Exit(ExitCodes.SHUTDOWN);
                 }
                 try { communication.Ping(); }
-                catch
+                catch (Exception ex)
                 {
+                    Console.WriteLine("Failed to ping core: " + ex.Message);
                     Environment.Exit(ExitCodes.COMMUNICATION_LOST);
                     return;
                 }

@@ -96,14 +96,7 @@ namespace VhaBot.Communication
 
         public override object InitializeLifetimeService()
         {
-            ILease lease = (ILease)base.InitializeLifetimeService();
-            if (lease.CurrentState == LeaseState.Initial)
-            {
-                lease.InitialLeaseTime = TimeSpan.FromMinutes(1);
-                lease.SponsorshipTimeout = TimeSpan.FromMinutes(1);
-                lease.RenewOnCallTime = TimeSpan.FromSeconds(5);
-            }
-            return lease;
+            return null;
         }
     }
 }

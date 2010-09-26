@@ -54,7 +54,6 @@ namespace VhaBot.Core
 
             // Prepare remoting callbacks
             ServerCommunication.OnAuthorizeClient = new AuthorizeClientDelegate(this.AuthorizeClient);
-            ServerCommunication.OnAuthorizeManager = new AuthorizeManagerDelegate(this.AuthorizeManager);
             Core.Output("Core", "Registered remoting callbacks");
 
             // Start remoting server
@@ -62,7 +61,6 @@ namespace VhaBot.Core
             {
                 BinaryServerFormatterSinkProvider serverFormatter = new BinaryServerFormatterSinkProvider();
                 serverFormatter.TypeFilterLevel = TypeFilterLevel.Full;
-                Hashtable channelSettings = new Hashtable();
                 this._channelName += new Random().Next(int.MaxValue);
                 this._channel = new IpcChannel(this._channelName);
                 ChannelServices.RegisterChannel(this._channel, false);
@@ -375,12 +373,6 @@ namespace VhaBot.Core
             );
             botManager.Connected = true;
             return botManager.Communication;
-        }
-
-        public ManagerCommunication AuthorizeManager(string username, string password)
-        {
-            // Not implemented yet
-            return null;
         }
 
         public MessageResult SendMessage(ClientCommunication sender, MessageBase message)
