@@ -106,7 +106,7 @@ namespace VhaBot.Plugins
                 "I put my hand through ur hair, and kiss u on the neck.",
                 "I ride your buttocks like they were amber waves of grains.",
                 "I slip out of my pants, just for you, bloodninja.",
-                "I smack you thick booty.",
+                "I smack your thick booty.",
                 "I stomp the ground, and snort, to alert you that you are in my breeding territory.",
                 "I take off my trenchcoat I'm nekked beneath, with pistols on my belt.",
                 "I take yo pants off, grunting like a troll.",
