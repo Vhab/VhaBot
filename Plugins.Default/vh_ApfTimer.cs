@@ -16,7 +16,7 @@ namespace VhaBot.Plugins
             this.Name = "Outzones Gate Timer";
             this.InternalName = "vhApfTimer";
             this.Author = "Vhab";
-            this.DefaultState = PluginState.Installed;
+            this.DefaultState = PluginState.Disabled;
             this.Version = 100;
 
             this.Commands = new Command[] {
@@ -105,7 +105,7 @@ namespace VhaBot.Plugins
 
         private bool FetchWebTime(BotShell bot)
         {
-            string data = HTML.GetHtml(this.Url);
+            string data = HTML.GetHtml(this.Url, 3000);
             if (data == null || data == string.Empty)
                 return false;
             string[] parts = data.Split(' ');
