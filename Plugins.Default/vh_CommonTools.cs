@@ -13,6 +13,7 @@ namespace VhaBot.Plugins
     public class CommonTools : PluginBase
     {
         private Random _random;
+        private static int _expiremins = 30;
         private SortedDictionary<int, Verify> _results;
 
         public CommonTools()
@@ -20,7 +21,7 @@ namespace VhaBot.Plugins
             this.Name = "Common Tools";
             this.InternalName = "vhCommon";
             this.Author = "Vhab / Iriche";
-            this.Version = 100;
+            this.Version = 102;
             this.DefaultState = PluginState.Installed;
 
             this.Commands = new Command[] {
@@ -388,8 +389,8 @@ namespace VhaBot.Plugins
                 "[ReflectionPermission(SecurityAction.Deny)]" +
                 "[RegistryPermission(SecurityAction.Deny)]" +
                 "[UIPermission(SecurityAction.Deny)]" +
-                "public static string Solve() { return Convert.ToString((float)";
-            string close = ");}}";
+                "public static double Solve() { return ";
+            string close = ";}}";
             string Source = open + formula + close;
 
             // Calculate
@@ -401,7 +402,9 @@ namespace VhaBot.Plugins
                 {
                     Type t = assembly.GetType("Solver", true, true);
                     MethodInfo mi = t.GetMethod("Solve");
-                    string result = (string)mi.Invoke(null, null);
+
+                    double answer = (double)mi.Invoke(null, null);
+                    string result = answer.ToString("#,0.#######");
                     if (result != null && result != string.Empty)
                     {
                         bot.SendReply(e, e.Words[0].ToLower() + " = " + HTML.CreateColorString(bot.ColorHeaderHex, result));
@@ -412,7 +415,9 @@ namespace VhaBot.Plugins
             else
             {
                 bot.SendReply(e, "Error in formula: " + HTML.CreateColorString(bot.ColorHeaderHex, e.Words[0].ToLower()));
-            }
+                Console.WriteLine("[CommonTools] Listing errors from compilation: ");
+                for( int i=0; i<results.Errors.Count; i++)
+                    Console.WriteLine("[CommonTools]     " + results.Errors[i].ToString());                }
         }
         #endregion
 
@@ -427,7 +432,7 @@ namespace VhaBot.Plugins
             // Parse required arguments
             double attackSpeed = 0;
             double rechargeSpeed = 0;
-            if (Double.TryParse(e.Args[0].Replace('.', ','), out attackSpeed) == false || Double.TryParse(e.Args[1].Replace('.', ','), out rechargeSpeed) == false)
+            if (Double.TryParse(e.Args[0].Replace(',', '.'), out attackSpeed) == false || Double.TryParse(e.Args[1].Replace(',', '.'), out rechargeSpeed) == false)
             {
                 bot.SendReply(e, "Correct Usage: init [attack speed] [recharge speed] [[init]] [[target aggdef value]]");
                 return;
@@ -445,9 +450,9 @@ namespace VhaBot.Plugins
 
             // Parse optional arguments
             double init = 0;
-            if (e.Args.Length > 2) Double.TryParse(e.Args[2].Replace(",", ""), out init);
+            if (e.Args.Length > 2) Double.TryParse(e.Args[2].Replace(".", ""), out init);
             double targetAggdef = 0;
-            if (e.Args.Length > 3) Double.TryParse(e.Args[3].Replace(",", ""), out targetAggdef);
+            if (e.Args.Length > 3) Double.TryParse(e.Args[3].Replace(".", ""), out targetAggdef);
             if (init < 0) init = 0;
             if (targetAggdef < 0) targetAggdef = 0;
 
@@ -613,13 +618,13 @@ namespace VhaBot.Plugins
 
         private void Timers_Minute(object sender, EventArgs e)
         {
-            // Clear old verify messages after 15 minutes
+            // Clear old verify messages after x minutes (set at top)
             List<int> remove = new List<int>();
             lock (this._results)
             {
                 foreach (KeyValuePair<int, Verify> kvp in this._results)
                 {
-                    if (((TimeSpan)(DateTime.Now - kvp.Value.Time)).Minutes >= 15)
+                    if (((TimeSpan)(DateTime.Now - kvp.Value.Time)).Minutes >= _expiremins)
                     {
                         remove.Add(kvp.Key);
                     }
