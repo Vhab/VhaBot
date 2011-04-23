@@ -17,13 +17,25 @@ namespace VhaBot.Plugins
             Enabled,
             Disabled
         }
+        public enum VhCityRemindState
+        {
+             Unknown,
+             Waiting,
+             Halfway,
+             FiveMinutes,
+             PreAnnounce,
+             Announced,
+             PostAnnounce
+        }
         private VhCityState _state = VhCityState.Unknown;
+        private VhCityRemindState _reminders = VhCityRemindState.Unknown;
         public VhCityState State { get { return this._state; } }
+        public VhCityRemindState Reminded { get { return this._reminders; } }
         private DateTime _time = DateTime.Now;
         private BotShell _bot;
-        private bool _sentAnnounce = false;
-        private bool _sentPreAnnounce = false;
-        private bool _sentPostAnnounce = false;
+        // private bool _sentAnnounce = false;
+        // private bool _sentPreAnnounce = false;
+        // private bool _sentPostAnnounce = false;
         public TimeSpan TimeLeft
         {
             get
@@ -67,6 +79,7 @@ namespace VhaBot.Plugins
             bot.Configuration.Register(ConfigType.Boolean, this.InternalName, "sendgc", "Send notifications to the organization channel", this._sendgc);
             bot.Configuration.Register(ConfigType.Boolean, this.InternalName, "sendpg", "Send notifications to the private channel", this._sendpg);
             //bot.Configuration.Register(ConfigType.Boolean, this.InternalName, "sendirc", "Send notifications to IRC", this._sendirc);
+            this.LoadConfiguration(bot);
             this._bot = bot;
         }
 
@@ -100,9 +113,10 @@ namespace VhaBot.Plugins
                 case 1: // %s turned the cloaking device in your city %s.
                     this._time = DateTime.Now;
                     this._username = e.Descrambled.Arguments[0].Text;
-                    this._sentAnnounce = false;
-                    this._sentPreAnnounce = false;
-                    this._sentPostAnnounce = false;
+                    //this._sentAnnounce = false;
+                    //this._sentPreAnnounce = false;
+                    //this._sentPostAnnounce = false;
+                    this._reminders = VhCityRemindState.Waiting;
                     if (e.Descrambled.Arguments[1].Text.Equals("on", StringComparison.CurrentCultureIgnoreCase))
                     {
                         this._state = VhCityState.Enabled;
@@ -123,33 +137,63 @@ namespace VhaBot.Plugins
 
         private void OnMinute(object sender, EventArgs e)
         {
-            if (this._state == VhCityState.Unknown) return;
+            //if (this._state == VhCityState.Unknown) return;
+            if (this._reminders == VhCityRemindState.Unknown) return;
             TimeSpan span = this.TimeExpired;
-            if (!this._sentPreAnnounce && span.TotalMinutes >= 45)
+            int minutes = 30;
+            if (this._reminders == VhCityRemindState.FiveMinutes)
+               minutes += 25;
+            else if (this._reminders == VhCityRemindState.Halfway)
+               minutes += 15;
+            else if (this._reminders == VhCityRemindState.PostAnnounce)
+               minutes += 60;
+            else if (this._reminders == VhCityRemindState.Announced)
+               minutes += 45;
+            switch (this._reminders)
             {
-                string state;
-                if (this._state == VhCityState.Enabled)
-                    state = HTML.CreateColorString(RichTextWindow.ColorGreen, "enabled");
-                else
-                    state = HTML.CreateColorString(RichTextWindow.ColorRed, "disabled");
-                this.SendMessage(this._bot, HTML.CreateColorString(this._bot.ColorHeaderHex, "45") + " minutes have passed since " + HTML.CreateColorString(this._bot.ColorHeaderHex, this._username) + " has " + state + " the city cloaking device");
-                this._sentPreAnnounce = true;
-                return;
-            }
-            if (!this._sentAnnounce && span.TotalMinutes >= 60)
-            {
-                if (this._state == VhCityState.Disabled)
-                    this.SendMessage(this._bot, "The city cloaking device has fully recovered from the alien attack. Please enable the city cloaking device");
-                else
-                    this.SendMessage(this._bot, "The city cloaking device has finished charging. New alien attacks can now be initiated");
-                this._sentAnnounce = true;
-                return;
-            }
-            if (!this._sentPostAnnounce && span.TotalMinutes >= 75 && this._state == VhCityState.Disabled)
-            {
-                this.SendMessage(this._bot, HTML.CreateColorString(this._bot.ColorHeaderHex, "15") + " minutes have passed since the city cloaking device has fully recovered. Please enable the city cloaking device");
-                this._sentPostAnnounce = true;
-                return;
+                 case VhCityRemindState.FiveMinutes:
+                 case VhCityRemindState.Halfway:
+                 case VhCityRemindState.Waiting:
+                    if (span.TotalMinutes >= minutes)
+                    {
+                        string state;
+                        if (this._state == VhCityState.Enabled)
+                            state = HTML.CreateColorString(RichTextWindow.ColorGreen, "enabled");
+                        else
+                            state = HTML.CreateColorString(RichTextWindow.ColorRed, "disabled");
+                        this.SendMessage(this._bot, HTML.CreateColorString(this._bot.ColorHeaderHex, minutes.ToString()) + " minutes have passed since " + HTML.CreateColorString(this._bot.ColorHeaderHex, this._username) + " has " + state + " the city cloaking device");
+                        if (this._reminders == VhCityRemindState.Waiting)
+                          this._reminders = VhCityRemindState.Halfway;
+                        else if (this._reminders == VhCityRemindState.Halfway)
+                          this._reminders = VhCityRemindState.FiveMinutes;
+                        else
+                          this._reminders = VhCityRemindState.PreAnnounce;
+                    }
+                    break;
+
+                 case VhCityRemindState.PreAnnounce:
+                    if (span.TotalMinutes >= 60)
+                    {
+                        if (this._state == VhCityState.Disabled)
+                            this.SendMessage(this._bot, "The city cloaking device has fully recovered from the alien attack. Please enable the city cloaking device");
+                        else
+                            this.SendMessage(this._bot, "The city cloaking device has finished charging. New alien attacks can now be initiated");
+                          this._reminders = VhCityRemindState.Announced;
+                    }
+                    break;
+
+                 case VhCityRemindState.PostAnnounce:
+                 case VhCityRemindState.Announced:
+                    if (span.TotalMinutes >= minutes && this._state == VhCityState.Disabled)
+                    {
+                         minutes -= 60;
+                         this.SendMessage(this._bot, HTML.CreateColorString(this._bot.ColorHeaderHex, minutes.ToString()) + " minutes have passed since the city cloaking device has fully recovered. Please enable the city cloaking device");
+                         if (this._reminders == VhCityRemindState.Announced)
+                             this._reminders = VhCityRemindState.PostAnnounce;
+                         else
+                             this._reminders = VhCityRemindState.Unknown;
+                    }
+                    break;
             }
         }
 
