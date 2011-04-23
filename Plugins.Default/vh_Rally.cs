@@ -49,15 +49,13 @@ namespace VhaBot.Plugins
                         return;
                     }
                     int x = 0;
-                    try { x = Convert.ToInt32(e.Args[1]); }
-                    catch
+                    if (!Int32.TryParse(e.Args[1], out x))
                     {
                         bot.SendReply(e, "Invalid X value");
                         return;
                     }
                     int y = 0;
-                    try { y = Convert.ToInt32(e.Args[2]); }
-                    catch
+                    if (!Int32.TryParse(e.Args[2], out y))
                     {
                         bot.SendReply(e, "Invalid Y value");
                         return;
