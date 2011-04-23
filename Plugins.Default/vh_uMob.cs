@@ -1,4 +1,4 @@
-ï»¿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Web;
@@ -23,7 +23,7 @@ namespace VhaBot.Plugins
             this.Author = "Vhab, Llie";
             this.DefaultState = PluginState.Installed;
             this.Version = 100;
-            this.Dependencies = new string[] { "vhItems" };
+            //this.Dependencies = new string[] { "vhItems" };
             this.Commands = new Command[] {
                 new Command("umob", true, UserLevel.Guest)
             };
@@ -47,7 +47,7 @@ namespace VhaBot.Plugins
                     search = search.ToLower();
 
                     string url = string.Format(this.UrlTemplate, this.Server, HttpUtility.UrlEncode(search));
-                    string xml = HTML.GetHtml(url, 60000);
+                    string xml = HTML.GetHtml(url, 20000);
                     if (xml == null || xml == string.Empty)
                     {
                         bot.SendReply(e, "Unable to query the unique mobs database");
@@ -124,13 +124,13 @@ namespace VhaBot.Plugins
                                     window.AppendColorEnd();
                                     window.AppendLineBreak();
                                 }
-                                window.AppendLineBreak();
-                                window.AppendLineBreak();
+                                window.AppendLineBreak(2);
+                                //window.AppendLineBreak();
                             }
                             if (search_results.Mobs.Length > this.NonPageSize)
-                                bot.SendReply(e, HTML.CreateColorString(bot.ColorHeaderHex, search_results.Mobs.Length.ToString()) + " Results Â»Â» ", window);
+                                bot.SendReply(e, HTML.CreateColorString(bot.ColorHeaderHex, search_results.Mobs.Length.ToString()) + " Results »» ", window);
                             else
-                                bot.SendReply(e, HTML.CreateColorString(bot.ColorHeaderHex, search_results.Mobs.Length.ToString()) + " Results Â»Â»" + window.Text.TrimEnd('\n'));
+                                bot.SendReply(e, HTML.CreateColorString(bot.ColorHeaderHex, search_results.Mobs.Length.ToString()) + " Results »»" + window.Text.TrimEnd('\n'));
                             return;
                         }
                     }
