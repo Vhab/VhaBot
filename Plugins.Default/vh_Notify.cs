@@ -66,7 +66,7 @@ namespace VhaBot.Plugins
                         bot.SendReply(e, "Correct Usage: logon [message]");
                         return;
                     }
-                    this._database.ExecuteNonQuery("REPLACE INTO logon VALUES('" + e.Sender + "', " + TimeStamp.Now + ", '" + Config.EscapeString(e.Words[0]) + "')");
+                    this._database.ExecuteNonQuery("REPLACE INTO logon VALUES('" + e.Sender + "', " + TimeStamp.Now + ", '" + HTML.UnescapeString(e.Words[0]) + "')");
                     bot.SendReply(e, "Your logon message has set");
                     break;
                 case "logon clear":
