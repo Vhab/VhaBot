@@ -199,7 +199,7 @@ namespace VhaBot.Plugins
                         bot.SendReply(e, "An error has occurred while adding the timer to the database");
                         return;
                     }
-                    command.CommandText = "SELECT MAX(id) FROM timers";
+                    command.CommandText = "SELECT LAST_INSERT_ROWID()";
                     id = (int)(Int64)command.ExecuteScalar();
                 }
             }
