@@ -312,10 +312,8 @@ namespace VhaBot.Plugins
                 bot.SendReply(e, "No such user: " + HTML.CreateColorString(bot.ColorHeaderHex, username));
                 return;
             }
-            int team = -1;
-            try { team = Convert.ToInt32(e.Args[1]); }
-            catch { }
-            if (team < 1)
+            int team;
+            if (!Int32.TryParse(e.Args[1], out team) || (team < 1))
             {
                 bot.SendReply(e, "Invalid Team: " + HTML.CreateColorString(bot.ColorHeaderHex, e.Args[1]));
                 return;
@@ -370,10 +368,8 @@ namespace VhaBot.Plugins
                 bot.SendReply(e, "No such user: " + HTML.CreateColorString(bot.ColorHeaderHex, username));
                 return;
             }
-            int team = -1;
-            try { team = Convert.ToInt32(e.Args[1]); }
-            catch { }
-            if (team < 1)
+            int team;
+            if (!Int32.TryParse(e.Args[1], out team) || (team < 1))
             {
                 bot.SendReply(e, "Invalid Team: " + HTML.CreateColorString(bot.ColorHeaderHex, e.Args[1]));
                 return;
