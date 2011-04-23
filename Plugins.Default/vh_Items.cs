@@ -22,16 +22,30 @@ namespace VhaBot.Plugins
         {
             this.Name = "Central Items Database";
             this.InternalName = "vhItems";
-            this.Author = "Vhab";
+            this.Author = "Vhab / MJE";
             this.DefaultState = PluginState.Installed;
-            this.Version = 100;
+            this.Version = 105;
             this.Commands = new Command[] {
                 new Command("items", true, UserLevel.Guest)
             };
         }
 
-        public override void OnLoad(BotShell bot) { }
-        public override void OnUnload(BotShell bot) { }
+        public override void OnLoad(BotShell bot)
+        {
+            bot.Configuration.Register(ConfigType.String, this.InternalName, "server", "Items database server [cidb.xyphos.com]", this.Server);
+            this.Server = bot.Configuration.GetString(this.InternalName, "server", this.Server);
+            bot.Events.ConfigurationChangedEvent += new ConfigurationChangedHandler(Events_ConfigurationChangedEvent);
+        }
+        public override void OnUnload(BotShell bot)
+        {
+            bot.Events.ConfigurationChangedEvent -= new ConfigurationChangedHandler(Events_ConfigurationChangedEvent);
+        }
+
+        private void Events_ConfigurationChangedEvent(BotShell bot, ConfigurationChangedArgs e)
+        {
+            if (e.Section == this.InternalName)
+                this.Server = bot.Configuration.GetString(this.InternalName, "server", this.Server);
+        }
 
         public override void OnCommand(BotShell bot, CommandArgs e)
         {
