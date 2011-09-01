@@ -1,0 +1,2481 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniques>
+<version>1.0</version>
+<mob>
+<name>Abmouth Supremus</name>
+<level>?</level>
+<spawn_time>?</spawn_time>
+<location>Condemned Subway</location>
+<pfid>NA</pfid>
+<coords>varies</coords>
+<pf>RK</pf>
+<item name="Ring of the Nucleus Basalis" lowid="202717" highid="202718" ql="200" droprate="?" />
+<item name="Juggler's Treat" lowid="202741" highid="202742" ql="200" droprate="?" />
+<item name="Belt of Justice" lowid="202733" highid="202734" ql="20" droprate="?" />
+<info></info></mob><mob>
+<name>Afreet Ellis</name>
+<level>230</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2570x2940</coords>
+<pf>SL</pf>
+<item name="Massive Bolt Charger" lowid="245736" highid="245737" ql="220" droprate="?" />
+<info></info></mob><mob>
+<name>Akshk'i</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2313x2216</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Haqa'" lowid="242773" highid="242773" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Haqa'" lowid="234181" highid="234181" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Haqa'" lowid="234182" highid="234182" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Haqa'" lowid="234183" highid="234183" ql="220" droprate="?" />
+<item name="Armplates of Meteorite Assembly" lowid="245855" highid="245855" ql="250" droprate="?" />
+<item name="Boots of Stolen Comet Speed" lowid="245857" highid="245857" ql="250" droprate="?" />
+<item name="Gauntlets of Star Confabulation" lowid="245856" highid="245856" ql="250" droprate="?" />
+<item name="Moon Watcher Helmet" lowid="245859" highid="245859" ql="250" droprate="?" />
+<item name="Overcoat of the Firmament" lowid="260684" highid="260684" ql="250" droprate="?" />
+<item name="Shoulderpads of Asteroid Calling" lowid="260685" highid="260685" ql="250" droprate="?" />
+<item name="Vest of Torpid Sunrays" lowid="245854" highid="245854" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Alpha Skincrawler</name>
+<level>?</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Crypt of Home, Broken Shores</location>
+<pfid>665</pfid>
+<coords>355x2215</coords>
+<pf>RK</pf>
+<item name="Damaged Proliferation Unit" lowid="245215" highid="245215" ql="100" droprate="100" />
+<item name="Brother's Brass Knuckles" lowid="246223" highid="246223" ql="100" droprate="?" />
+<info></info></mob><mob>
+<name>Anansi's Disciple</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3375x2700</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Sasabonsam'" lowid="242775" highid="242775" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Sasabonsam'" lowid="234199" highid="234199" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Sasabonsam'" lowid="234200" highid="234200" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Sasabonsam'" lowid="234201" highid="234201" ql="220" droprate="?" />
+<info></info></mob><mob>
+<name>Anansi's favorite</name>
+<level>230</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2719x2652</coords>
+<pf>SL</pf>
+<item name="Short Circuited Spiritech Circlet" lowid="245728" highid="245728" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Anansi's Left Hand</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>East of Sorrow, Inferno</location>
+<pfid>4605</pfid>
+<coords>1900x1800</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Nyame'" lowid="242795" highid="242795" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'Nyame'" lowid="239482" highid="239482" ql="255" droprate="?" />
+<item name="Chi Pattern of 'Nyame'" lowid="239483" highid="239483" ql="255" droprate="?" />
+<item name="Dom Pattern of 'Nyame'" lowid="239484" highid="239484" ql="255" droprate="?" />
+<item name="Meta-Cerebellum Ring" lowid="245722" highid="245722" ql="250" droprate="?" />
+<item name="Maiden's Gloves" lowid="246092" highid="246092" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Anansi's Right Hand</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>East of Sorrow, Inferno</location>
+<pfid>4605</pfid>
+<coords>1900x1600</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Nyame'" lowid="242795" highid="242795" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'Nyame'" lowid="239482" highid="239482" ql="255" droprate="?" />
+<item name="Chi Pattern of 'Nyame'" lowid="239483" highid="239483" ql="255" droprate="?" />
+<item name="Dom Pattern of 'Nyame'" lowid="239484" highid="239484" ql="255" droprate="?" />
+<item name="Subspace Mesh" lowid="245720" highid="245720" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Aniitap</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2450x3360</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Taille Frees'" lowid="242774" highid="242774" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Taille Frees'" lowid="234190" highid="234190" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Taille Frees'" lowid="234191" highid="234191" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Taille Frees'" lowid="234192" highid="234192" ql="220" droprate="?" />
+<info></info></mob><mob>
+<name>Aniitap's Shadow</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2450x3300</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Taille Frees'" lowid="242774" highid="242774" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Taille Frees'" lowid="234190" highid="234190" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Taille Frees'" lowid="234191" highid="234191" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Taille Frees'" lowid="234192" highid="234192" ql="220" droprate="?" />
+<item name="Piercing Evil" lowid="245767" highid="245767" ql="259" droprate="?" />
+<item name="Piercing Evil" lowid="245768" highid="245768" ql="260" droprate="?" />
+<info></info></mob><mob>
+<name>Apprentice Beasthandler</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3300x3050</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'The Dryad Demigod'" lowid="242779" highid="242779" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'The Dryad Demigod'" lowid="232386" highid="234235" ql="220" droprate="?" />
+<item name="Chi Pattern of 'The Dryad Demigod'" lowid="232387" highid="234236" ql="220" droprate="?" />
+<item name="Dom Pattern of 'The Dryad Demigod'" lowid="232388" highid="234237" ql="220" droprate="?" />
+<item name="Finely Refined Notum" lowid="227643" highid="227643" ql="220" droprate="?" />
+<item name="Lava capsule" lowid="245990" highid="245990" ql="250" droprate="?" />
+<item name="Master's Eye" lowid="245740" highid="245740" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Aquarius</name>
+<level>250</level>
+<spawn_time>06:00:00</spawn_time>
+<location>Pandemonium</location>
+<pfid>NA</pfid>
+<coords>?</coords>
+<pf>SL</pf>
+<item name="Aquarius' Boots of Small Steps" lowid="244357" highid="244357" ql="250" droprate="?" />
+<item name="Aquarius' Multitask Calculator" lowid="244376" highid="244376" ql="250" droprate="?" />
+<item name="Intuitive Memory of the Aquarius" lowid="244358" highid="244358" ql="250" droprate="?" />
+<item name="Mediative Gloves of the Aquarius" lowid="244223" highid="244223" ql="250" droprate="?" />
+<info>Zodiac</info></mob><mob>
+<name>Architect Striker</name>
+<level>?</level>
+<spawn_time>?</spawn_time>
+<location>Condemned Subway</location>
+<pfid>NA</pfid>
+<coords>varies</coords>
+<pf>RK</pf>
+<item name="Construction Sleeves" lowid="202756" highid="202756" ql="20" droprate="?" />
+<info></info></mob><mob>
+<name>Aries</name>
+<level>250</level>
+<spawn_time>06:00:00</spawn_time>
+<location>Pandemonium</location>
+<pfid>NA</pfid>
+<coords>?</coords>
+<pf>SL</pf>
+<item name="Aries' Tiara of the Quick Witted" lowid="244540" highid="244540" ql="250" droprate="?" />
+<item name="Boon of Aries" lowid="244405" highid="244405" ql="250" droprate="?" />
+<item name="Dynamic Sleeves of Aries (Melee)" lowid="244542" highid="244542" ql="250" droprate="?" />
+<item name="Dynamic Sleeves of Aries (Ranged)" lowid="244541" highid="244541" ql="250" droprate="?" />
+<item name="Quick-Draw Holster of Aries" lowid="244469" highid="244469" ql="250" droprate="?" />
+<info>Zodiac</info></mob><mob>
+<name>Atakirh</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>1950x2450</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Ahpta'" lowid="242771" highid="242771" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Ahpta'" lowid="234163" highid="234163" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Ahpta'" lowid="234164" highid="234164" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Ahpta'" lowid="234165" highid="234165" ql="220" droprate="?" />
+<item name="Armplates of Meteorite Assembly" lowid="245855" highid="245855" ql="250" droprate="?" />
+<item name="Boots of Stolen Comet Speed" lowid="245857" highid="245857" ql="250" droprate="?" />
+<item name="Gauntlets of Star Confabulation" lowid="245856" highid="245856" ql="250" droprate="?" />
+<item name="Moon Watcher Helmet" lowid="245859" highid="245859" ql="250" droprate="?" />
+<item name="Overcoat of the Firmament" lowid="260684" highid="260684" ql="250" droprate="?" />
+<item name="Shoulderpads of Asteroid Calling" lowid="260685" highid="260685" ql="250" droprate="?" />
+<item name="Vest of Torpid Sunrays" lowid="245854" highid="245854" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Best in Brass</name>
+<level>?</level>
+<spawn_time>00:10:00</spawn_time>
+<location>Galway Shire</location>
+<pfid>685</pfid>
+<coords>300x840</coords>
+<pf>RK</pf>
+<item name="Communication Processing Unit ID=BIB" lowid="158230" highid="158230" ql="1" droprate="100" />
+<info></info></mob><mob>
+<name>Bia's favorite</name>
+<level>230</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2730x2720</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Bia'" lowid="242776" highid="242776" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'Bia'" lowid="234208" highid="234208" ql="255" droprate="?" />
+<item name="Chi Pattern of 'Bia'" lowid="234209" highid="234209" ql="255" droprate="?" />
+<item name="Dom Pattern of 'Bia'" lowid="234210" highid="234210" ql="255" droprate="?" />
+<info></info></mob><mob>
+<name>Bigot Helozabasael</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Burning Marshes, Inferno</location>
+<pfid>4005</pfid>
+<coords>1482x2271</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Exsequiae'" lowid="242817" highid="242817" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Exsequiae'" lowid="239681" highid="239681" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Exsequiae'" lowid="239682" highid="239682" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Exsequiae'" lowid="239683" highid="239683" ql="220" droprate="?" />
+<item name="Bigot's Armband of Sacrifice" lowid="245773" highid="245773" ql="250" droprate="?" />
+<item name="Bigot's Earring of Sacrifice" lowid="245780" highid="245780" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Cancer</name>
+<level>250</level>
+<spawn_time>06:00:00</spawn_time>
+<location>Pandemonium</location>
+<pfid>NA</pfid>
+<coords>?</coords>
+<pf>SL</pf>
+<item name="Cancer's Gloves of Automatic Knowledge" lowid="244559" highid="244559" ql="250" droprate="?" />
+<item name="Cancer's Ring of Circumspection" lowid="244560" highid="244560" ql="250" droprate="?" />
+<item name="Cancer's Silver Boots of the Autodidact" lowid="244543" highid="244543" ql="250" droprate="?" />
+<item name="Cancer's Time-Saving Memory" lowid="244558" highid="244558" ql="250" droprate="?" />
+<info>Zodiac</info></mob><mob>
+<name>Capricorn</name>
+<level>250</level>
+<spawn_time>06:00:00</spawn_time>
+<location>Pandemonium</location>
+<pfid>NA</pfid>
+<coords>?</coords>
+<pf>SL</pf>
+<item name="Capricorn Bracer of Toxication" lowid="244564" highid="244564" ql="250" droprate="?" />
+<item name="Capricorn's Guide to Alchemy" lowid="244563" highid="244563" ql="250" droprate="?" />
+<item name="Capricorn's Reliable Memory" lowid="244561" highid="244561" ql="250" droprate="?" />
+<item name="Gloves of the Caring Capricorn" lowid="244562" highid="244562" ql="250" droprate="?" />
+<info>Zodiac</info></mob><mob>
+<name>Cerubin the Rejected</name>
+<level>150</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Crypt of Home, Broken Shores</location>
+<pfid>665</pfid>
+<coords>355x2215</coords>
+<pf>RK</pf>
+<item name="Focus-Funneling Device" lowid="246206" highid="246206" ql="100" droprate="?" />
+<item name="Spirit Tech Circlet of Cerubin" lowid="245139" highid="245139" ql="100" droprate="?" />
+<item name="Shapeshifter's Vest" lowid="246222" highid="246222" ql="100" droprate="?" />
+<item name="Gamboling Master's Wear" lowid="246216" highid="246216" ql="100" droprate="?" />
+<item name="Jagged Claw" lowid="245271" highid="245272" ql="174" droprate="?" />
+<item name="Jagged Claw" lowid="245273" highid="245273" ql="175" droprate="?" />
+<item name="Grasping Ring" lowid="246833" highid="246833" ql="1" droprate="?" />
+<item name="Intimate Tentacle Things" lowid="246829" highid="246829" ql="1" droprate="?" />
+<item name="Tentacle Tape" lowid="246831" highid="246831" ql="1" droprate="?" />
+<item name="Tentacle Thongs" lowid="246830" highid="246830" ql="1" droprate="?" />
+<item name="Tentacle Threads" lowid="246832" highid="246832" ql="1" droprate="?" />
+<item name="Neck Eye" lowid="246834" highid="246834" ql="1" droprate="?" />
+<info>The loot table also show the drops from his tentacles.</info></mob><mob>
+<name>Chimera Trainer</name>
+<level>230</level>
+<spawn_time>?</spawn_time>
+<location>Burning Marshes, Inferno</location>
+<pfid>4005</pfid>
+<coords>1400x600</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'The Indomitable Chimera'" lowid="242783" highid="242783" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'The Indomitable Chimera'" lowid="234273" highid="234273" ql="220" droprate="?" />
+<item name="Chi Pattern of 'The Indomitable Chimera'" lowid="234274" highid="234274" ql="220" droprate="?" />
+<item name="Dom Pattern of 'The Indomitable Chimera'" lowid="234275" highid="234275" ql="220" droprate="?" />
+<item name="Shroud of Darkest Night" lowid="260682" highid="260682" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Clan Modified A-4000</name>
+<level>?</level>
+<spawn_time>18:00:00</spawn_time>
+<location>Avalon</location>
+<pfid>505</pfid>
+<coords>1105x2520</coords>
+<pf>RK</pf>
+<item name="Modified A-4000 NCU Sheet" lowid="152270" highid="152271" ql="200" droprate="?" />
+<item name="Modified A-4000 Sensory Panel" lowid="152715" highid="152715" ql="190" droprate="?" />
+<info></info></mob><mob>
+<name>Clan Modified A-4001</name>
+<level>?</level>
+<spawn_time>?</spawn_time>
+<location>Wailing Wastes</location>
+<pfid>551</pfid>
+<coords>2900x3525</coords>
+<pf>RK</pf>
+<item name="Modified A-4000 NCU Sheet" lowid="152270" highid="152271" ql="200" droprate="?" />
+<item name="Modified A-4000 Sensory Panel" lowid="152715" highid="152715" ql="190" droprate="?" />
+<info></info></mob><mob>
+<name>Clawfinger Forefather</name>
+<level>?</level>
+<spawn_time>00:25:00</spawn_time>
+<location>Smuggler's Den, Southern Fouls Hills</location>
+<pfid>615</pfid>
+<coords>1755x872</coords>
+<pf>RK</pf>
+<item name="Fleshchopper" lowid="158912" highid="158912" ql="1" droprate="?" />
+<item name="Notum Focus" lowid="158914" highid="158914" ql="1" droprate="?" />
+<item name="Spirit Focus" lowid="158915" highid="158915" ql="1" droprate="?" />
+<item name="Toothpicker" lowid="158913" highid="158913" ql="1" droprate="?" />
+<info></info></mob><mob>
+<name>Colonel Frank Kaehler</name>
+<level>200</level>
+<spawn_time>18:00:00</spawn_time>
+<location>Omni Forest</location>
+<pfid>716</pfid>
+<coords>700x2000</coords>
+<pf>RK</pf>
+<item name="Kaehler Uniform Sleeves" lowid="152711" highid="152711" ql="200" droprate="30" />
+<item name="Mendix Biomech AR-2a" lowid="150956" highid="150956" ql="200" droprate="?" />
+<info></info></mob><mob>
+<name>Commander Jocasta</name>
+<level>?</level>
+<spawn_time>?</spawn_time>
+<location>Cyborg Barracks, Greater Tir County</location>
+<pfid>647</pfid>
+<coords>3232x2340</coords>
+<pf>RK</pf>
+<item name="Sub-Dermal Vengeance Screen (Left Wrist)" lowid="154406" highid="154406" ql="85" droprate="?" />
+<item name="Sub-Dermal Vengeance Screen (Right Wrist)" lowid="154407" highid="154407" ql="85" droprate="?" />
+<item name="Immortal Katana" lowid="154505" highid="154505" ql="200" droprate="?" />
+<item name="Bonehammer" lowid="153975" highid="153975" ql="90" droprate="?" />
+<info></info></mob><mob>
+<name>Commander Kelly Frederickson</name>
+<level>200</level>
+<spawn_time>18:00:00</spawn_time>
+<location>Tir County</location>
+<pfid>646</pfid>
+<coords>1750x1100</coords>
+<pf>RK</pf>
+<item name="Frederickson Cumulus model II" lowid="150959" highid="150959" ql="200" droprate="?" />
+<item name="Frederickson Micro-Kinetic Sleeves" lowid="152710" highid="152710" ql="200" droprate="50" />
+<item name="Frederickson's Kinetic Sleeves" lowid="207116" highid="207116" ql="200" droprate="50" />
+<info>50% chance of drop (either Kinetic or Micro-Kinetic Sleeves).</info></mob><mob>
+<name>Crete</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3100x2900</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Pazuzu'" lowid="242780" highid="242780" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Pazuzu'" lowid="234244" highid="234244" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Pazuzu'" lowid="234245" highid="234245" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Pazuzu'" lowid="234246" highid="234246" ql="220" droprate="?" />
+<item name="Head Symbiant of the Love Child" lowid="245895" highid="245895" ql="250" droprate="?" />
+<item name="Syndicate Messenger Gun" lowid="245798" highid="245798" ql="259" droprate="?" />
+<item name="Conflagrant Syndicate Messenger Gun" lowid="245799" highid="245799" ql="260" droprate="?" />
+<item name="Grail of the White Feather" lowid="245998" highid="245998" ql="241" droprate="?" />
+<item name="Grail of Speaking Birds" lowid="246000" highid="246000" ql="243" droprate="?" />
+<item name="Grail of Golden Acorns" lowid="246002" highid="246002" ql="245" droprate="?" />
+<item name="Grail of the Antlered King" lowid="246004" highid="246004" ql="247" droprate="?" />
+<item name="Grail of Snake Secrets" lowid="246006" highid="246006" ql="249" droprate="?" />
+<item name="Grail of the Crystal Key" lowid="246008" highid="246008" ql="251" droprate="?" />
+<item name="Grail of the High Tower" lowid="246010" highid="246010" ql="253" droprate="?" />
+<item name="Grail of Mortal Combat" lowid="246012" highid="246012" ql="255" droprate="?" />
+<item name="Grail of the Black Cauldron" lowid="246013" highid="246014" ql="259" droprate="?" />
+<item name="Grail of the Virgin" lowid="246015" highid="246015" ql="260" droprate="?" />
+<info></info></mob><mob>
+<name>Cuty</name>
+<level>?</level>
+<spawn_time>instant</spawn_time>
+<location>Crater Farm Region, Tir County</location>
+<pfid>646</pfid>
+<coords>1500x600</coords>
+<pf>RK</pf>
+<item name="Candy Cord" lowid="151746" highid="151746" ql="200" droprate="100" />
+<info>Candy Cord drops with stats from +3 to +4.</info></mob><mob>
+<name>Daria Marie Walzer</name>
+<level>?</level>
+<spawn_time>18:00:00</spawn_time>
+<location>Lush Fields</location>
+<pfid>695</pfid>
+<coords>1782x2062</coords>
+<pf>RK</pf>
+<item name="Kevlar Armbands" lowid="152537" highid="152537" ql="150" droprate="?" />
+<item name="The Third Eye of Daria" lowid="152218" highid="152173" ql="200" droprate="5" />
+<item name="Very Very Very Cool Top" lowid="152704" highid="152704" ql="150" droprate="?" />
+<item name="Very Very Very Hot Pants" lowid="152543" highid="152543" ql="150" droprate="?" />
+<info></info></mob><mob>
+<name>Diamondline Soldier</name>
+<level>260-280</level>
+<spawn_time>PH</spawn_time>
+<location>Eastern Fouls Plains</location>
+<pfid>620</pfid>
+<coords>1925x1450</coords>
+<pf>RK</pf>
+<item name="Diamondine Kick Pistol" lowid="165168" highid="165168" ql="200" droprate="?" />
+<item name="Diamond-Matrix Mesh" lowid="202266" highid="202266" ql="200" droprate="?" />
+<item name="Titan Viper Tattoo" lowid="165202" highid="165202" ql="200" droprate="?" />
+<info>Spawned by PH</info></mob><mob>
+<name>Diamondine Trainee</name>
+<level>230-250</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Eastern Fouls Plains</location>
+<pfid>620</pfid>
+<coords>1925x1450</coords>
+<pf>RK</pf>
+<item name="Diamondine Kick Pistol" lowid="165168" highid="165168" ql="200" droprate="?" />
+<item name="Diamond-Matrix Mesh" lowid="202266" highid="202266" ql="200" droprate="?" />
+<info>PH for Diamondine Soldier</info></mob><mob>
+<name>Ding</name>
+<level>?</level>
+<spawn_time>instant</spawn_time>
+<location>Inquisitive Wasp, Tir County</location>
+<pfid>646</pfid>
+<coords>3300x600</coords>
+<pf>RK</pf>
+<item name="Counterfeit Omni Epaulet" lowid="152413" highid="152414" ql="200" droprate="100" />
+<info>Counterfeit Omni Epaulet drops with stats ranging from +5 to +8</info></mob><mob>
+<name>Distracted Snake Tamer</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3600x1900</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Fester Leila'" lowid="242769" highid="242769" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Fester Leila'" lowid="234145" highid="234145" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Fester Leila'" lowid="234146" highid="234146" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Fester Leila'" lowid="234147" highid="234147" ql="220" droprate="?" />
+<item name="Snake Tamer Shield" lowid="246022" highid="246022" ql="259" droprate="?" />
+<item name="Finely Refined Notum" lowid="227643" highid="227643" ql="220" droprate="?" />
+<info></info></mob><mob>
+<name>Dominus Facus the Bloodless</name>
+<level>235</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Inner Sanctum</location>
+<pfid>NA</pfid>
+<coords>varies</coords>
+<pf>RK</pf>
+<item name="Bloodseal of the Infernal Tyrant" lowid="206196" highid="206196" ql="1" droprate="?" />
+<item name="Mnemonic Fragment" lowid="206018" highid="206018" ql="1" droprate="?" />
+<item name="Might of the Revenant" lowid="206013" highid="206013" ql="1" droprate="?" />
+<info></info></mob><mob>
+<name>Dominus Jiannu</name>
+<level>235</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Inner Sanctum</location>
+<pfid>NA</pfid>
+<coords>varies</coords>
+<pf>RK</pf>
+<item name="Mnemonic Fragment" lowid="206018" highid="206018" ql="1" droprate="?" />
+<item name="Might of the Revenant" lowid="206013" highid="206013" ql="1" droprate="?" />
+<item name="Abaddon Upgrade: Essence" lowid="206156" highid="206156" ql="1" droprate="?" />
+<item name="Abaddon Upgrade: Skill" lowid="206155" highid="206155" ql="1" droprate="?" />
+<item name="Constrained Gridspace Waveform" lowid="206068" highid="206068" ql="1" droprate="?" />
+<info></info></mob><mob>
+<name>Dominus Ummoh the Pedagogue</name>
+<level>235</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Inner Sanctum</location>
+<pfid>NA</pfid>
+<coords>varies</coords>
+<pf>RK</pf>
+<item name="Skull of Misery" lowid="206059" highid="206059" ql="1" droprate="?" />
+<item name="Skull of Despair" lowid="206060" highid="206060" ql="1" droprate="?" />
+<item name="Charred Abaddon Chassis" lowid="206136" highid="206136" ql="1" droprate="?" />
+<item name="Abaddon Upgrade: Defense (green)" lowid="206153" highid="206153" ql="1" droprate="?" />
+<item name="Abaddon Upgrade: Nano (green)" lowid="206154" highid="206154" ql="1" droprate="?" />
+<item name="Abaddon Upgrade: Life (blue)" lowid="206151" highid="206151" ql="1" droprate="?" />
+<item name="Abaddon Upgrade: Offense (blue)" lowid="206152" highid="206152" ql="1" droprate="?" />
+<item name="Mnemonic Fragment" lowid="206018" highid="206018" ql="1" droprate="?" />
+<item name="Corrupted Flesh" lowid="206015" highid="206015" ql="1" droprate="?" />
+<item name="Teachings of the Immortal One" lowid="206242" highid="206242" ql="1" droprate="?" />
+<item name="Third Circle of the Inner Sanctum (MC/ST)" lowid="206237" highid="206237" ql="1" droprate="?" />
+<item name="Third Circle of the Inner Sanctum (BM/MM)" lowid="206238" highid="206238" ql="1" droprate="?" />
+<item name="Third Circle of the Inner Sanctum (PM/SI)" lowid="206237" highid="206237" ql="1" droprate="?" />
+<item name="The Primeval Skull" lowid="206246" highid="206246" ql="1" droprate="?" />
+<info></info></mob><mob>
+<name>Electro Unique</name>
+<level>?</level>
+<spawn_time>00:10:00</spawn_time>
+<location>Wailing Wastes</location>
+<pfid>551</pfid>
+<coords>650x2000</coords>
+<pf>RK</pf>
+<item name="Communication Processing Unit ID=EU" lowid="158226" highid="158226" ql="1" droprate="100" />
+<info></info></mob><mob>
+<name>Elian Zuwadza</name>
+<level>?</level>
+<spawn_time>18:00:00</spawn_time>
+<location>Galway Shire</location>
+<pfid>687</pfid>
+<coords>450x1300</coords>
+<pf>RK</pf>
+<item name="Blackshirt of Zuwadza" lowid="152712" highid="152712" ql="110" droprate="?" />
+<item name="Flamethrower of Zuwadza" lowid="152044" highid="152044" ql="200" droprate="?" />
+<item name="Stinging Snake Tattoo" lowid="152538" highid="152538" ql="110" droprate="?" />
+<info></info></mob><mob>
+<name>Eradicator Deimos</name>
+<level>?</level>
+<spawn_time>?</spawn_time>
+<location>Cyborg Barracks, Greater Tir County</location>
+<pfid>647</pfid>
+<coords>3232x2340</coords>
+<pf>RK</pf>
+<item name="Bastion of Deimos" lowid="153982" highid="153982" ql="78" droprate="?" />
+<item name="Deimos' Bio-Enhanced Feedback Rifle" lowid="153981" highid="153981" ql="78" droprate="?" />
+<info></info></mob><mob>
+<name>Escaped Gargantula</name>
+<level>100</level>
+<spawn_time>18:00:00</spawn_time>
+<location>Galway County</location>
+<pfid>685</pfid>
+<coords>2160x1150</coords>
+<pf>RK</pf>
+<item name="Gift of the Old Gargantula" lowid="152259" highid="152260" ql="200" droprate="?" />
+<info></info></mob><mob>
+<name>Estella Fire</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3551x2029</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Fester Leila'" lowid="242769" highid="242769" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Fester Leila'" lowid="234145" highid="234145" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Fester Leila'" lowid="234146" highid="234146" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Fester Leila'" lowid="234147" highid="234147" ql="220" droprate="?" />
+<item name="Spirit Tech Toolbox" lowid="246059" highid="246060" ql="259" droprate="?" />
+<item name="Advanced Spirit Tech Toolbox" lowid="246061" highid="246061" ql="260" droprate="?" />
+<info></info></mob><mob>
+<name>Eumenides</name>
+<level>?</level>
+<spawn_time>?</spawn_time>
+<location>Condemned Subway</location>
+<pfid>NA</pfid>
+<coords>varies</coords>
+<pf>RK</pf>
+<item name="Ring of the Nucleus Basalis" lowid="202717" highid="202718" ql="200" droprate="?" />
+<info></info></mob><mob>
+<name>Fiery Soldier</name>
+<level>260-280</level>
+<spawn_time>PH</spawn_time>
+<location>Eastern Fouls Plains</location>
+<pfid>620</pfid>
+<coords>365x2060</coords>
+<pf>RK</pf>
+<item name="Beeping Backpack" lowid="165201" highid="165201" ql="200" droprate="?" />
+<item name="Master of Combustion" lowid="165200" highid="165200" ql="200" droprate="?" />
+<info>Spawned by PH</info></mob><mob>
+<name>Galvano</name>
+<level>?</level>
+<spawn_time>00:10:00</spawn_time>
+<location>Greater Omni Forest</location>
+<pfid>417</pfid>
+<coords>2080x2180</coords>
+<pf>RK</pf>
+<item name="Communication Processing Unit ID=GV" lowid="158228" highid="158228" ql="1" droprate="100" />
+<info></info></mob><mob>
+<name>Gemini</name>
+<level>250</level>
+<spawn_time>06:00:00</spawn_time>
+<location>Pandemonium</location>
+<pfid>NA</pfid>
+<coords>?</coords>
+<pf>SL</pf>
+<item name="Collector Pants of Gemini" lowid="244566" highid="244566" ql="250" droprate="?" />
+<item name="Cross-Dimensional Gyro of Gemini" lowid="244567" highid="244567" ql="250" droprate="?" />
+<item name="Gemini's Double Band of Linked Information" lowid="244572" highid="244572" ql="250" droprate="?" />
+<item name="Gemini's Green Scope of Variety" lowid="244565" highid="244565" ql="250" droprate="?" />
+<info>Zodiac</info></mob><mob>
+<name>General Kaehler Jr</name>
+<level>300</level>
+<spawn_time>03:00:00</spawn_time>
+<location>Avalon</location>
+<pfid>505</pfid>
+<coords>780x1633</coords>
+<pf>RK</pf>
+<item name="DNA-Locked Omni-Armed Forces Boots" lowid="205831" highid="205831" ql="200" droprate="?" />
+<item name="DNA-Locked Omni-Armed Forces Gloves" lowid="205830" highid="205830" ql="200" droprate="?" />
+<item name="DNA-Locked Omni-Armed Forces Pants" lowid="205828" highid="205828" ql="200" droprate="?" />
+<item name="DNA-Locked Omni-Armed Forces Sleeves" lowid="205829" highid="205829" ql="200" droprate="?" />
+<item name="Head of General Kaehler" lowid="202272" highid="202272" ql="1" droprate="100" />
+<item name="Longshot" lowid="203574" highid="203574" ql="200" droprate="?" />
+<info></info></mob><mob>
+<name>General Kronilis</name>
+<level>?</level>
+<spawn_time>PH</spawn_time>
+<location>Perpetual Wastelands</location>
+<pfid>570</pfid>
+<coords>2000x2500</coords>
+<pf>RK</pf>
+<item name="Dustbrigade Commander Boots" lowid="165458" highid="165458" ql="200" droprate="?" />
+<item name="Dustbrigade Commander Chestpiece" lowid="165457" highid="165457" ql="200" droprate="?" />
+<item name="Dustbrigade Commander Gloves" lowid="165459" highid="165459" ql="200" droprate="?" />
+<item name="Dustbrigade Commander Skirt" lowid="165460" highid="165460" ql="200" droprate="?" />
+<item name="Dustbrigade Commander Sleeves" lowid="165456" highid="165456" ql="200" droprate="?" />
+<item name="Dustbrigade Trooper Boots" lowid="165463" highid="165463" ql="200" droprate="?" />
+<item name="Dustbrigade Trooper Chestpiece" lowid="165462" highid="165462" ql="200" droprate="?" />
+<item name="Dustbrigade Trooper Gloves" lowid="165464" highid="165464" ql="200" droprate="?" />
+<item name="Dustbrigade Trooper Pants" lowid="165465" highid="165465" ql="200" droprate="?" />
+<item name="Dustbrigade Trooper Sleeves" lowid="165461" highid="165461" ql="200" droprate="?" />
+<item name="Exceptional Mother Nitrogena" lowid="156719" highid="156719" ql="200" droprate="?" />
+<item name="Safeguarded NCU Memory" lowid="168838" highid="168838" ql="200" droprate="?" />
+<item name="Specialized Dustbrigade Vambrace - Atrox Breed" lowid="168881" highid="168881" ql="200" droprate="?" />
+<item name="Specialized Dustbrigade Vambrace - Nano Breed" lowid="168882" highid="168882" ql="200" droprate="?" />
+<item name="Specialized Dustbrigade Vambrace - Opifex Breed" lowid="168880" highid="168880" ql="200" droprate="?" />
+<info>Spawned by PH</info></mob><mob>
+<name>General Nirtox</name>
+<level>?</level>
+<spawn_time>PH</spawn_time>
+<location>Perpetual Wastelands</location>
+<pfid>570</pfid>
+<coords>3333x2222</coords>
+<pf>RK</pf>
+<item name="Dust Collector" lowid="200461" highid="200461" ql="200" droprate="?" />
+<item name="Mapmaker Boots" lowid="200465" highid="200465" ql="200" droprate="?" />
+<item name="Pants of Participation" lowid="200463" highid="200463" ql="200" droprate="?" />
+<item name="Safeguarded NCU Memory" lowid="168838" highid="168838" ql="200" droprate="?" />
+<item name="Threatening Trousers" lowid="200464" highid="200464" ql="200" droprate="?" />
+<info>Spawned by PH</info></mob><mob>
+<name>General Serverus</name>
+<level>?</level>
+<spawn_time>?</spawn_time>
+<location>Cyborg Barracks, Greater Tir County</location>
+<pfid>647</pfid>
+<coords>3232x2340</coords>
+<pf>RK</pf>
+<item name="Severus' Fusion Sprayer" lowid="153979" highid="153979" ql="83" droprate="?" />
+<item name="Severus' Void Spinner" lowid="153980" highid="153980" ql="83" droprate="?" />
+<info></info></mob><mob>
+<name>General Vivyan</name>
+<level>?</level>
+<spawn_time>PH</spawn_time>
+<location>Perpetual Wastelands</location>
+<pfid>570</pfid>
+<coords>2120x1760</coords>
+<pf>RK</pf>
+<item name="Dust Collector" lowid="200461" highid="200461" ql="200" droprate="?" />
+<item name="Safeguarded NCU Memory" lowid="168838" highid="168838" ql="200" droprate="?" />
+<item name="Sleek Gauntlets of Slashing" lowid="200466" highid="200466" ql="200" droprate="?" />
+<item name="Sleek Gauntlets of Crushing" lowid="200467" highid="200467" ql="200" droprate="?" />
+<item name="Sleek Gauntlets of Thrusting" lowid="200468" highid="200468" ql="200" droprate="?" />
+<item name="Sleek Gauntlets of Technique" lowid="200469" highid="200469" ql="200" droprate="?" />
+<info>Spawned by PH</info></mob><mob>
+<name>George</name>
+<level>?</level>
+<spawn_time>instant</spawn_time>
+<location>Greater Tir County</location>
+<pfid>647</pfid>
+<coords>3200x2300</coords>
+<pf>RK</pf>
+<item name="Standard Medical Epaulet" lowid="152278" highid="152410" ql="200" droprate="100" />
+<info>Standard Medical Epaulet drops with stats ranging from +5 to +8</info></mob><mob>
+<name>Greasy Joints</name>
+<level>?</level>
+<spawn_time>00:10:00</spawn_time>
+<location>Newland Desert</location>
+<pfid>565</pfid>
+<coords>900x900</coords>
+<pf>RK</pf>
+<item name="Communication Processing Unit ID=GJ" lowid="158228" highid="158228" ql="1" droprate="100" />
+<info></info></mob><mob>
+<name>Hebiel</name>
+<level>?</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2713x2240</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Agent of Putrefaction'" lowid="242767" highid="242767" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'Agent of Putrefaction'" lowid="234127" highid="234127" ql="255" droprate="?" />
+<item name="Chi Pattern of 'Agent of Putrefaction'" lowid="234128" highid="234128" ql="255" droprate="?" />
+<item name="Dom Pattern of 'Agent of Putrefaction'" lowid="234129" highid="234129" ql="255" droprate="?" />
+<item name="Bellum Badonis Armor Boots" lowid="245866" highid="245866" ql="250" droprate="?" />
+<item name="Bellum Badonis Armor Gloves" lowid="245884" highid="245884" ql="250" droprate="?" />
+<item name="Bellum Badonis Armor Helmet" lowid="245889" highid="245889" ql="250" droprate="?" />
+<item name="Bellum Badonis Armor Sleeves" lowid="245880" highid="245880" ql="250" droprate="?" />
+<item name="Bellum Badonis Body Armor" lowid="245891" highid="245891" ql="250" droprate="?" />
+<item name="Bellum Badonis Coat" lowid="260681" highid="260681" ql="250" droprate="?" />
+<item name="Bellum Badonis Shoulderpads" lowid="260680" highid="260680" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Hezak the Immortal</name>
+<level>245</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Inner Sanctum</location>
+<pfid>NA</pfid>
+<coords>varies</coords>
+<pf>RK</pf>
+<item name="Constrained Gridspace Waveform" lowid="206068" highid="206068" ql="1" droprate="?" />
+<item name="Rod of Dismissal" lowid="206017" highid="206017" ql="1" droprate="?" />
+<item name="Abaddon Upgrade: Essence" lowid="206156" highid="206156" ql="1" droprate="?" />
+<item name="Bloodseal of the Infernal Tyrant" lowid="206196" highid="206196" ql="1" droprate="?" />
+<item name="Third Circle of the Inner Sanctum (MC/ST)" lowid="206237" highid="206237" ql="1" droprate="?" />
+<item name="Third Circle of the Inner Sanctum (BM/MM)" lowid="206238" highid="206238" ql="1" droprate="?" />
+<item name="Third Circle of the Inner Sanctum (PM/SI)" lowid="206237" highid="206237" ql="1" droprate="?" />
+<item name="Charred Abaddon Chassis" lowid="206136" highid="206136" ql="1" droprate="?" />
+<item name="Ichor of the Immortal One" lowid="206067" highid="206067" ql="1" droprate="?" />
+<item name="Abyssal Desecrator" lowid="206058" highid="206058" ql="1" droprate="?" />
+<info></info></mob><mob>
+<name>High Commander Frederickson</name>
+<level>300</level>
+<spawn_time>06:00:00</spawn_time>
+<location>Wailing Wastes</location>
+<pfid>551</pfid>
+<coords>2606x3646</coords>
+<pf>RK</pf>
+<item name="DNA-Locked Superior Sentinel Armor Boots" lowid="205827" highid="205827" ql="200" droprate="?" />
+<item name="DNA-Locked Superior Sentinel Armor Gloves" lowid="205826" highid="205826" ql="200" droprate="?" />
+<item name="DNA-Locked Superior Sentinel Armor Pants" lowid="205825" highid="205825" ql="200" droprate="?" />
+<item name="DNA-Locked Superior Sentinel Armor Sleeves" lowid="205824" highid="205824" ql="200" droprate="?" />
+<item name="High Commander Frederickson's Head" lowid="203275" highid="203275" ql="1" droprate="?" />
+<item name="Longshot" lowid="203574" highid="203574" ql="200" droprate="?" />
+<info></info></mob><mob>
+<name>Ian Warr</name>
+<level>300</level>
+<spawn_time>PH</spawn_time>
+<location>Ace Camp, Eastern Fouls Plains</location>
+<pfid>620</pfid>
+<coords>720x1380</coords>
+<pf>RK</pf>
+<item name="Average Gloves" lowid="165207" highid="165207" ql="100" droprate="?" />
+<item name="Blood Bat" lowid="165130" highid="165130" ql="200" droprate="?" />
+<item name="Blood Mace" lowid="165127" highid="165127" ql="200" droprate="?" />
+<item name="Boots of Azure Reveries" lowid="165305" highid="165305" ql="200" droprate="?" />
+<item name="Breastplate of Azure Reveries" lowid="165304" highid="165304" ql="200" droprate="100" />
+<item name="Flaxen Notum Pants" lowid="165206" highid="165206" ql="200" droprate="?" />
+<item name="Gloves of Azure Reveries" lowid="165306" highid="165306" ql="200" droprate="?" />
+<item name="Helmet of Azure Reveries" lowid="165307" highid="165307" ql="200" droprate="?" />
+<item name="Pants of Azure Reveries" lowid="165308" highid="165308" ql="200" droprate="?" />
+<item name="Pioneer of Jobe Cloak" lowid="165203" highid="165204" ql="200" droprate="?" />
+<item name="Rust-Pitted Ring" lowid="156772" highid="156772" ql="100" droprate="?" />
+<item name="Sleeves of Azure Reveries" lowid="165303" highid="165303" ql="200" droprate="?" />
+<item name="Stone Samurai Boots" lowid="165205" highid="165205" ql="200" droprate="?" />
+<info>Spawned by PH. Drops 1 Breastplate, 1 random piece of Azure Reveries and 1 random item listed</info></mob><mob>
+<name>Inobak the Gelid</name>
+<level>237</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Inner Sanctum</location>
+<pfid>NA</pfid>
+<coords>varies</coords>
+<pf>RK</pf>
+<item name="Gelid Blade of Inobak" lowid="206057" highid="206057" ql="1" droprate="100" />
+<item name="Frost Shard" lowid="206055" highid="206055" ql="1" droprate="?" />
+<item name="Abaddon Upgrade: Essence" lowid="206156" highid="206156" ql="1" droprate="?" />
+<item name="Icebound Heart" lowid="206056" highid="206056" ql="1" droprate="?" />
+<item name="Fist of the Dominator" lowid="206247" highid="206247" ql="1" droprate="?" />
+<item name="The Primeval Skull" lowid="206246" highid="206246" ql="1" droprate="?" />
+<info></info></mob><mob>
+<name>Iron Reet</name>
+<level>?</level>
+<spawn_time>18:00:00</spawn_time>
+<location>Mutant Domain</location>
+<pfid>696</pfid>
+<coords>857x986</coords>
+<pf>RK</pf>
+<item name="Droid Control-device" lowid="152263" highid="152264" ql="200" droprate="20" />
+<item name="Modified Aggression Enhancer" lowid="151693" highid="151693" ql="200" droprate="80" />
+<info></info></mob><mob>
+<name>Isham</name>
+<level>213-215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2200x1800</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Ats'" lowid="242784" highid="242784" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Ats'" lowid="234282" highid="234282" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Ats'" lowid="234283" highid="234283" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Ats'" lowid="234284" highid="234284" ql="220" droprate="?" />
+<item name="Armplates of Meteorite Assembly" lowid="245855" highid="245855" ql="250" droprate="?" />
+<item name="Boots of Stolen Comet Speed" lowid="245857" highid="245857" ql="250" droprate="?" />
+<item name="Gauntlets of Star Confabulation" lowid="245856" highid="245856" ql="250" droprate="?" />
+<item name="Moon Watcher Helmet" lowid="245859" highid="245859" ql="250" droprate="?" />
+<item name="Overcoat of the Firmament" lowid="260684" highid="260684" ql="250" droprate="?" />
+<item name="Shoulderpads of Asteroid Calling" lowid="260685" highid="260685" ql="250" droprate="?" />
+<item name="Vest of Torpid Sunrays" lowid="245854" highid="245854" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Iskop the Idolator</name>
+<level>235</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Inner Sanctum</location>
+<pfid>NA</pfid>
+<coords>varies</coords>
+<pf>RK</pf>
+<item name="Inner Sanctum Knowledge (bottom half of key)" lowid="206258" highid="206258" ql="1" droprate="?" />
+<item name="Maw of the Abyss" lowid="206049" highid="206049" ql="1" droprate="?" />
+<item name="Jeuru's Oscillating Ligature" lowid="206064" highid="206064" ql="1" droprate="?" />
+<item name="Frost-bound Reaper" lowid="206061" highid="206061" ql="1" droprate="?" />
+<item name="Bloodshed Armband" lowid="206248" highid="206248" ql="1" droprate="?" />
+<item name="Second Circle of the Inner Sanctum (TS/MC)" lowid="206236" highid="206236" ql="1" droprate="?" />
+<item name="Second Circle of the Inner Sanctum (BM/MM)" lowid="206235" highid="206235" ql="1" droprate="?" />
+<item name="Second Circle of the Inner Sanctum (PM/SI)" lowid="206232" highid="206232" ql="1" droprate="?" />
+<item name="Charred Abaddon Chassis" lowid="206136" highid="206136" ql="1" droprate="?" />
+<item name="Ring of Putrescent Flesh" lowid="206202" highid="206202" ql="1" droprate="?" />
+<info></info></mob><mob>
+<name>Jack 'Legchopper' Clone</name>
+<level>150</level>
+<spawn_time>PH</spawn_time>
+<location>Varmint Woods</location>
+<pfid>600</pfid>
+<coords>?</coords>
+<pf>RK</pf>
+<item name="Ambidextrous Plasteel Gloves" lowid="151685" highid="151686" ql="200" droprate="?" />
+<item name="Bloodstained Dog-Tag (Soldier)" lowid="165466" highid="165466" ql="1" droprate="?" />
+<item name="Disposal Unit Electrical Toolset" lowid="164552" highid="164552" ql="100" droprate="?" />
+<item name="DNA Sample (Doctor)" lowid="165470" highid="165470" ql="1" droprate="?" />
+<item name="Glowing Amygdaloid Nucleus (Meta-Phycisist and Nano-Technician)" lowid="165471" highid="165471" ql="1" droprate="?" />
+<item name="Important looking briefcase (Bureaucrat)" lowid="165472" highid="165472" ql="1" droprate="?" />
+<item name="Jack's Head (Adventurer, Fixer and Trader)" lowid="165469" highid="165469" ql="1" droprate="?" />
+<item name="Proof of what happened to Joslyn (Agent)" lowid="165474" highid="165474" ql="1" droprate="?" />
+<item name="Remains of a long lost pet (Engineer)" lowid="165473" highid="165473" ql="1" droprate="?" />
+<item name="Severed leg of the Grand Master (Martial Artist)" lowid="165467" highid="165467" ql="1" droprate="?" />
+<item name="Silken Legchopper Gloves" lowid="152544" highid="152544" ql="160" droprate="30" />
+<item name="Supporting Carbonan Holster" lowid="151715" highid="151715" ql="200" droprate="30" />
+<item name="This Axe Belongs to Jack" lowid="150808" highid="150808" ql="199" droprate="?" />
+<item name="Jack's Reinforced Gloves (Enforcer)" lowid="165468" highid="165468" ql="1" droprate="?" />
+<info>Spawned by PH</info></mob><mob>
+<name>Jack 'Legchopper' Menendez</name>
+<level>150</level>
+<spawn_time>18:00:00</spawn_time>
+<location>Varmint Woods</location>
+<pfid>600</pfid>
+<coords>3200x1400</coords>
+<pf>RK</pf>
+<item name="Ambidextrous Plasteel Gloves" lowid="151685" highid="151686" ql="200" droprate="?" />
+<item name="Disposal Unit Electrical Toolset" lowid="164552" highid="164552" ql="100" droprate="?" />
+<item name="Silken Legchopper Gloves" lowid="152544" highid="152544" ql="160" droprate="30" />
+<item name="Supporting Carbonan Holster" lowid="151715" highid="151715" ql="200" droprate="30" />
+<item name="This Axe Belongs to Jack" lowid="150808" highid="150808" ql="199" droprate="?" />
+<info></info></mob><mob>
+<name>Jeuru the Defiler</name>
+<level>235</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Inner Sanctum</location>
+<pfid>NA</pfid>
+<coords>varies</coords>
+<pf>RK</pf>
+<item name="Inner Sanctum Knowledge (top half of key)" lowid="206257" highid="206257" ql="1" droprate="100" />
+<item name="Maw of the Abyss" lowid="206049" highid="206049" ql="1" droprate="?" />
+<item name="Jeuru's Oscillating Ligature" lowid="206064" highid="206064" ql="1" droprate="?" />
+<item name="Frost-bound Reaper" lowid="206061" highid="206061" ql="1" droprate="?" />
+<item name="Bloodshed Armband" lowid="206248" highid="206248" ql="1" droprate="?" />
+<item name="Second Circle of the Inner Sanctum (TS/MC)" lowid="206236" highid="206236" ql="1" droprate="?" />
+<item name="Second Circle of the Inner Sanctum (BM/MM)" lowid="206235" highid="206235" ql="1" droprate="?" />
+<item name="Second Circle of the Inner Sanctum (PM/SI)" lowid="206232" highid="206232" ql="1" droprate="?" />
+<item name="Charred Abaddon Chassis" lowid="206136" highid="206136" ql="1" droprate="?" />
+<info></info></mob><mob>
+<name>Joo</name>
+<level>?</level>
+<spawn_time>instant</spawn_time>
+<location>Sunken Swamps, Omni-Forest</location>
+<pfid>716</pfid>
+<coords>800x2400</coords>
+<pf>RK</pf>
+<item name="White Sack" lowid="152793" highid="152793" ql="5" droprate="100" />
+<info></info></mob><mob>
+<name>Lab Director</name>
+<level>100</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Foremans, The Longest Road</location>
+<pfid>795</pfid>
+<coords>2000x800</coords>
+<pf>RK</pf>
+<item name="Customized IMI Desert Reet 1000" lowid="156771" highid="156771" ql="80" droprate="?" />
+<item name="Sealed Order BLCG-7791 (Standard Clans Administration Suit)" lowid="156330" highid="156330" ql="80" droprate="?" />
+<item name="Sealed Order FPGA-202 (Bowtie)" lowid="156332" highid="156332" ql="80" droprate="?" />
+<item name="Sealed Order XITL-0127 (OT Standard Executive Secretary Suit)" lowid="156328" highid="156328" ql="80" droprate="?" />
+<info>20% chance of spawn every 20min</info></mob><mob>
+<name>Leo</name>
+<level>250</level>
+<spawn_time>06:00:00</spawn_time>
+<location>Pandemonium</location>
+<pfid>NA</pfid>
+<coords>?</coords>
+<pf>SL</pf>
+<item name="Enthusiastic Spirit Helper of the Leo" lowid="244575" highid="244575" ql="250" droprate="?" />
+<item name="Leo's Faithful Boots of Ancient Gold" lowid="244574" highid="244574" ql="250" droprate="?" />
+<item name="Leo's Grandiose Gold Armband of Plenty" lowid="244573" highid="244573" ql="250" droprate="?" />
+<item name="Leo's Mellow Gold Pad of Auto-Support" lowid="244578" highid="244578" ql="250" droprate="?" />
+<info>Zodiac</info></mob><mob>
+<name>Libra</name>
+<level>250</level>
+<spawn_time>06:00:00</spawn_time>
+<location>Pandemonium</location>
+<pfid>NA</pfid>
+<coords>?</coords>
+<pf>SL</pf>
+<item name="Aim of Libra" lowid="244637" highid="244637" ql="250" droprate="?" />
+<item name="Libra's Charming Assistant" lowid="244635" highid="244635" ql="250" droprate="?" />
+<item name="Urbane Pants of Libra" lowid="244581" highid="244581" ql="250" droprate="?" />
+<item name="Well Balanced Spirit Helper of Libra" lowid="244579" highid="244579" ql="250" droprate="?" />
+<info>Zodiac</info></mob><mob>
+<name>Limnos</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3100x2900</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Pazuzu'" lowid="242780" highid="242780" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Pazuzu'" lowid="234244" highid="234244" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Pazuzu'" lowid="234245" highid="234245" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Pazuzu'" lowid="234246" highid="234246" ql="220" droprate="?" />
+<item name="Mystical Green Hood" lowid="246083" highid="246083" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Live Metal</name>
+<level>?</level>
+<spawn_time>00:10:00</spawn_time>
+<location>Greater Tir</location>
+<pfid>647</pfid>
+<coords>1540x2170</coords>
+<pf>RK</pf>
+<item name="Communication Processing Unit ID=LM" lowid="158229" highid="158229" ql="1" droprate="100" />
+<info></info></mob><mob>
+<name>Ljotur the Lunatic</name>
+<level>?</level>
+<spawn_time>PH</spawn_time>
+<location>Drill Island, Deep Artery Valley</location>
+<pfid>595</pfid>
+<coords>1103x722</coords>
+<pf>RK</pf>
+<item name="Eleet Doll" lowid="204396" highid="202725" ql="100" droprate="?" />
+<item name="Eye of the Hunter" lowid="162399" highid="162400" ql="300" droprate="?" />
+<item name="Ljotur Beets of Clamping" lowid="165362" highid="165362" ql="200" droprate="?" />
+<item name="Ljotur Pants of Cornucopia" lowid="165363" highid="165363" ql="200" droprate="?" />
+<item name="Mirror Mask of Ljotur" lowid="165365" highid="165365" ql="200" droprate="?" />
+<item name="NanoCrystal (Candycane)" lowid="202263" highid="202263" ql="195" droprate="100" />
+<item name="Twelve-Fingered Graspers of Ljotur" lowid="165366" highid="165366" ql="200" droprate="?" />
+<item name="Unbecoming Sleeves of Ljotur" lowid="165361" highid="165361" ql="200" droprate="?" />
+<item name="Upper Part of Ljotur" lowid="165364" highid="165364" ql="200" droprate="?" />
+<info>Spawned by PH</info></mob><mob>
+<name>Lord Ghasap</name>
+<level>?</level>
+<spawn_time>?</spawn_time>
+<location>Camelot, Avalon</location>
+<pfid>505</pfid>
+<coords>2092x3822</coords>
+<pf>RK</pf>
+<item name="Fork of Ghasap" lowid="158403" highid="158403" ql="1" droprate="?" />
+<info></info></mob><mob>
+<name>Mantis Queen</name>
+<level>200</level>
+<spawn_time>01:00:00</spawn_time>
+<location>Smuggler's Den, Southern Fouls Hills</location>
+<pfid>615</pfid>
+<coords>1755x872</coords>
+<pf>RK</pf>
+<item name="Mantis Queen" lowid="157947" highid="157947" ql="190" droprate="100" />
+<item name="Queen Blade" lowid="157761" highid="157761" ql="200" droprate="?" />
+<info></info></mob><mob>
+<name>Marcus Robicheaux, Poet Laureate</name>
+<level>105</level>
+<spawn_time>18:00:00</spawn_time>
+<location>Broken Shores</location>
+<pfid>665</pfid>
+<coords>1500x2900</coords>
+<pf>RK</pf>
+<item name="Poetic Pants" lowid="152542" highid="152542" ql="105" droprate="?" />
+<item name="Poetic Sleeves" lowid="152705" highid="152705" ql="105" droprate="?" />
+<item name="Poetic Stretch-band" lowid="152253" highid="152254" ql="200" droprate="?" />
+<info></info></mob><mob>
+<name>Maychwaham</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2112x2125</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Ushqa'" lowid="242772" highid="242772" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Ushqa'" lowid="234172" highid="234172" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Ushqa'" lowid="234173" highid="234173" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Ushqa'" lowid="234174" highid="234174" ql="220" droprate="?" />
+<item name="Device" lowid="245892" highid="245892" ql="250" droprate="?" />
+<item name="Armplates of Meteorite Assembly" lowid="245855" highid="245855" ql="250" droprate="?" />
+<item name="Boots of Stolen Comet Speed" lowid="245857" highid="245857" ql="250" droprate="?" />
+<item name="Gauntlets of Star Confabulation" lowid="245856" highid="245856" ql="250" droprate="?" />
+<item name="Moon Watcher Helmet" lowid="245859" highid="245859" ql="250" droprate="?" />
+<item name="Overcoat of the Firmament" lowid="260684" highid="260684" ql="250" droprate="?" />
+<item name="Shoulderpads of Asteroid Calling" lowid="260685" highid="260685" ql="250" droprate="?" />
+<item name="Vest of Torpid Sunrays" lowid="245854" highid="245854" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Maychwyawi</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2630x2920</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Lya'" lowid="242777" highid="242777" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Lya'" lowid="234217" highid="234217" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Lya'" lowid="234218" highid="234218" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Lya'" lowid="234219" highid="234219" ql="220" droprate="?" />
+<item name="Armplates of Meteorite Assembly" lowid="245855" highid="245855" ql="250" droprate="?" />
+<item name="Boots of Stolen Comet Speed" lowid="245857" highid="245857" ql="250" droprate="?" />
+<item name="Gauntlets of Star Confabulation" lowid="245856" highid="245856" ql="250" droprate="?" />
+<item name="Moon Watcher Helmet" lowid="245859" highid="245859" ql="250" droprate="?" />
+<item name="Overcoat of the Firmament" lowid="260684" highid="260684" ql="250" droprate="?" />
+<item name="Shoulderpads of Asteroid Calling" lowid="260685" highid="260685" ql="250" droprate="?" />
+<item name="Vest of Torpid Sunrays" lowid="245854" highid="245854" ql="250" droprate="?" />
+<item name="Device" lowid="245892" highid="245892" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Metalomania</name>
+<level>?</level>
+<spawn_time>00:10:00</spawn_time>
+<location>Harry's, Lush Fields</location>
+<pfid>695</pfid>
+<coords>2960x3040</coords>
+<pf>RK</pf>
+<item name="Communication Processing Unit ID=MM" lowid="158231" highid="158231" ql="1" droprate="100" />
+<info></info></mob><mob>
+<name>Mick 'Nugget' McMullet</name>
+<level>?</level>
+<spawn_time>18:00:00</spawn_time>
+<location>Clondyke</location>
+<pfid>670</pfid>
+<coords>1100x3700</coords>
+<pf>RK</pf>
+<item name="Energized Carbonan Oven Mittens" lowid="152533" highid="152533" ql="165" droprate="?" />
+<item name="Shades of Lucubration" lowid="152713" highid="152713" ql="165" droprate="80" />
+<info></info></mob><mob>
+<name>Morgan Le Faye</name>
+<level>200</level>
+<spawn_time>18:00:00</spawn_time>
+<location>Camelot, Avalon</location>
+<pfid>505</pfid>
+<coords>2092x3822</coords>
+<pf>RK</pf>
+<item name="Gutting Hook" lowid="157901" highid="157902" ql="199" droprate="?" />
+<item name="Torturing Tool" lowid="157898" highid="157899" ql="199" droprate="?" />
+<info>Gutting Hook and Torturing Tool are QL 150</info></mob><mob>
+<name>Morty</name>
+<level>?</level>
+<spawn_time>instant</spawn_time>
+<location>Kuroshio Forest, Tir County</location>
+<pfid>646</pfid>
+<coords>300x1200</coords>
+<pf>RK</pf>
+<item name="Whistle-Box" lowid="152415" highid="152416" ql="200" droprate="100" />
+<info>Whistle-Box drops with stats ranging from +1 to +2</info></mob><mob>
+<name>Natsmaahpt</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3057x1349</coords>
+<pf>SL</pf>
+<item name="Armplates of Meteorite Assembly" lowid="245855" highid="245855" ql="250" droprate="?" />
+<item name="Boots of Stolen Comet Speed" lowid="245857" highid="245857" ql="250" droprate="?" />
+<item name="Gauntlets of Star Confabulation" lowid="245856" highid="245856" ql="250" droprate="?" />
+<item name="Moon Watcher Helmet" lowid="245859" highid="245859" ql="250" droprate="?" />
+<item name="Overcoat of the Firmament" lowid="260684" highid="260684" ql="250" droprate="?" />
+<item name="Shoulderpads of Asteroid Calling" lowid="260685" highid="260685" ql="250" droprate="?" />
+<item name="Vest of Torpid Sunrays" lowid="245854" highid="245854" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Neleb the Deranged</name>
+<level>?</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Steps of Madness, Omni Forest</location>
+<pfid>716</pfid>
+<coords>800x2800</coords>
+<pf>RK</pf>
+<item name="Fractured Sanity" lowid="151896" highid="151896" ql="50" droprate="100" />
+<item name="Neleb's Nano-circuit Robe" lowid="151895" highid="151895" ql="50" droprate="100" />
+<item name="Neleb's Notum Battlerod" lowid="152026" highid="152026" ql="53" droprate="?" />
+<info></info></mob><mob>
+<name>Nelly Johnson</name>
+<level>300</level>
+<spawn_time>PH</spawn_time>
+<location>Ace Camp, Eastern Fouls Plains</location>
+<pfid>620</pfid>
+<coords>720x1380</coords>
+<pf>RK</pf>
+<item name="Anything" lowid="165215" highid="165215" ql="200" droprate="?" />
+<item name="Boots of Azure Reveries" lowid="165305" highid="165305" ql="200" droprate="?" />
+<item name="Breastplate of Azure Reveries" lowid="165304" highid="165304" ql="200" droprate="100" />
+<item name="Gloves of Azure Reveries" lowid="165306" highid="165306" ql="200" droprate="?" />
+<item name="Helmet of Azure Reveries" lowid="165307" highid="165307" ql="200" droprate="?" />
+<item name="Nelly Johnsons Little Black Dress" lowid="165214" highid="165214" ql="200" droprate="100" />
+<item name="Pants of Azure Reveries" lowid="165308" highid="165308" ql="200" droprate="?" />
+<item name="Sleeves of Azure Reveries" lowid="165303" highid="165303" ql="200" droprate="?" />
+<info>Spawned by PH</info></mob><mob>
+<name>Notum Soldier</name>
+<level>260-280</level>
+<spawn_time>PH</spawn_time>
+<location>Eastern Fouls Plains</location>
+<pfid>620</pfid>
+<coords>2000x2400</coords>
+<pf>RK</pf>
+<item name="Nophex Plasma Destroyer II" lowid="165140" highid="165140" ql="200" droprate="50" />
+<item name="Notum Infused Kevlar Armor Sleeves" lowid="165145" highid="165146" ql="200" droprate="50" />
+<item name="Notum Infused Kevlar Armor Pants" lowid="165143" highid="165144" ql="200" droprate="50" />
+<item name="Notum Infused Kevlar Armor Gloves" lowid="165147" highid="165148" ql="200" droprate="50" />
+<item name="Notum Infused Kevlar Armor Boots" lowid="165149" highid="165150" ql="200" droprate="50" />
+<item name="Notum Infused Kevlar Body Armor" lowid="165141" highid="165142" ql="200" droprate="50" />
+<item name="Pulsing Notum Disruptor (Augmented Hellfury Assault Cannon)" lowid="202280" highid="202280" ql="200" droprate="100" />
+<item name="Customized IMI Desert Reet 1000" lowid="156771" highid="156771" ql="80" droprate="?" />
+<info>Spawned by PH</info></mob><mob>
+<name>Notum Trainee</name>
+<level>230-260</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Eastern Fouls Plains</location>
+<pfid>620</pfid>
+<coords>2000x2400</coords>
+<pf>RK</pf>
+<item name="Erratic Notum Disruptor (Boosted Hellfury Assault Cannon)" lowid="202281" highid="202281" ql="200" droprate="100" />
+<info>PH for Notum Soldier</info></mob><mob>
+<name>Noxious Eremite</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2639x2185</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'The Mortificator'" lowid="242768" highid="242768" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'The Mortificator'" lowid="234136" highid="234136" ql="255" droprate="?" />
+<item name="Chi Pattern of 'The Mortificator'" lowid="234137" highid="234137" ql="255" droprate="?" />
+<item name="Dom Pattern of 'The Mortificator'" lowid="234138" highid="234138" ql="255" droprate="?" />
+<item name="Shopkeeper's Sharkskin Sleeves" lowid="246091" highid="246091" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Numiel</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2810x2450</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'The Mortificator'" lowid="242768" highid="242768" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'The Mortificator'" lowid="234136" highid="234136" ql="255" droprate="?" />
+<item name="Chi Pattern of 'The Mortificator'" lowid="234137" highid="234137" ql="255" droprate="?" />
+<item name="Dom Pattern of 'The Mortificator'" lowid="234138" highid="234138" ql="255" droprate="?" />
+<item name="Codex Clavis" lowid="246088" highid="246088" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Nuts N Bolts</name>
+<level>?</level>
+<spawn_time>00:10:00</spawn_time>
+<location>Wartorn Valley</location>
+<pfid>586</pfid>
+<coords>700x650</coords>
+<pf>RK</pf>
+<item name="Communication Processing Unit ID=NB" lowid="158227" highid="158227" ql="1" droprate="100" />
+<info></info></mob><mob>
+<name>Nyame's Drudge</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Sorrow, Inferno</location>
+<pfid>4006</pfid>
+<coords>1900x1800</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Nyame'" lowid="242795" highid="242795" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'Nyame'" lowid="239482" highid="239482" ql="255" droprate="?" />
+<item name="Chi Pattern of 'Nyame'" lowid="239483" highid="239483" ql="255" droprate="?" />
+<item name="Dom Pattern of 'Nyame'" lowid="239484" highid="239484" ql="255" droprate="?" />
+<item name="Maiden's Gloves" lowid="246092" highid="246092" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Obediency Inspector</name>
+<level>?</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Eastern Fouls Plains</location>
+<pfid>620</pfid>
+<coords>1250x2800</coords>
+<pf>RK</pf>
+<item name="Fluctuating Anti-Matter Generator (Boosted Hellspinner Shock Cannon)" lowid="201941" highid="201941" ql="200" droprate="100" />
+<info>PH for Obedieny Enforcer</info></mob><mob>
+<name>Omni-Pol Command Juggernaut</name>
+<level>?</level>
+<spawn_time>?</spawn_time>
+<location>?</location>
+<pfid>NA</pfid>
+<coords>?</coords>
+<pf>RK</pf>
+<item name="Flower Guard Gofle Prod" lowid="207861" highid="207862" ql="249" droprate="?" />
+<item name="Flower Guard Triplate Metal Armor Cloak" lowid="207838" highid="207838" ql="200" droprate="?" />
+<item name="Flower Guard Triplate Metal Boots" lowid="207837" highid="207837" ql="200" droprate="?" />
+<item name="Flower Guard Triplate Metal Gauntlets" lowid="207836" highid="207836" ql="1" droprate="?" />
+<item name="Flower Guard Triplate Metal Helmet" lowid="207835" highid="207835" ql="200" droprate="?" />
+<item name="Juggernaut Rear Mitrailleuse" lowid="207252" highid="207252" ql="225" droprate="?" />
+<item name="Juggernaut's Anti-Gravity Unit (Anti-Gravity Unit)" lowid="207249" highid="207249" ql="150" droprate="?" />
+<item name="Standard Juggernaut Nano Containment Module" lowid="207253" highid="207253" ql="220" droprate="?" />
+<info></info></mob><mob>
+<name>Oscar</name>
+<level>?</level>
+<spawn_time>instant</spawn_time>
+<location>Greater Omni-Forest</location>
+<pfid>717</pfid>
+<coords>?</coords>
+<pf>RK</pf>
+<item name="Metallic Hoop" lowid="152796" highid="152797" ql="200" droprate="100" />
+<info></info></mob><mob>
+<name>Ownz</name>
+<level>?</level>
+<spawn_time>instant</spawn_time>
+<location>Crownhead Forest, Tir County</location>
+<pfid>646</pfid>
+<coords>2200x700</coords>
+<pf>RK</pf>
+<item name="Capsule of Thin Blood" lowid="151743" highid="151744" ql="200" droprate="100" />
+<info>Capsule of Thin Blood drops with stats ranging from +2 to +3</info></mob><mob>
+<name>Patricia Johnson</name>
+<level>300</level>
+<spawn_time>PH</spawn_time>
+<location>Ace Camp, Eastern Fouls Plains</location>
+<pfid>620</pfid>
+<coords>720x1380</coords>
+<pf>RK</pf>
+<item name="Boots of Azure Reveries" lowid="165305" highid="165305" ql="200" droprate="?" />
+<item name="Breastplate of Azure Reveries" lowid="165304" highid="165304" ql="200" droprate="100" />
+<item name="Gloves of Azure Reveries" lowid="165306" highid="165306" ql="200" droprate="?" />
+<item name="Helmet of Azure Reveries" lowid="165307" highid="165307" ql="200" droprate="?" />
+<item name="Luxurious Rubber Pants" lowid="168670" highid="168670" ql="200" droprate="?" />
+<item name="Luxurious Rubber Shirt" lowid="168672" highid="168672" ql="200" droprate="?" />
+<item name="Luxurious Rubber Sleeves" lowid="168671" highid="168671" ql="200" droprate="?" />
+<item name="Pain of Patricia" lowid="168675" highid="168675" ql="200" droprate="?" />
+<item name="Pants of Azure Reveries" lowid="165308" highid="165308" ql="200" droprate="?" />
+<item name="Reign of Patricia" lowid="212995" highid="212995" ql="200" droprate="?" />
+<item name="Sleeves of Azure Reveries" lowid="165303" highid="165303" ql="200" droprate="?" />
+<info>Approx 70% chance of dropping a piece of Azure - Spawned by PH</info></mob><mob>
+<name>Peter Lee</name>
+<level>300</level>
+<spawn_time>PH</spawn_time>
+<location>Ace Camp, Eastern Fouls Plains</location>
+<pfid>620</pfid>
+<coords>720x1380</coords>
+<pf>RK</pf>
+<item name="Boots of Azure Reveries" lowid="165305" highid="165305" ql="200" droprate="?" />
+<item name="Breastplate of Azure Reveries" lowid="165304" highid="165304" ql="200" droprate="100" />
+<item name="Gloves of Azure Reveries" lowid="165306" highid="165306" ql="200" droprate="?" />
+<item name="Heavy Notum Tank Armor" lowid="165213" highid="165213" ql="200" droprate="?" />
+<item name="Helmet of Azure Reveries" lowid="165307" highid="165307" ql="200" droprate="?" />
+<item name="Light Notum Tank Armor" lowid="165208" highid="165208" ql="200" droprate="?" />
+<item name="Medium Notum Tank Armor" lowid="165209" highid="165209" ql="200" droprate="?" />
+<item name="Pants of Azure Reveries" lowid="165308" highid="165308" ql="200" droprate="?" />
+<item name="Sleeves of Azure Reveries" lowid="165303" highid="165303" ql="200" droprate="?" />
+<info>Drops 1 random Notum Tank Armor and 1 random piece of Azure Reveries - Spawned by PH</info></mob><mob>
+<name>Pisces</name>
+<level>250</level>
+<spawn_time>06:00:00</spawn_time>
+<location>Pandemonium</location>
+<pfid>NA</pfid>
+<coords>?</coords>
+<pf>SL</pf>
+<item name="Cosmic Guide of the Pisces" lowid="244641" highid="244641" ql="250" droprate="?" />
+<item name="Mystery of Pisces" lowid="244640" highid="244640" ql="250" droprate="?" />
+<item name="Octopus Contraption of the Pisces" lowid="244639" highid="244639" ql="250" droprate="?" />
+<item name="Soul Mark of Pisces" lowid="244638" highid="244638" ql="250" droprate="?" />
+<info>Zodiac</info></mob><mob>
+<name>Polly</name>
+<level>?</level>
+<spawn_time>instant</spawn_time>
+<location>Swamp River Delta, Omni Forest</location>
+<pfid>716</pfid>
+<coords>450x1280</coords>
+<pf>RK</pf>
+<item name="Support Wire" lowid="152411" highid="152412" ql="200" droprate="100" />
+<info></info></mob><mob>
+<name>Polymorphed Lunatic</name>
+<level>?</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Drill Island, Deep Artery Valley</location>
+<pfid>595</pfid>
+<coords>1103x722</coords>
+<pf>RK</pf>
+<item name="Nano Crystal (Nullity Sphere MK II)" lowid="150503" highid="150503" ql="159" droprate="?" />
+<item name="Nano Crystal (Team Beacon Warp)" lowid="154916" highid="154916" ql="159" droprate="20" />
+<info>PH for Ljotur the Lunatic</info></mob><mob>
+<name>Powa</name>
+<level>?</level>
+<spawn_time>instant</spawn_time>
+<location>Swamp River Delta, Omni Forest</location>
+<pfid>716</pfid>
+<coords>800x2400</coords>
+<pf>RK</pf>
+<item name="Starched Armbands" lowid="152795" highid="152795" ql="40" droprate="100" />
+<info></info></mob><mob>
+<name>Professor Van Horn</name>
+<level>200</level>
+<spawn_time>18:00:00</spawn_time>
+<location>Newland Desert</location>
+<pfid>565</pfid>
+<coords>2900x1600</coords>
+<pf>RK</pf>
+<item name="Journeyman Durable Boost" lowid="151716" highid="151717" ql="200" droprate="95" />
+<item name="The Expensive Vest of Professor Jones" lowid="151680" highid="151681" ql="200" droprate="5-10" />
+<info>Drops either Boost or Vest</info></mob><mob>
+<name>R-2000 Vermin Disposal Unit</name>
+<level>100</level>
+<spawn_time>18:00:00</spawn_time>
+<location>Greater Tir County</location>
+<pfid>647</pfid>
+<coords>800x1800</coords>
+<pf>RK</pf>
+<item name="Disposal Unit Electrical Toolset" lowid="164552" highid="164552" ql="100" droprate="?" />
+<item name="Rat Catcher Goggles" lowid="152714" highid="152714" ql="100" droprate="?" />
+<info></info></mob><mob>
+<name>Ris Lee</name>
+<level>300</level>
+<spawn_time>PH</spawn_time>
+<location>Ace Camp, Eastern Fouls Plains</location>
+<pfid>620</pfid>
+<coords>720x1380</coords>
+<pf>RK</pf>
+<item name="Boots of Azure Reveries" lowid="165305" highid="165305" ql="200" droprate="?" />
+<item name="Breastplate of Azure Reveries" lowid="165304" highid="165304" ql="200" droprate="100" />
+<item name="Fancy Stethoscopic Glasses" lowid="165176" highid="165177" ql="200" droprate="100" />
+<item name="Gloves of Azure Reveries" lowid="165306" highid="165306" ql="200" droprate="?" />
+<item name="Helmet of Azure Reveries" lowid="165307" highid="165307" ql="200" droprate="?" />
+<item name="Pants of Azure Reveries" lowid="165308" highid="165308" ql="200" droprate="?" />
+<item name="Sleeves of Azure Reveries" lowid="165303" highid="165303" ql="200" droprate="?" />
+<info>Drops Fancy Stethoscopic Glasses and 2 random pieces of Azure Reveries - Spawned by PH</info></mob><mob>
+<name>Rotting Eremite</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3386x1904</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Agent of Putrefaction'" lowid="242767" highid="242767" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'Agent of Putrefaction'" lowid="234127" highid="234127" ql="255" droprate="?" />
+<item name="Chi Pattern of 'Agent of Putrefaction'" lowid="234128" highid="234128" ql="255" droprate="?" />
+<item name="Dom Pattern of 'Agent of Putrefaction'" lowid="234129" highid="234129" ql="255" droprate="?" />
+<item name="Sword of Wonder" lowid="246105" highid="246105" ql="260" droprate="?" />
+<item name="Suzerain's Political Chief Headwear" lowid="216448" highid="216448" ql="200" droprate="?" />
+<info></info></mob><mob>
+<name>Sagittarious</name>
+<level>250</level>
+<spawn_time>06:00:00</spawn_time>
+<location>Pandemonium</location>
+<pfid>NA</pfid>
+<coords>?</coords>
+<pf>SL</pf>
+<item name="Comfort of the Sagittarius" lowid="244645" highid="244645" ql="250" droprate="?" />
+<item name="First Creation of the Sagittarius" lowid="244644" highid="244644" ql="250" droprate="?" />
+<item name="Sagittarius' Hearty Spirit Helper" lowid="244643" highid="244643" ql="250" droprate="?" />
+<item name="Strong Mittens of the Sagittarius" lowid="244647" highid="244647" ql="250" droprate="?" />
+<info>Zodiac</info></mob><mob>
+<name>Salahpt</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2150x2650</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Ahpta'" lowid="242771" highid="242771" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Ahpta'" lowid="234163" highid="234163" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Ahpta'" lowid="234164" highid="234164" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Ahpta'" lowid="234165" highid="234165" ql="220" droprate="?" />
+<item name="Armplates of Meteorite Assembly" lowid="245855" highid="245855" ql="250" droprate="?" />
+<item name="Boots of Stolen Comet Speed" lowid="245857" highid="245857" ql="250" droprate="?" />
+<item name="Gauntlets of Star Confabulation" lowid="245856" highid="245856" ql="250" droprate="?" />
+<item name="Moon Watcher Helmet" lowid="245859" highid="245859" ql="250" droprate="?" />
+<item name="Overcoat of the Firmament" lowid="260684" highid="260684" ql="250" droprate="?" />
+<item name="Shoulderpads of Asteroid Calling" lowid="260685" highid="260685" ql="250" droprate="?" />
+<item name="Vest of Torpid Sunrays" lowid="245854" highid="245854" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Sanatsimk</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3072x1503</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Waqa'" lowid="242765" highid="242765" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Waqa'" lowid="234109" highid="234109" ql="200" droprate="?" />
+<item name="Chi Pattern of 'Waqa'" lowid="234110" highid="234110" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Waqa'" lowid="234111" highid="234111" ql="220" droprate="?" />
+<item name="Armplates of Meteorite Assembly" lowid="245855" highid="245855" ql="250" droprate="?" />
+<item name="Boots of Stolen Comet Speed" lowid="245857" highid="245857" ql="250" droprate="?" />
+<item name="Gauntlets of Star Confabulation" lowid="245856" highid="245856" ql="250" droprate="?" />
+<item name="Moon Watcher Helmet" lowid="245859" highid="245859" ql="250" droprate="?" />
+<item name="Overcoat of the Firmament" lowid="260684" highid="260684" ql="250" droprate="?" />
+<item name="Shoulderpads of Asteroid Calling" lowid="260685" highid="260685" ql="250" droprate="?" />
+<item name="Vest of Torpid Sunrays" lowid="245854" highid="245854" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Scary Spider</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3494x2773</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Sasabonsam'" lowid="242775" highid="242775" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Sasabonsam'" lowid="234199" highid="234199" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Sasabonsam'" lowid="234200" highid="234200" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Sasabonsam'" lowid="234201" highid="234201" ql="220" droprate="?" />
+<item name="Short Circuited Spiritech Circlet" lowid="245729" highid="245729" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Scorpio</name>
+<level>250</level>
+<spawn_time>06:00:00</spawn_time>
+<location>Pandemonium</location>
+<pfid>NA</pfid>
+<coords>?</coords>
+<pf>SL</pf>
+<item name="Punters of the Scorpio" lowid="244650" highid="244650" ql="250" droprate="?" />
+<item name="Sash of Scorpio Strength" lowid="244648" highid="244648" ql="250" droprate="?" />
+<item name="Scorpio's Aim of Anger" lowid="244655" highid="244655" ql="250" droprate="?" />
+<item name="Scorpio's Shell of Change" lowid="244654" highid="244654" ql="250" droprate="?" />
+<info>Zodiac</info></mob><mob>
+<name>Scrupulous Hiathlin</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3350x3100</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'The Dryad Demigod'" lowid="242779" highid="242779" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'The Dryad Demigod'" lowid="232386" highid="234235" ql="220" droprate="?" />
+<item name="Chi Pattern of 'The Dryad Demigod'" lowid="232387" highid="234236" ql="220" droprate="?" />
+<item name="Dom Pattern of 'The Dryad Demigod'" lowid="232388" highid="234237" ql="220" droprate="?" />
+<item name="Bellum Badonis Armor Boots" lowid="245866" highid="245866" ql="250" droprate="?" />
+<item name="Bellum Badonis Armor Gloves" lowid="245884" highid="245884" ql="250" droprate="?" />
+<item name="Bellum Badonis Armor Helmet" lowid="245889" highid="245889" ql="250" droprate="?" />
+<item name="Bellum Badonis Armor Sleeves" lowid="245880" highid="245880" ql="250" droprate="?" />
+<item name="Bellum Badonis Body Armor" lowid="245891" highid="245891" ql="250" droprate="?" />
+<item name="Bellum Badonis Coat" lowid="260681" highid="260681" ql="250" droprate="?" />
+<item name="Bellum Badonis Shoulderpads" lowid="260680" highid="260680" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Special Agent Lamb</name>
+<level>300</level>
+<spawn_time>PH</spawn_time>
+<location>Deep Artery Valley</location>
+<pfid>595</pfid>
+<coords>1220x1950</coords>
+<pf>RK</pf>
+<item name="Chain of Concealment" lowid="165283" highid="165284" ql="200" droprate="?" />
+<item name="NanoCrystal (Resonance Blast)" lowid="201936" highid="201936" ql="200" droprate="100" />
+<item name="The HSR Detective" lowid="165282" highid="165282" ql="200" droprate="?" />
+<info>Spawned by PH</info></mob><mob>
+<name>Strike Foreman</name>
+<level>?</level>
+<spawn_time>?</spawn_time>
+<location>Condemned Subway</location>
+<pfid>NA</pfid>
+<coords>varies</coords>
+<pf>RK</pf>
+<item name="Boots of Infinite Speed" lowid="202722" highid="202723" ql="200" droprate="?" />
+<info></info></mob><mob>
+<name>Stumpy</name>
+<level>?</level>
+<spawn_time>instant</spawn_time>
+<location>Greater Omni-Forest</location>
+<pfid>717</pfid>
+<coords>2200x1300</coords>
+<pf>RK</pf>
+<item name="Blue Baby Bronto Boots" lowid="152794" highid="152794" ql="25" droprate="100" />
+<info></info></mob><mob>
+<name>Supply Master Eel</name>
+<level>300</level>
+<spawn_time>03:00:00</spawn_time>
+<location>Avalon</location>
+<pfid>505</pfid>
+<coords>900x1600</coords>
+<pf>RK</pf>
+<item name="A little brown book" lowid="203738" highid="203738" ql="1" droprate="50" />
+<item name="A Silver Platter" lowid="203276" highid="203276" ql="1" droprate="50" />
+<item name="DNA-Locked Omni-Armed Forces Boots" lowid="205831" highid="205831" ql="200" droprate="?" />
+<item name="DNA-Locked Omni-Armed Forces Gloves" lowid="205830" highid="205830" ql="200" droprate="?" />
+<item name="DNA-Locked Omni-Armed Forces Pants" lowid="205828" highid="205828" ql="200" droprate="?" />
+<item name="DNA-Locked Omni-Armed Forces Sleeves" lowid="205829" highid="205829" ql="200" droprate="?" />
+<info>Drops either book or platter, + 2 random pieces</info></mob><mob>
+<name>Supply Master Smug</name>
+<level>300</level>
+<spawn_time>03:00:00</spawn_time>
+<location>Wailing Wastes</location>
+<pfid>551</pfid>
+<coords>2885x3556</coords>
+<pf>RK</pf>
+<item name="A little brown book" lowid="203737" highid="203737" ql="1" droprate="50" />
+<item name="A Silver Platter" lowid="203276" highid="203276" ql="1" droprate="50" />
+<item name="DNA-Locked Superior Sentinel Armor Boots" lowid="205827" highid="205827" ql="200" droprate="?" />
+<item name="DNA-Locked Superior Sentinel Armor Gloves" lowid="205826" highid="205826" ql="200" droprate="?" />
+<item name="DNA-Locked Superior Sentinel Armor Pants" lowid="205825" highid="205825" ql="200" droprate="?" />
+<item name="DNA-Locked Superior Sentinel Armor Sleeves" lowid="205824" highid="205824" ql="200" droprate="?" />
+<info>Drops either book or platter + pants</info></mob><mob>
+<name>Syros</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3100x2900</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Pazuzu'" lowid="242780" highid="242780" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Pazuzu'" lowid="234244" highid="234244" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Pazuzu'" lowid="234245" highid="234245" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Pazuzu'" lowid="234246" highid="234246" ql="220" droprate="?" />
+<item name="Stinging Louse" lowid="260679" highid="260679" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>T.I.M</name>
+<level>?</level>
+<spawn_time>00:30:00</spawn_time>
+<location>The Longest Road</location>
+<pfid>795</pfid>
+<coords>2000x800</coords>
+<pf>RK</pf>
+<item name="HUD Upgrade: Enhanced Target Acquisition" lowid="156773" highid="156773" ql="100" droprate="20" />
+<item name="HUD Upgrade: Personal S.T.M" lowid="156774" highid="156774" ql="100" droprate="80" />
+<info>20% chance of spawn every 30min. Drops only one scope at the time</info></mob><mob>
+<name>Tarasque</name>
+<level>200</level>
+<spawn_time>09:00:00</spawn_time>
+<location>Camelot, Avalon</location>
+<pfid>505</pfid>
+<coords>2092x3822</coords>
+<pf>RK</pf>
+<item name="Aura Magnifier" lowid="158798" highid="158798" ql="100" droprate="1" />
+<item name="Chunk of Living Dragon Flesh (Living Dragonflesh Body Armor)" lowid="158892" highid="158892" ql="100" droprate="?" />
+<item name="Cloak of the Wandering Knight" lowid="158788" highid="158788" ql="1" droprate="?" />
+<item name="Gaily Painted Hood" lowid="158795" highid="158795" ql="1" droprate="3" />
+<item name="Globe of Clarity" lowid="158797" highid="158797" ql="1" droprate="?" />
+<item name="Globe of Suffering" lowid="158796" highid="158796" ql="1" droprate="?" />
+<item name="Heart of Tarasque" lowid="158787" highid="158787" ql="1" droprate="?" />
+<item name="Heavily Padded Overcoat" lowid="158800" highid="158800" ql="1" droprate="?" />
+<item name="Heavy-Headed Hardwood Staff" lowid="159136" highid="159136" ql="200" droprate="?" />
+<item name="Hollow Bone Bracer of Merlin Ambrosius" lowid="158891" highid="158891" ql="1" droprate="?" />
+<item name="Lump of Living Dragonmarrow (Living Dragonmarrow Feet Armor)" lowid="158895" highid="158895" ql="100" droprate="?" />
+<item name="Patch of Living Dragonskin (Living Dragonskin Legs Armor)" lowid="158893" highid="158893" ql="100" droprate="?" />
+<item name="Piece of Living Dragonwing (Living Dragonwing Arms Armor)" lowid="158894" highid="158894" ql="100" droprate="?" />
+<item name="Robust Backpack" lowid="158790" highid="158790" ql="1" droprate="?" />
+<item name="Shard of Living Dragonskull (Living Dragonskull Circlet)" lowid="158896" highid="158896" ql="100" droprate="?" />
+<item name="Signet Ring of the Green Knight" lowid="158801" highid="158801" ql="1" droprate="?" />
+<item name="Sinew of Tarasque" lowid="158764" highid="158764" ql="1" droprate="?" />
+<item name="Smart Hood of the Wanderer" lowid="158789" highid="158789" ql="1" droprate="?" />
+<item name="Smelly Butcher Gloves" lowid="158844" highid="158844" ql="1" droprate="4" />
+<item name="Stereotypical Dragon Tooth Poker" lowid="158843" highid="158843" ql="200" droprate="?" />
+<item name="The Edge of the Tarasque" lowid="157856" highid="157856" ql="200" droprate="2" />
+<info>Drops 1 Dragon part + 0-3 random items. Every Dragon part has the same droprate</info></mob><mob>
+<name>Taurus</name>
+<level>250</level>
+<spawn_time>06:00:00</spawn_time>
+<location>Pandemonium</location>
+<pfid>NA</pfid>
+<coords>?</coords>
+<pf>SL</pf>
+<item name="Taurus' Ring of the Heart" lowid="244661" highid="244661" ql="250" droprate="?" />
+<item name="Taurus' Spirit of Patience" lowid="244659" highid="244659" ql="250" droprate="?" />
+<item name="Taurus' Spirit of Reflection" lowid="244658" highid="244658" ql="250" droprate="?" />
+<item name="Taurus' Swordmaster Spirit" lowid="244660" highid="244660" ql="250" droprate="?" />
+<info>Zodiac</info></mob><mob>
+<name>The Beast</name>
+<level>300</level>
+<spawn_time>18:00:00</spawn_time>
+<location>The Source, Pandemonium</location>
+<pfid>4605</pfid>
+<coords>?</coords>
+<pf>SL</pf>
+<item name="Sigil of Bahomet" lowid="244750" highid="244750" ql="300" droprate="?" />
+<item name="Helmet of Hypocrisy" lowid="244716" highid="244716" ql="300" droprate="?" />
+<item name="Shoulderplates of Sabotage" lowid="244713" highid="244713" ql="300" droprate="?" />
+<item name="Burden of Competence" lowid="244718" highid="244718" ql="300" droprate="?" />
+<item name="Cuirass of Obstinacy" lowid="244717" highid="244717" ql="300" droprate="?" />
+<item name="Sleeves of Senseless Violence" lowid="244705" highid="244705" ql="300" droprate="?" />
+<item name="Gauntlets of Deformation" lowid="244704" highid="244704" ql="300" droprate="?" />
+<item name="Greaves of Malfeasance" lowid="244715" highid="244715" ql="300" droprate="?" />
+<item name="Boots of Concourse" lowid="244714" highid="244714" ql="300" droprate="?" />
+<item name="Lord of Abandonment" lowid="244742" highid="244742" ql="300" droprate="?" />
+<item name="Lady of Abandonment" lowid="244743" highid="244743" ql="299" droprate="?" />
+<item name="Lord of Anger" lowid="244802" highid="244802" ql="300" droprate="?" />
+<item name="Lady of Anger" lowid="244801" highid="244801" ql="299" droprate="?" />
+<item name="Lord of Angst" lowid="244821" highid="244821" ql="300" droprate="?" />
+<item name="Lady of Angst" lowid="244820" highid="244820" ql="299" droprate="?" />
+<item name="Lord of Chaos" lowid="244910" highid="244910" ql="300" droprate="?" />
+<item name="Lady of Chaos" lowid="244909" highid="244909" ql="299" droprate="?" />
+<item name="Lord of Deceit" lowid="244779" highid="244779" ql="300" droprate="?" />
+<item name="Lady of Deceit" lowid="244778" highid="244778" ql="299" droprate="?" />
+<item name="Lord of Envy" lowid="244843" highid="244843" ql="300" droprate="?" />
+<item name="Lady of Envy" lowid="244842" highid="244842" ql="299" droprate="?" />
+<item name="Lord of Gluttony" lowid="244785" highid="244785" ql="300" droprate="?" />
+<item name="Lady of Gluttony" lowid="244784" highid="244784" ql="299" droprate="?" />
+<item name="Lord of Greed" lowid="244862" highid="244862" ql="300" droprate="?" />
+<item name="Lady of Greed" lowid="244859" highid="244859" ql="299" droprate="?" />
+<item name="Lord of Hatred" lowid="244762" highid="244762" ql="300" droprate="?" />
+<item name="Lady of Hatred" lowid="244761" highid="244761" ql="299" droprate="?" />
+<item name="Lord of Lust" lowid="244914" highid="244914" ql="300" droprate="?" />
+<item name="Lady of Lust" lowid="244913" highid="244913" ql="299" droprate="?" />
+<item name="Lord of Pride" lowid="244783" highid="244783" ql="300" droprate="?" />
+<item name="Lady of Pride" lowid="244782" highid="244782" ql="299" droprate="?" />
+<item name="Lord of Sloth" lowid="244912" highid="244912" ql="300" droprate="?" />
+<item name="Lady of Sloth" lowid="244911" highid="244911" ql="299" droprate="?" />
+<item name="Sunrise Hilt (Sword of Dawn)" lowid="246813" highid="246813" ql="200" droprate="?" />
+<item name="Sunset Hilt (Sword of Dusk)" lowid="246814" highid="246814" ql="200" droprate="?" />
+<item name="The Lighter Side" lowid="215442" highid="215442" ql="1" droprate="?" />
+<item name="The Darker Side" lowid="215445" highid="215445" ql="1" droprate="?" />
+<item name="Star of Ardency" lowid="244700" highid="244700" ql="250" droprate="?" />
+<item name="Star of Enterprise" lowid="244693" highid="244693" ql="250" droprate="?" />
+<item name="Star of Enticement" lowid="244703" highid="244703" ql="250" droprate="?" />
+<item name="Star of Equanimity" lowid="244691" highid="244691" ql="250" droprate="?" />
+<item name="Star of Faith" lowid="244702" highid="244702" ql="250" droprate="?" />
+<item name="Star of Fidelity" lowid="244690" highid="244690" ql="250" droprate="?" />
+<item name="Star of Fortitude" lowid="244698" highid="244698" ql="250" droprate="?" />
+<item name="Star of Freedom" lowid="244695" highid="244695" ql="250" droprate="?" />
+<item name="Star of Ingenuity" lowid="244692" highid="244692" ql="250" droprate="?" />
+<item name="Star of Interchange" lowid="244696" highid="244696" ql="250" droprate="?" />
+<item name="Star of Management" lowid="244697" highid="244697" ql="250" droprate="?" />
+<item name="Star of Moral" lowid="244701" highid="244701" ql="250" droprate="?" />
+<item name="Star of Recovery" lowid="244699" highid="244699" ql="250" droprate="?" />
+<item name="Star of Stealth" lowid="244694" highid="244694" ql="250" droprate="?" />
+<info>Shadowlands End Boss</info></mob><mob>
+<name>The Night Heart</name>
+<level>250</level>
+<spawn_time>06:00:00</spawn_time>
+<location>Pandemonium</location>
+<pfid>NA</pfid>
+<coords>?</coords>
+<pf>SL</pf>
+<item name="Maar's Blue Belt of Double Prudence" lowid="244989" highid="244989" ql="300" droprate="?" />
+<item name="Maar's Red Belt of Double Power" lowid="244988" highid="244988" ql="300" droprate="?" />
+<item name="Maar's Yellow Belt of Double Speed" lowid="244990" highid="244990" ql="300" droprate="?" />
+<item name="Notum Seed (Sword of Dawn)" lowid="246818" highid="246818" ql="200" droprate="?" />
+<item name="Novictum Seed (Sword of Dusk)" lowid="246817" highid="246817" ql="200" droprate="?" />
+<item name="" lowid="" highid="" ql="" droprate="" />
+<info></info></mob><mob>
+<name>The Obediency Enforcer</name>
+<level>?</level>
+<spawn_time>PH</spawn_time>
+<location>Eastern Fouls Plains</location>
+<pfid>620</pfid>
+<coords>1250x2800</coords>
+<pf>RK</pf>
+<item name="Aluminium Armband of Ambidexterity" lowid="165136" highid="165137" ql="200" droprate="?" />
+<item name="Blue Bracer of Balance" lowid="165134" highid="165135" ql="200" droprate="?" />
+<item name="Contained Anti-Matter Generator (Augmented Hellspinner Shock Cannon)" lowid="201942" highid="201942" ql="200" droprate="?" />
+<item name="NanoCrystal (Shield of the Obedient Servant)" lowid="202261" highid="202261" ql="192" droprate="?" />
+<item name="Punishment Rod" lowid="201943" highid="201943" ql="200" droprate="?" />
+<item name="Slayerdroid Crystal Claw" lowid="165133" highid="165133" ql="200" droprate="?" />
+<info>Drops either Contained Anti-Matter Generator Punishment Rod or the NanoCrystal - Spawned by PH</info></mob><mob>
+<name>The One</name>
+<level>200</level>
+<spawn_time>PH</spawn_time>
+<location>Southern Fouls Hills</location>
+<pfid>615</pfid>
+<coords>2250x1810</coords>
+<pf>RK</pf>
+<item name="Breastplate of Spiritual Rites" lowid="165428" highid="165428" ql="200" droprate="?" />
+<item name="Breastplate of Technical Ceremonies" lowid="165427" highid="165427" ql="200" droprate="?" />
+<item name="Helmet of Spiritual Rites" lowid="165430" highid="165430" ql="200" droprate="?" />
+<item name="Helmet of Technical Ceremonies" lowid="165429" highid="165429" ql="200" droprate="?" />
+<info>Spawned by PH (Harbinger of The One)</info></mob><mob>
+<name>The Pest</name>
+<level>200</level>
+<spawn_time>PH</spawn_time>
+<location>Deep Artery Valley</location>
+<pfid>595</pfid>
+<coords>1360x2300</coords>
+<pf>RK</pf>
+<item name="Left Sleeves of the Pest" lowid="165290" highid="165290" ql="200" droprate="?" />
+<item name="NanoCrystal (Corruption of The Pest)" lowid="201934" highid="201934" ql="190" droprate="50" />
+<item name="NanoCrystal (Lick of The Pest)" lowid="201938" highid="201938" ql="193" droprate="50" />
+<item name="Patch of Pest" lowid="165292" highid="165292" ql="200" droprate="?" />
+<item name="Petticoat of Pest" lowid="165291" highid="165291" ql="200" droprate="?" />
+<item name="Right Sleeves of the Pest" lowid="165287" highid="165287" ql="200" droprate="?" />
+<info>Drops either Corruption or Lick - Spawned by PH</info></mob><mob>
+<name>Tinos</name>
+<level>245-250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>1604x2506</coords>
+<pf>SL</pf>
+<item name="Ring of Burning Flesh" lowid="246090" highid="246090" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Tiunissik</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Burning Marshes, Inferno</location>
+<pfid>4005</pfid>
+<coords>1599x1853</coords>
+<pf>SL</pf>
+<item name="Joy of the Hunt" lowid="245882" highid="245882" ql="259" droprate="?" />
+<item name="Joy of the Race" lowid="245883" highid="245883" ql="260" droprate="?" />
+<info></info></mob><mob>
+<name>Torrith the Ancient</name>
+<level>?</level>
+<spawn_time>18:00:00</spawn_time>
+<location>Greater Tir County</location>
+<pfid>647</pfid>
+<coords>400x2200</coords>
+<pf>RK</pf>
+<item name="Neural Interpreting Nball - Melee Fighting" lowid="152255" highid="152256" ql="200" droprate="?" />
+<info></info></mob><mob>
+<name>Trash King</name>
+<level>?</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Athen Shire</location>
+<pfid>550</pfid>
+<coords>1600x940</coords>
+<pf>RK</pf>
+<item name="Communication Processing Unit Rack with 8 Empty Slots" lowid="158205" highid="158205" ql="1" droprate="100" />
+<item name="Reinforced NCU Component Belt" lowid="151698" highid="151699" ql="160" droprate="100" />
+<item name="Hot Ray Orb" lowid="152433" highid="152434" ql="160" droprate="100" />
+<info>20% chanse of spawning every 20 min</info></mob><mob>
+<name>Trash King Lackey</name>
+<level>?</level>
+<spawn_time>00:10:00</spawn_time>
+<location>Athen Shire</location>
+<pfid>550</pfid>
+<coords>1600x940</coords>
+<pf>RK</pf>
+<item name="Communication Processing Unit ID=TKL" lowid="158225" highid="158225" ql="1" droprate="100" />
+<info></info></mob><mob>
+<name>Tri-Plumbo</name>
+<level>?</level>
+<spawn_time>?</spawn_time>
+<location>Foremans, The Longest Road</location>
+<pfid>795</pfid>
+<coords>2000x800</coords>
+<pf>RK</pf>
+<item name="Corroded Ring" lowid="200818" highid="200818" ql="100" droprate="?" />
+<info></info></mob><mob>
+<name>Tuq'usk</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2296x2082</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Haqa'" lowid="242773" highid="242773" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Haqa'" lowid="234181" highid="234181" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Haqa'" lowid="234182" highid="234182" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Haqa'" lowid="234183" highid="234183" ql="220" droprate="?" />
+<item name="Overcoat of the Firmament" lowid="260684" highid="260684" ql="250" droprate="?" />
+<item name="Armplates of Meteorite Assembly" lowid="245855" highid="245855" ql="250" droprate="?" />
+<item name="Boots of Stolen Comet Speed" lowid="245857" highid="245857" ql="250" droprate="?" />
+<item name="Gauntlets of Star Confabulation" lowid="245856" highid="245856" ql="250" droprate="?" />
+<item name="Moon Watcher Helmet" lowid="245859" highid="245859" ql="250" droprate="?" />
+<item name="Overcoat of the Firmament" lowid="260684" highid="260684" ql="250" droprate="?" />
+<item name="Shoulderpads of Asteroid Calling" lowid="260685" highid="260685" ql="250" droprate="?" />
+<item name="Vest of Torpid Sunrays" lowid="245854" highid="245854" ql="250" droprate="?" />
+<item name="Copy of The Excalibur" lowid="246016" highid="246017" ql="259" droprate="0.1" />
+<item name="Exact Copy of The Excalibur" lowid="246018" highid="246018" ql="260" droprate="0.1" />
+<info></info></mob><mob>
+<name>Tyro Beasthandler</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3300x3000</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'The Dryad Demigod'" lowid="242779" highid="242779" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'The Dryad Demigod'" lowid="232386" highid="234235" ql="220" droprate="?" />
+<item name="Chi Pattern of 'The Dryad Demigod'" lowid="232387" highid="234236" ql="220" droprate="?" />
+<item name="Dom Pattern of 'The Dryad Demigod'" lowid="232388" highid="234237" ql="220" droprate="?" />
+<item name="Finely Refined Notum" lowid="227643" highid="227643" ql="220" droprate="?" />
+<item name="Lava capsule" lowid="245990" highid="245990" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Ushap'ing</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3508x1415</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Sashu'" lowid="242763" highid="242763" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Sashu'" lowid="234091" highid="234091" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Sashu'" lowid="234092" highid="234092" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Sashu'" lowid="234093" highid="234093" ql="220" droprate="?" />
+<item name="Amused Spirit" lowid="260683" highid="260683" ql="250" droprate="?" />
+<item name="Armplates of Meteorite Assembly" lowid="245855" highid="245855" ql="250" droprate="?" />
+<item name="Boots of Stolen Comet Speed" lowid="245857" highid="245857" ql="250" droprate="?" />
+<item name="Gauntlets of Star Confabulation" lowid="245856" highid="245856" ql="250" droprate="?" />
+<item name="Moon Watcher Helmet" lowid="245859" highid="245859" ql="250" droprate="?" />
+<item name="Overcoat of the Firmament" lowid="260684" highid="260684" ql="250" droprate="?" />
+<item name="Shoulderpads of Asteroid Calling" lowid="260685" highid="260685" ql="250" droprate="?" />
+<item name="Vest of Torpid Sunrays" lowid="245854" highid="245854" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Vergil Aeid</name>
+<level>?</level>
+<spawn_time>?</spawn_time>
+<location>Condemned Subway</location>
+<pfid>NA</pfid>
+<coords>varies</coords>
+<pf>RK</pf>
+<item name="Ring of the Nucleus Basalis" lowid="202717" highid="202718" ql="200" droprate="?" />
+<item name="Juggler's Treat" lowid="202741" highid="202742" ql="200" droprate="?" />
+<item name="Belt of Justice" lowid="202733" highid="202734" ql="20" droprate="?" />
+<info></info></mob><mob>
+<name>Virgo</name>
+<level>250</level>
+<spawn_time>06:00:00</spawn_time>
+<location>Pandemonium</location>
+<pfid>NA</pfid>
+<coords>?</coords>
+<pf>SL</pf>
+<item name="Virgo's Analytical Spirit Helper" lowid="244665" highid="244665" ql="250" droprate="?" />
+<item name="Virgo's Arrow Guide" lowid="244662" highid="244662" ql="250" droprate="?" />
+<item name="Virgo's Modest Spirit of Faith" lowid="244664" highid="244664" ql="250" droprate="?" />
+<item name="Virgo's Practical Spirit Helper" lowid="244663" highid="244663" ql="250" droprate="?" />
+<info>Zodiac</info></mob><mob>
+<name>Waywaqa</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3300x1500</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Sashu'" lowid="242763" highid="242763" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Sashu'" lowid="234091" highid="234091" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Sashu'" lowid="234092" highid="234092" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Sashu'" lowid="234093" highid="234093" ql="220" droprate="?" />
+<item name="Armplates of Meteorite Assembly" lowid="245855" highid="245855" ql="250" droprate="?" />
+<item name="Boots of Stolen Comet Speed" lowid="245857" highid="245857" ql="250" droprate="?" />
+<item name="Gauntlets of Star Confabulation" lowid="245856" highid="245856" ql="250" droprate="?" />
+<item name="Moon Watcher Helmet" lowid="245859" highid="245859" ql="250" droprate="?" />
+<item name="Overcoat of the Firmament" lowid="260684" highid="260684" ql="250" droprate="?" />
+<item name="Shoulderpads of Asteroid Calling" lowid="260685" highid="260685" ql="250" droprate="?" />
+<item name="Vest of Torpid Sunrays" lowid="245854" highid="245854" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Workman Striker</name>
+<level>?</level>
+<spawn_time>?</spawn_time>
+<location>Condemned Subway</location>
+<pfid>NA</pfid>
+<coords>varies</coords>
+<pf>RK</pf>
+<item name="Support Beam of Intolerance" lowid="202720" highid="202720" ql="30" droprate="?" />
+<info></info></mob><mob>
+<name>Fetid Eremite</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2606x2120</coords>
+<pf>SL</pf>
+<item name="Malodorous Ring" lowid="246080" highid="246080" ql="250" droprate="?" />
+<item name="Abhan Pattern 'Agent of Putrefaction'" lowid="242767" highid="242767" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'Agent of Putrefaction'" lowid="234127" highid="234127" ql="255" droprate="?" />
+<item name="Chi Pattern of 'Agent of Putrefaction'" lowid="234128" highid="234128" ql="255" droprate="?" />
+<item name="Dom Pattern of 'Agent of Putrefaction'" lowid="234129" highid="234129" ql="255" droprate="?" />
+<info></info></mob><mob>
+<name>Putrid Eremite</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3435x1874</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Agent of Decay'" lowid="242770" highid="242770" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'Agent of Decay'" lowid="234154" highid="234154" ql="255" droprate="?" />
+<item name="Chi Pattern of 'Agent of Decay'" lowid="234155" highid="234155" ql="255" droprate="?" />
+<item name="Dom Pattern of 'Agent of Decay'" lowid="234156" highid="234156" ql="255" droprate="?" />
+<item name="Sword of Wonder" lowid="246105" highid="246105" ql="260" droprate="?" />
+<info></info></mob><mob>
+<name>Beast</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3497x2059</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Fester Leila'" lowid="242769" highid="242769" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Fester Leila'" lowid="234145" highid="234145" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Fester Leila'" lowid="234146" highid="234146" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Fester Leila'" lowid="234147" highid="234147" ql="220" droprate="?" />
+<info></info></mob><mob>
+<name>Creepy Spider</name>
+<level>230</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3222x3414</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Anansi'" lowid="242793" highid="242793" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'Anansi'" lowid="234365" highid="234365" ql="255" droprate="?" />
+<item name="Chi Pattern of 'Anansi'" lowid="234366" highid="234366" ql="255" droprate="?" />
+<item name="Dom Pattern of 'Anansi'" lowid="234367" highid="234367" ql="255" droprate="?" />
+<item name="Slippers of Screaming" lowid="245890" highid="245890" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Steele Filar</name>
+<level>230</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2700x2900</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Lya'" lowid="242777" highid="242777" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Lya'" lowid="234217" highid="234217" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Lya'" lowid="234218" highid="234218" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Lya'" lowid="234219" highid="234219" ql="220" droprate="?" />
+<item name="Penumbra Tuaq" lowid="245783" highid="245783" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Silent Spider</name>
+<level>220</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3209x3532</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Anansi'" lowid="242793" highid="242793" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'Anansi'" lowid="234365" highid="234365" ql="255" droprate="?" />
+<item name="Chi Pattern of 'Anansi'" lowid="234366" highid="234366" ql="255" droprate="?" />
+<item name="Dom Pattern of 'Anansi'" lowid="234367" highid="234367" ql="255" droprate="?" />
+<info></info></mob><mob>
+<name>Torrid Spirit</name>
+<level>205</level>
+<spawn_time>?</spawn_time>
+<location>Burning Marshes, Inferno</location>
+<pfid>4005</pfid>
+<coords>1474x2142</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Arch Bigot Lohel'" lowid="242786" highid="242786" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'Arch Bigot Lohel'" lowid="234302" highid="234302" ql="255" droprate="?" />
+<item name="Chi Pattern of 'Arch Bigot Lohel'" lowid="234303" highid="234303" ql="255" droprate="?" />
+<item name="Dom Pattern of 'Arch Bigot Lohel'" lowid="234304" highid="234304" ql="255" droprate="?" />
+<item name="Sleeves of Boiling Blood" lowid="246109" highid="246109" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Phatmos</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>1515x2807</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Shullat'" lowid="242792" highid="242792" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'Shullat'" lowid="234356" highid="234356" ql="255" droprate="?" />
+<item name="Chi Pattern of 'Shullat'" lowid="234357" highid="234357" ql="255" droprate="?" />
+<item name="Dom Pattern of 'Shullat'" lowid="234358" highid="234358" ql="255" droprate="?" />
+<item name="Phatmos' Loot" lowid="246081" highid="246081" ql="250" droprate="?" />
+<item name="Phatmos' Booty" lowid="246110" highid="246110" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Ithaki</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3100x3000</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Aesma Daeva'" lowid="242781" highid="242781" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Aesma Daeva'" lowid="234253" highid="234253" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Aesma Daeva'" lowid="234254" highid="234254" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Aesma Daeva'" lowid="234255" highid="234255" ql="220" droprate="?" />
+<item name="Maul of Gwyddawg" lowid="245784" highid="245785" ql="259" droprate="?" />
+<item name="Maul of Menestyr" lowid="245786" highid="245786" ql="260" droprate="?" />
+<item name="Syndicate Messenger" lowid="245797" highid="245798" ql="259" droprate="?" />
+<item name="Conflagrant Syndicate Messenger Gun" lowid="245799" highid="245799" ql="260" droprate="?" />
+<info></info></mob><mob>
+<name>Anansi's Abettor</name>
+<level>240-250</level>
+<spawn_time>?</spawn_time>
+<location>?</location>
+<pfid>NA</pfid>
+<coords>?</coords>
+<pf>SL</pf>
+<item name="Maiden's Gloves" lowid="246092" highid="246092" ql="250" droprate="?" />
+<item name="Two-Dimensional Hole" lowid="245718" highid="245718" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Spetses</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3300x3100</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Aesma Daeva'" lowid="242781" highid="242781" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Aesma Daeva'" lowid="234253" highid="234253" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Aesma Daeva'" lowid="234254" highid="234254" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Aesma Daeva'" lowid="234255" highid="234255" ql="220" droprate="?" />
+<item name="Scimitar of Spetses" lowid="246050" highid="246051" ql="259" droprate="?" />
+<item name="Sparkling Scimitar of Spetses" lowid="246052" highid="246052" ql="260" droprate="?" />
+<info></info></mob><mob>
+<name>Ishimk'Imk</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3573x2167</coords>
+<pf>SL</pf>
+<item name="Mark of the Fisher King" lowid="245865" highid="245865" ql="250" droprate="?" />
+<item name="Armplates of Meteorite Assembly" lowid="245855" highid="245855" ql="250" droprate="?" />
+<item name="Boots of Stolen Comet Speed" lowid="245857" highid="245857" ql="250" droprate="?" />
+<item name="Gauntlets of Star Confabulation" lowid="245856" highid="245856" ql="250" droprate="?" />
+<item name="Moon Watcher Helmet" lowid="245859" highid="245859" ql="250" droprate="?" />
+<item name="Overcoat of the Firmament" lowid="260684" highid="260684" ql="250" droprate="?" />
+<item name="Shoulderpads of Asteroid Calling" lowid="260685" highid="260685" ql="250" droprate="?" />
+<item name="Vest of Torpid Sunrays" lowid="245854" highid="245854" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Devoted Spirit Hunter</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Burning Marshes, Inferno</location>
+<pfid>4005</pfid>
+<coords>650x1300</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Arch Bigot Aliel'" lowid="242788" highid="242788" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'Arch Bigot Aliel'" lowid="234320" highid="234320" ql="255" droprate="?" />
+<item name="Chi Pattern of 'Arch Bigot Aliel'" lowid="234321" highid="234321" ql="255" droprate="?" />
+<item name="Dom Pattern of 'Arch Bigot Aliel'" lowid="234322" highid="234322" ql="255" droprate="?" />
+<item name="Fanatic's Jacket" lowid="246063" highid="246063" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Malah-Fulcifera</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2200x1800</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Ats'" lowid="242784" highid="242784" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Ats'" lowid="234282" highid="234282" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Ats'" lowid="234283" highid="234283" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Ats'" lowid="234284" highid="234284" ql="220" droprate="?" />
+<item name="Curse of Malahde" lowid="245903" highid="245903" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Pursued Spirit</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Burning Marshes, Inferno</location>
+<pfid>4005</pfid>
+<coords>710x1100</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Arch Bigot Aliel'" lowid="242788" highid="242788" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'Arch Bigot Aliel'" lowid="234320" highid="234320" ql="255" droprate="?" />
+<item name="Chi Pattern of 'Arch Bigot Aliel'" lowid="234321" highid="234321" ql="255" droprate="?" />
+<item name="Dom Pattern of 'Arch Bigot Aliel'" lowid="234322" highid="234322" ql="255" droprate="?" />
+<item name="Apprehensive Spirit Pitcher" lowid="246095" highid="246095" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Chimera Monitor</name>
+<level>230</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>1380x550</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'The Indomitable Chimera'" lowid="242783" highid="242783" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'The Indomitable Chimera'" lowid="234273" highid="234273" ql="220" droprate="?" />
+<item name="Chi Pattern of 'The Indomitable Chimera'" lowid="234274" highid="234274" ql="220" droprate="?" />
+<item name="Dom Pattern of 'The Indomitable Chimera'" lowid="234275" highid="234275" ql="220" droprate="?" />
+<item name="Monitor Smoking Suit" lowid="245694" highid="245694" ql="220" droprate="?" />
+<info></info></mob><mob>
+<name>Fanatic Spirit Hunter</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Burning Marshes, Inferno</location>
+<pfid>4005</pfid>
+<coords>1389x1993</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Arch Bigot Lohel'" lowid="242786" highid="242786" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'Arch Bigot Lohel'" lowid="234302" highid="234302" ql="255" droprate="?" />
+<item name="Chi Pattern of 'Arch Bigot Lohel'" lowid="234303" highid="234303" ql="255" droprate="?" />
+<item name="Dom Pattern of 'Arch Bigot Lohel'" lowid="234304" highid="234304" ql="255" droprate="?" />
+<item name="Fanatic's Jacket" lowid="246063" highid="246063" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Conflagrant Spirit</name>
+<level>210-220</level>
+<spawn_time>?</spawn_time>
+<location>Yutto Marshes, Burning Marshes</location>
+<pfid>4005</pfid>
+<coords>2230x1419</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'The Infernal Soul Dredge'" lowid="242797" highid="242797" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'The Infernal Soul Dredge'" lowid="242451" highid="242451" ql="220" droprate="?" />
+<item name="Chi Pattern of 'The Infernal Soul Dredge'" lowid="242452" highid="242452" ql="220" droprate="?" />
+<item name="Dom Pattern of 'The Infernal Soul Dredge'" lowid="242453" highid="242453" ql="220" droprate="?" />
+<item name="Syndicate Messenger Gun" lowid="245798" highid="245798" ql="259" droprate="?" />
+<item name="Conflagrant Syndicate Messenger Gun" lowid="245799" highid="245799" ql="260" droprate="?" />
+<info></info></mob><mob>
+<name>Punctlious Hiathlin</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3300x3000</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'The Dryad Demigod'" lowid="242779" highid="242779" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'The Dryad Demigod'" lowid="232386" highid="234235" ql="220" droprate="?" />
+<item name="Chi Pattern of 'The Dryad Demigod'" lowid="232387" highid="234236" ql="220" droprate="?" />
+<item name="Dom Pattern of 'The Dryad Demigod'" lowid="232388" highid="234237" ql="220" droprate="?" />
+<item name="Bellum Badonis Armor Boots" lowid="245866" highid="245866" ql="250" droprate="?" />
+<item name="Bellum Badonis Armor Gloves" lowid="245884" highid="245884" ql="250" droprate="?" />
+<item name="Bellum Badonis Armor Helmet" lowid="245889" highid="245889" ql="250" droprate="?" />
+<item name="Bellum Badonis Armor Sleeves" lowid="245880" highid="245880" ql="250" droprate="?" />
+<item name="Bellum Badonis Body Armor" lowid="245891" highid="245891" ql="250" droprate="?" />
+<item name="Bellum Badonis Coat" lowid="260681" highid="260681" ql="250" droprate="?" />
+<item name="Bellum Badonis Shoulderpads" lowid="260680" highid="260680" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Enkindled Spirit</name>
+<level>205-215</level>
+<spawn_time>?</spawn_time>
+<location>Yutto Marshes, Burning Marshes</location>
+<pfid>4005</pfid>
+<coords>2327x1284</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Odqan'" lowid="242794" highid="242794" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Odqan'" lowid="234374" highid="234374" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Odqan'" lowid="234375" highid="234375" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Odqan'" lowid="234376" highid="234376" ql="220" droprate="?" />
+<item name="Enkindled Spirit Focus" lowid="246062" highid="246062" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Pyiininnik</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3200x1600</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Relief Teals'" lowid="242766" highid="242766" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Relief Teals'" lowid="234118" highid="234118" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Relief Teals'" lowid="234119" highid="234119" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Relief Teals'" lowid="234120" highid="234120" ql="220" droprate="?" />
+<item name="The Sacrificed Bracelet of Kay" lowid="245824" highid="245824" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Medusa Philanderer</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2700x2900</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Lya'" lowid="242777" highid="242777" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Lya'" lowid="234217" highid="234217" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Lya'" lowid="234218" highid="234218" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Lya'" lowid="234219" highid="234219" ql="220" droprate="?" />
+<item name="Gallant Flapper Ribbon" lowid="260678" highid="260678" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Ahomac</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2744x2340</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Agent of Putrefaction'" lowid="242767" highid="242767" ql="255" droprate="?" />
+<item name="Bhotaar Pattern 'Agent of Putrefaction'" lowid="234127" highid="234127" ql="255" droprate="?" />
+<item name="Chi Pattern of 'Agent of Putrefaction'" lowid="234128" highid="234128" ql="255" droprate="?" />
+<item name="Dom Pattern of 'Agent of Putrefaction'" lowid="234129" highid="234129" ql="255" droprate="?" />
+<item name="Bellum Badonis Armor Boots" lowid="245866" highid="245866" ql="250" droprate="?" />
+<item name="Bellum Badonis Armor Gloves" lowid="245884" highid="245884" ql="250" droprate="?" />
+<item name="Bellum Badonis Armor Helmet" lowid="245889" highid="245889" ql="250" droprate="?" />
+<item name="Bellum Badonis Armor Sleeves" lowid="245880" highid="245880" ql="250" droprate="?" />
+<item name="Bellum Badonis Body Armor" lowid="245891" highid="245891" ql="250" droprate="?" />
+<item name="Bellum Badonis Coat" lowid="260681" highid="260681" ql="250" droprate="?" />
+<item name="Bellum Badonis Shoulderpads" lowid="260680" highid="260680" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Obsolete Soul Dredge</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3153x3224</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Arch Bigot Biap'" lowid="242782" highid="242782" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Arch Bigot Biap'" lowid="234262" highid="234262" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Arch Bigot Biap'" lowid="234263" highid="234263" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Arch Bigot Biap'" lowid="234264" highid="234264" ql="220" droprate="?" />
+<item name="Boots of the Imaginative" lowid="246094" highid="246094" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Pyiininnik's Shadow</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3200x1600</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Relief Teals'" lowid="242766" highid="242766" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Relief Teals'" lowid="234118" highid="234118" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Relief Teals'" lowid="234119" highid="234119" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Relief Teals'" lowid="234120" highid="234120" ql="220" droprate="?" />
+<info></info></mob><mob>
+<name>Tiunissik's Shadow</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Burning Marshes, Inferno</location>
+<pfid>4005</pfid>
+<coords>1596x2046</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Rallies Fete'" lowid="242785" highid="242785" ql="235" droprate="?" />
+<item name="Bhotaar Pattern 'Rallies Fete'" lowid="234293" highid="234293" ql="235" droprate="?" />
+<item name="Chi Pattern of 'Rallies Fete'" lowid="234294" highid="234294" ql="235" droprate="?" />
+<item name="Dom Pattern of 'Rallies Fete'" lowid="234295" highid="234295" ql="235" droprate="?" />
+<info></info></mob><mob>
+<name>Bigot Pohihanepael</name>
+<level>250</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>3236x3210</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Arch Bigot Biap'" lowid="242782" highid="242782" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Arch Bigot Biap'" lowid="234262" highid="234262" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Arch Bigot Biap'" lowid="234263" highid="234263" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Arch Bigot Biap'" lowid="234264" highid="234264" ql="220" droprate="?" />
+<info></info></mob><mob>
+<name>Ushamaham</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Inferno Frontier</location>
+<pfid>4605</pfid>
+<coords>2061x2219</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Ho'" lowid="242816" highid="242816" ql="220" droprate="?" />
+<item name="Bhotaar Pattern 'Ho'" lowid="239671" highid="239671" ql="220" droprate="?" />
+<item name="Chi Pattern of 'Ho'" lowid="239672" highid="239672" ql="220" droprate="?" />
+<item name="Dom Pattern of 'Ho'" lowid="239673" highid="239673" ql="220" droprate="?" />
+<item name="Armplates of Meteorite Assembly" lowid="245855" highid="245855" ql="250" droprate="?" />
+<item name="Boots of Stolen Comet Speed" lowid="245857" highid="245857" ql="250" droprate="?" />
+<item name="Gauntlets of Star Confabulation" lowid="245856" highid="245856" ql="250" droprate="?" />
+<item name="Moon Watcher Helmet" lowid="245859" highid="245859" ql="250" droprate="?" />
+<item name="Overcoat of the Firmament" lowid="260684" highid="260684" ql="250" droprate="?" />
+<item name="Shoulderpads of Asteroid Calling" lowid="260685" highid="260685" ql="250" droprate="?" />
+<item name="Vest of Torpid Sunrays" lowid="245854" highid="245854" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Brutish Dryad</name>
+<level>75</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Central Elysium</location>
+<pfid>4542</pfid>
+<coords>varies</coords>
+<pf>SL</pf>
+<item name="Abhan Pattern 'Circumbendibus'" lowid="242674" highid="242674" ql="80" droprate="?" />
+<item name="Bhotaar Pattern 'Circumbendibus'" lowid="231406" highid="231406" ql="80" droprate="?" />
+<item name="Chi Pattern of 'Circumbendibus'" lowid="229155" highid="229155" ql="80" droprate="?" />
+<item name="Dom Pattern of 'Circumbendibus'" lowid="229156" highid="229156" ql="80" droprate="?" />
+<item name="Pelisse of the Elysian Nymph" lowid="246287" highid="246288" ql="150" droprate="?" />
+<item name="Finely Refined Notum" lowid="227643" highid="227643" ql="220" droprate="?" />
+<info></info></mob><mob>
+<name>Wounded Predator</name>
+<level>75</level>
+<spawn_time>00:20:00</spawn_time>
+<location>Catnip Crest, Elysium</location>
+<pfid>4542</pfid>
+<coords>753x965</coords>
+<pf>SL</pf>
+<item name="Predator Armband" lowid="246316" highid="246316" ql="100" droprate="?" />
+<item name="Predator Armor Boots" lowid="246319" highid="246319" ql="100" droprate="?" />
+<item name="Predator Armor Facemask" lowid="246312" highid="246312" ql="100" droprate="?" />
+<item name="Predator Armor Gloves" lowid="246317" highid="246317" ql="100" droprate="?" />
+<item name="Predator Armor Pants" lowid="246318" highid="246318" ql="100" droprate="?" />
+<item name="Predator Armor Vest" lowid="246314" highid="246314" ql="100" droprate="?" />
+<item name="Abhan Pattern 'Black Fang'" lowid="242675" highid="242675" ql="80" droprate="?" />
+<item name="Bhotaar Pattern 'Black Fang'" lowid="231415" highid="231415" ql="80" droprate="?" />
+<item name="Chi Pattern of 'Black Fang'" lowid="229164" highid="229164" ql="80" droprate="?" />
+<item name="Dom Pattern of 'Black Fang'" lowid="229165" highid="229165" ql="80" droprate="?" />
+<info></info></mob><mob>
+<name>Acidic Prisoner</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Milky Way</location>
+<pfid>625</pfid>
+<coords>1460x1715</coords>
+<pf>RK</pf>
+<item name="Soul of the Summoner" lowid="274651" highid="274651" ql="1" droprate="100" />
+<item name="Soul of the Illusionist" lowid="274652" highid="274652" ql="1" droprate="?" />
+<item name="Soul of the Jester" lowid="274653" highid="274653" ql="1" droprate="?" />
+<item name="Soul of the Ranger" lowid="274654" highid="274654" ql="1" droprate="?" />
+<item name="Soul of the Gladiator" lowid="274655" highid="274655" ql="1" droprate="?" />
+<item name="Soul of the Healer" lowid="274656" highid="274656" ql="1" droprate="?" />
+<item name="Empty Spirit Vest" lowid="274646" highid="274646" ql="1" droprate="100" />
+<item name="Soul Ripper" lowid="274650" highid="274650" ql="1" droprate="100" />
+<item name="Hacked Medi-Blade" lowid="274974" highid="274974" ql="300" droprate="?" />
+<item name="Reflex Pistol" lowid="274977" highid="274977" ql="300" droprate="?" />
+<item name="Sturdy Detention Boots" lowid="274976" highid="274976" ql="200" droprate="?" />
+<item name="Crude Upgrade Kit" lowid="274975" highid="274975" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Burning Prisoner</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Milky Way</location>
+<pfid>625</pfid>
+<coords>375x725</coords>
+<pf>RK</pf>
+<item name="Soul of the Summoner" lowid="274651" highid="274651" ql="1" droprate="?" />
+<item name="Soul of the Illusionist" lowid="274652" highid="274652" ql="1" droprate="?" />
+<item name="Soul of the Jester" lowid="274653" highid="274653" ql="1" droprate="?" />
+<item name="Soul of the Ranger" lowid="274654" highid="274654" ql="1" droprate="?" />
+<item name="Soul of the Gladiator" lowid="274655" highid="274655" ql="1" droprate="100" />
+<item name="Soul of the Healer" lowid="274656" highid="274656" ql="1" droprate="?" />
+<item name="Empty Spirit Vest" lowid="274646" highid="274646" ql="1" droprate="100" />
+<item name="Soul Ripper" lowid="274650" highid="274650" ql="1" droprate="100" />
+<item name="Hacked Medi-Blade" lowid="274974" highid="274974" ql="300" droprate="?" />
+<item name="Reflex Pistol" lowid="274977" highid="274977" ql="300" droprate="?" />
+<item name="Sturdy Detention Boots" lowid="274976" highid="274976" ql="200" droprate="?" />
+<item name="Crude Upgrade Kit" lowid="274975" highid="274975" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Dangerous Prisoner</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Milky Way</location>
+<pfid>625</pfid>
+<coords>4565x370</coords>
+<pf>RK</pf>
+<item name="Soul of the Summoner" lowid="274651" highid="274651" ql="1" droprate="?" />
+<item name="Soul of the Illusionist" lowid="274652" highid="274652" ql="1" droprate="?" />
+<item name="Soul of the Jester" lowid="274653" highid="274653" ql="1" droprate="?" />
+<item name="Soul of the Ranger" lowid="274654" highid="274654" ql="1" droprate="100" />
+<item name="Soul of the Gladiator" lowid="274655" highid="274655" ql="1" droprate="?" />
+<item name="Soul of the Healer" lowid="274656" highid="274656" ql="1" droprate="?" />
+<item name="Empty Spirit Vest" lowid="274646" highid="274646" ql="1" droprate="100" />
+<item name="Soul Ripper" lowid="274650" highid="274650" ql="1" droprate="100" />
+<item name="Hacked Medi-Blade" lowid="274974" highid="274974" ql="300" droprate="?" />
+<item name="Reflex Pistol" lowid="274977" highid="274977" ql="300" droprate="?" />
+<item name="Sturdy Detention Boots" lowid="274976" highid="274976" ql="200" droprate="?" />
+<item name="Crude Upgrade Kit" lowid="274975" highid="274975" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Deadly Prisoner</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Milky Way</location>
+<pfid>625</pfid>
+<coords>765x1025</coords>
+<pf>RK</pf>
+<item name="Soul of the Summoner" lowid="274651" highid="274651" ql="1" droprate="?" />
+<item name="Soul of the Illusionist" lowid="274652" highid="274652" ql="1" droprate="?" />
+<item name="Soul of the Jester" lowid="274653" highid="274653" ql="1" droprate="?" />
+<item name="Soul of the Ranger" lowid="274654" highid="274654" ql="1" droprate="?" />
+<item name="Soul of the Gladiator" lowid="274655" highid="274655" ql="1" droprate="?" />
+<item name="Soul of the Healer" lowid="274656" highid="274656" ql="1" droprate="100" />
+<item name="Empty Spirit Vest" lowid="274646" highid="274646" ql="1" droprate="100" />
+<item name="Soul Ripper" lowid="274650" highid="274650" ql="1" droprate="100" />
+<item name="Hacked Medi-Blade" lowid="274974" highid="274974" ql="300" droprate="?" />
+<item name="Reflex Pistol" lowid="274977" highid="274977" ql="300" droprate="?" />
+<item name="Sturdy Detention Boots" lowid="274976" highid="274976" ql="200" droprate="?" />
+<item name="Crude Upgrade Kit" lowid="274975" highid="274975" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Diseased Prisoner</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Milky Way</location>
+<pfid>625</pfid>
+<coords>3625x580</coords>
+<pf>RK</pf>
+<item name="Soul of the Summoner" lowid="274651" highid="274651" ql="1" droprate="?" />
+<item name="Soul of the Illusionist" lowid="274652" highid="274652" ql="1" droprate="?" />
+<item name="Soul of the Jester" lowid="274653" highid="274653" ql="1" droprate="100" />
+<item name="Soul of the Ranger" lowid="274654" highid="274654" ql="1" droprate="?" />
+<item name="Soul of the Gladiator" lowid="274655" highid="274655" ql="1" droprate="?" />
+<item name="Soul of the Healer" lowid="274656" highid="274656" ql="1" droprate="?" />
+<item name="Empty Spirit Vest" lowid="274646" highid="274646" ql="1" droprate="100" />
+<item name="Soul Ripper" lowid="274650" highid="274650" ql="1" droprate="100" />
+<item name="Hacked Medi-Blade" lowid="274974" highid="274974" ql="300" droprate="?" />
+<item name="Reflex Pistol" lowid="274977" highid="274977" ql="300" droprate="?" />
+<item name="Sturdy Detention Boots" lowid="274976" highid="274976" ql="200" droprate="?" />
+<item name="Crude Upgrade Kit" lowid="274975" highid="274975" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Explosive Prisoner</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Milky Way</location>
+<pfid>625</pfid>
+<coords>1060x925</coords>
+<pf>RK</pf>
+<item name="Soul of the Summoner" lowid="274651" highid="274651" ql="1" droprate="100" />
+<item name="Soul of the Illusionist" lowid="274652" highid="274652" ql="1" droprate="?" />
+<item name="Soul of the Jester" lowid="274653" highid="274653" ql="1" droprate="?" />
+<item name="Soul of the Ranger" lowid="274654" highid="274654" ql="1" droprate="?" />
+<item name="Soul of the Gladiator" lowid="274655" highid="274655" ql="1" droprate="?" />
+<item name="Soul of the Healer" lowid="274656" highid="274656" ql="1" droprate="?" />
+<item name="Empty Spirit Vest" lowid="274646" highid="274646" ql="1" droprate="100" />
+<item name="Soul Ripper" lowid="274650" highid="274650" ql="1" droprate="100" />
+<item name="Hacked Medi-Blade" lowid="274974" highid="274974" ql="300" droprate="?" />
+<item name="Reflex Pistol" lowid="274977" highid="274977" ql="300" droprate="?" />
+<item name="Sturdy Detention Boots" lowid="274976" highid="274976" ql="200" droprate="?" />
+<item name="Crude Upgrade Kit" lowid="274975" highid="274975" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Murderous Prisoner</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Milky Way</location>
+<pfid>625</pfid>
+<coords>1925x1875</coords>
+<pf>RK</pf>
+<item name="Soul of the Summoner" lowid="274651" highid="274651" ql="1" droprate="?" />
+<item name="Soul of the Illusionist" lowid="274652" highid="274652" ql="1" droprate="?" />
+<item name="Soul of the Jester" lowid="274653" highid="274653" ql="1" droprate="?" />
+<item name="Soul of the Ranger" lowid="274654" highid="274654" ql="1" droprate="100" />
+<item name="Soul of the Gladiator" lowid="274655" highid="274655" ql="1" droprate="?" />
+<item name="Soul of the Healer" lowid="274656" highid="274656" ql="1" droprate="?" />
+<item name="Empty Spirit Vest" lowid="274646" highid="274646" ql="1" droprate="100" />
+<item name="Soul Ripper" lowid="274650" highid="274650" ql="1" droprate="100" />
+<item name="Hacked Medi-Blade" lowid="274974" highid="274974" ql="300" droprate="?" />
+<item name="Reflex Pistol" lowid="274977" highid="274977" ql="300" droprate="?" />
+<item name="Sturdy Detention Boots" lowid="274976" highid="274976" ql="200" droprate="?" />
+<item name="Crude Upgrade Kit" lowid="274975" highid="274975" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Poisonous Prisoner</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Milky Way</location>
+<pfid>625</pfid>
+<coords>1925x1875</coords>
+<pf>RK</pf>
+<item name="Soul of the Summoner" lowid="274651" highid="274651" ql="1" droprate="?" />
+<item name="Soul of the Illusionist" lowid="274652" highid="274652" ql="1" droprate="?" />
+<item name="Soul of the Jester" lowid="274653" highid="274653" ql="1" droprate="?" />
+<item name="Soul of the Ranger" lowid="274654" highid="274654" ql="1" droprate="?" />
+<item name="Soul of the Gladiator" lowid="274655" highid="274655" ql="1" droprate="?" />
+<item name="Soul of the Healer" lowid="274656" highid="274656" ql="1" droprate="100" />
+<item name="Empty Spirit Vest" lowid="274646" highid="274646" ql="1" droprate="100" />
+<item name="Soul Ripper" lowid="274650" highid="274650" ql="1" droprate="100" />
+<item name="Hacked Medi-Blade" lowid="274974" highid="274974" ql="300" droprate="?" />
+<item name="Reflex Pistol" lowid="274977" highid="274977" ql="300" droprate="?" />
+<item name="Sturdy Detention Boots" lowid="274976" highid="274976" ql="200" droprate="?" />
+<item name="Crude Upgrade Kit" lowid="274975" highid="274975" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Silenced Prisoner</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Milky Way</location>
+<pfid>625</pfid>
+<coords>2915x300</coords>
+<pf>RK</pf>
+<item name="Soul of the Summoner" lowid="274651" highid="274651" ql="1" droprate="?" />
+<item name="Soul of the Illusionist" lowid="274652" highid="274652" ql="1" droprate="?" />
+<item name="Soul of the Jester" lowid="274653" highid="274653" ql="1" droprate="100" />
+<item name="Soul of the Ranger" lowid="274654" highid="274654" ql="1" droprate="?" />
+<item name="Soul of the Gladiator" lowid="274655" highid="274655" ql="1" droprate="?" />
+<item name="Soul of the Healer" lowid="274656" highid="274656" ql="1" droprate="?" />
+<item name="Empty Spirit Vest" lowid="274646" highid="274646" ql="1" droprate="100" />
+<item name="Soul Ripper" lowid="274650" highid="274650" ql="1" droprate="100" />
+<item name="Hacked Medi-Blade" lowid="274974" highid="274974" ql="300" droprate="?" />
+<item name="Reflex Pistol" lowid="274977" highid="274977" ql="300" droprate="?" />
+<item name="Sturdy Detention Boots" lowid="274976" highid="274976" ql="200" droprate="?" />
+<item name="Crude Upgrade Kit" lowid="274975" highid="274975" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Spiritual Prisoner</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Milky Way</location>
+<pfid>625</pfid>
+<coords>880x630</coords>
+<pf>RK</pf>
+<item name="Soul of the Summoner" lowid="274651" highid="274651" ql="1" droprate="?" />
+<item name="Soul of the Illusionist" lowid="274652" highid="274652" ql="1" droprate="100" />
+<item name="Soul of the Jester" lowid="274653" highid="274653" ql="1" droprate="?" />
+<item name="Soul of the Ranger" lowid="274654" highid="274654" ql="1" droprate="?" />
+<item name="Soul of the Gladiator" lowid="274655" highid="274655" ql="1" droprate="?" />
+<item name="Soul of the Healer" lowid="274656" highid="274656" ql="1" droprate="?" />
+<item name="Empty Spirit Vest" lowid="274646" highid="274646" ql="1" droprate="100" />
+<item name="Soul Ripper" lowid="274650" highid="274650" ql="1" droprate="100" />
+<item name="Hacked Medi-Blade" lowid="274974" highid="274974" ql="300" droprate="?" />
+<item name="Reflex Pistol" lowid="274977" highid="274977" ql="300" droprate="?" />
+<item name="Sturdy Detention Boots" lowid="274976" highid="274976" ql="200" droprate="?" />
+<item name="Crude Upgrade Kit" lowid="274975" highid="274975" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Temporal Prisoner</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Milky Way</location>
+<pfid>625</pfid>
+<coords>3150x2125</coords>
+<pf>RK</pf>
+<item name="Soul of the Summoner" lowid="274651" highid="274651" ql="1" droprate="?" />
+<item name="Soul of the Illusionist" lowid="274652" highid="274652" ql="1" droprate="?" />
+<item name="Soul of the Jester" lowid="274653" highid="274653" ql="1" droprate="?" />
+<item name="Soul of the Ranger" lowid="274654" highid="274654" ql="1" droprate="?" />
+<item name="Soul of the Gladiator" lowid="274655" highid="274655" ql="1" droprate="100" />
+<item name="Soul of the Healer" lowid="274656" highid="274656" ql="1" droprate="?" />
+<item name="Empty Spirit Vest" lowid="274646" highid="274646" ql="1" droprate="100" />
+<item name="Soul Ripper" lowid="274650" highid="274650" ql="1" droprate="100" />
+<item name="Hacked Medi-Blade" lowid="274974" highid="274974" ql="300" droprate="?" />
+<item name="Reflex Pistol" lowid="274977" highid="274977" ql="300" droprate="?" />
+<item name="Sturdy Detention Boots" lowid="274976" highid="274976" ql="200" droprate="?" />
+<item name="Crude Upgrade Kit" lowid="274975" highid="274975" ql="250" droprate="?" />
+<info></info></mob><mob>
+<name>Umbral Prisoner</name>
+<level>215</level>
+<spawn_time>?</spawn_time>
+<location>Milky Way</location>
+<pfid>625</pfid>
+<coords>4950x810</coords>
+<pf>RK</pf>
+<item name="Soul of the Summoner" lowid="274651" highid="274651" ql="1" droprate="?" />
+<item name="Soul of the Illusionist" lowid="274652" highid="274652" ql="1" droprate="100" />
+<item name="Soul of the Jester" lowid="274653" highid="274653" ql="1" droprate="?" />
+<item name="Soul of the Ranger" lowid="274654" highid="274654" ql="1" droprate="?" />
+<item name="Soul of the Gladiator" lowid="274655" highid="274655" ql="1" droprate="?" />
+<item name="Soul of the Healer" lowid="274656" highid="274656" ql="1" droprate="?" />
+<item name="Empty Spirit Vest" lowid="274646" highid="274646" ql="1" droprate="100" />
+<item name="Soul Ripper" lowid="274650" highid="274650" ql="1" droprate="100" />
+<item name="Hacked Medi-Blade" lowid="274974" highid="274974" ql="300" droprate="?" />
+<item name="Reflex Pistol" lowid="274977" highid="274977" ql="300" droprate="?" />
+<item name="Sturdy Detention Boots" lowid="274976" highid="274976" ql="200" droprate="?" />
+<item name="Crude Upgrade Kit" lowid="274975" highid="274975" ql="250" droprate="?" />
+<info></info></mob>
+</uniques>

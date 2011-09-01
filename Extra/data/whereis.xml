@@ -1,0 +1,907 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<whereis>
+<version>1.0</version>
+<location>
+    <name>4 Holes</name>
+    <aka>4HO</aka>
+    <pfid>760</pfid>
+    <coords>na</coords>
+    <info>4 Holes (aka 4HO) is located in the west central part of the world. It has a grid access point at 893x1754.  Whompas at 1200x1225 to 2HO, 20K, and Broken Shores.  North of 4Holes is Stret West Bank, south is Andromeda, east is Stret East Bank, no zone avail to the west.</info>
+</location>
+<location>
+    <name>Face in the Sand</name>
+    <aka></aka>
+    <pfid>585</pfid>
+    <coords>1400x2750</coords>
+    <info>A Face in the Sand is at 1400x2750 in Aegean</info>
+</location>
+<location>
+    <name>Ace Camp</name>
+    <aka>Primus Camp</aka>
+    <pfid>620</pfid>
+    <coords>na</coords>
+    <info>Ace Camp is in Eastern Fouls Plains somewhere.</info>
+</location>
+<location>
+    <name>Aegaen</name>
+    <aka></aka>
+    <pfid>585</pfid>
+    <coords>na</coords>
+    <info>Aegean is located in the northeast part of the world. No grid access point and no whompa. East of Aegean is Varmint Woods, to the west is Athen Shire, southeast is Upper Stret East Bank, southwest is Wartorn Valley and Stret West Bank, no zone available to the north.</info>
+</location>
+<location>
+    <name>Andromeda</name>
+    <aka></aka>
+    <pfid>655</pfid>
+    <coords>na</coords>
+    <info>Andromeda is located in the southwest part of the world.  Whompas to Tir, Newland, and OmniTrade at 3250 900.  To the north (east) of Andromeda is 4 Holes, to the north (west) is Stret East Bank. To the east is Milky Way, south (east) is Lush Fields, south (west) is Clondyke. No zone avail to the west.</info>
+</location>
+<location>
+    <name>Another Face in the Sand</name>
+    <aka></aka>
+    <pfid>560</pfid>
+    <coords>1300x2650</coords>
+    <info>Another Face in the Sand is at 1300x2650 in Mort</info>
+</location>
+<location>
+    <name>Area Y</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>Area Y is beyond Galway View next to Arthers Pass</info>
+</location>
+<location>
+    <name>Old Athens</name>
+    <aka>OA</aka>
+    <pfid>540</pfid>
+    <coords>na</coords>
+    <info>Old Athens is located in the northwest part of the world. Grid access at 512x573.  It has a whompa to Tir, Wailing Wastes and Bliss at 445,318. Out the east gate is Wartorn Valley and out West Gate is West Athen.</info>
+</location>
+<location>
+    <name>Athen Shire</name>
+    <aka></aka>
+    <pfid>550</pfid>
+    <coords>na</coords>
+    <info>Athen Shire is located in the northwest part of the world. It has no grid access or whompa. To the north is Wailing Wastes, to the east is Wartorn Valley and Aegean, to the west is The Longest Road, to the south is Holes in the Wall.  The War Academy is at 1740x1970</info>
+</location>
+<location>
+    <name>West Athen</name>
+    <aka>WA</aka>
+    <pfid>545</pfid>
+    <coords>na</coords>
+    <info>Athen West is located in the northwest part of the world. It has a grid access point at 472x410 and no whompa. To the north, south and west is Athen Shire, to the east is Athen Old.</info>
+</location>
+<location>
+    <name>Avalon</name>
+    <aka></aka>
+    <pfid>505</pfid>
+    <coords>na</coords>
+    <info>Avalon is located in the north west part of the world. It has a grid entry at 2070x3760 and a whompa to Athens and Wailing Wastes at 2175x3815. There is no zone available to the north, east and west. Southeast is Wailing Wastes.  Camelot Castle (dungeon) is at 2090x3820.  Clan OP with scanner at 1540x3730 and 2140x3110.  Omni OP with scanner at 800x1630 and at 1870x1230</info>
+</location>
+<location>
+    <name>Bronto Burger</name>
+    <aka>BB</aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>BB stands for Bront Burger.  There are Bronto Burger locations all over Rubi-Ka.</info>
+</location>
+<location>
+    <name>Baboon's</name>
+    <aka></aka>
+    <pfid>705</pfid>
+    <coords>766x766</coords>
+    <info>Baboons is located in Omni Entertainment at 766x766.</info>
+</location>
+<location>
+    <name>Beer 'N Booze</name>
+    <aka></aka>
+    <pfid>560</pfid>
+    <coords>2840x1920</coords>
+    <info>Beer and Booze Bar is in Mort at 2840x1920, in the city called Hope.  The bar has a 5% supression gas.</info>
+</location>
+<location>
+    <name>Belial Forest</name>
+    <aka></aka>
+    <pfid>605</pfid>
+    <coords>na</coords>
+    <info>Belial Forest is located in the southeast part of the world. No grid access.  Whompas in Wine lead to Broken Shores and Varmint Woods at 2150x2319. To the north of Belial Forest is Deep Artery Valley, south is Eastern Foul Plains, west is S.Artery Valley and Milky Way is south and southwest. No zone to east.</info>
+</location>
+<location>
+    <name>Biomare</name>
+    <aka>Foreman's</aka>
+    <pfid>795</pfid>
+    <coords>1930x775</coords>
+    <info>Biomare (Biological materials research) (aka Omni-Med Bio Facility) (aka Foremans Office) is located in The Longest Road at 1930x775. Recommended for teams of lvl 40-70. Look for a door that says Foreman above the doorway.  Players over level 100 are not allowed to enter.</info>
+</location>
+<location>
+    <name>Bliss</name>
+    <aka></aka>
+    <pfid>795</pfid>
+    <coords>3700x1615</coords>
+    <info>Bliss is located in The Longest Road at 3700x1615. Bliss has shops, clan insure terms, banks and mission terms. Bliss has whompas to Athen Old, Avalon, and Broken Shores</info>
+</location>
+<location>
+    <name>Borealis</name>
+    <aka></aka>
+    <pfid>800</pfid>
+    <coords>na</coords>
+    <info>Borealis is located in the central-west part of the world. Grid access at 635x727.  Whompa to Stret West Bank at 682x531. Whompa to Newland right next to that. East of Borealis is Holes in the Wall. No zones currently available to the north, south, and west.  Although Borealis used to be a neutral city, it is currently occupied by Omni forces.  Although Clans can usually pass safely though Borealis, this is not always the case.</info>
+</location>
+<location>
+    <name>Brainy Ant Woods</name>
+    <aka></aka>
+    <pfid>647</pfid>
+    <coords>1300x1500</coords>
+    <info>Brainy Ant Woods is in Greater Tir County near 1300x1500.</info>
+</location>
+<location>
+    <name>Broken Shores</name>
+    <aka>BS</aka>
+    <pfid>665</pfid>
+    <coords>na</coords>
+    <info>Broken Shores is located in the southwest corner of the world. It has a grid access point in City of Home at 644x1313.  In the north is a Whompah at 1000x3760 to Bliss and to Wine.  There is a Whompah to Rome Red and 4 Holes Trade at 2340x2250</info>
+</location>
+<location>
+    <name>Camelot</name>
+    <aka></aka>
+    <pfid>405</pfid>
+    <coords>2090x3820</coords>
+    <info>Camelot is located in the northwest part of the world, in the center of the city of Avalon and can be reached by whompa from Old Athens or Wailing Wastes.  Camelot Castle (dungeon) can be found in Avalon. As you step out of the whompa, the entrance to the wonderfull and quite deadly castle of Camelot looms directly in front of you.  Just step up the small hill and pass the gate, at 2090x3820</info>
+</location>
+<location>
+    <name>Central Artery Valley</name>
+    <aka>CAV</aka>
+    <pfid>590</pfid>
+    <coords>na</coords>
+    <info>Central Artery Valley is located in the mideastern part of the world. No grid or whompa. North of Central Artery Valley is Varmint Woods, south is Southern Artery Valley, east is Deep Artery Valley, west is Upper Stret East Bank. NE corner is Greater Tir Cnty and SW corner is Stret East Bank.</info>
+</location>
+<location>
+    <name>City of Home</name>
+    <aka></aka>
+    <pfid>665</pfid>
+    <coords>735x1459</coords>
+    <info>City of Home is located in the Broken Shores zone, at 735x1459. It has shops, clan/neut insure terms, banks.</info>
+</location>
+<location>
+    <name>Crypt of Home</name>
+    <aka>CoH</aka>
+    <pfid>665</pfid>
+    <coords>355x2215</coords>
+    <info>Crypt of Home is located in the Broken Shores zone at 355x2215.</info>
+</location>
+<location>
+    <name>Clondyke</name>
+    <aka></aka>
+    <pfid>670</pfid>
+    <coords>na</coords>
+    <info>Clondyke is located in the southwest part of the world. It has a grid access point at 1054x4023, no whompa. North of Clondyke is Andromeda, west is Galway County, east is Lush Fields. No zone avail to the south.</info>
+</location>
+<location>
+    <name>Comdemned Subway</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>Condemned Subway is a dungeon for L 1-24 players.  There are 3 Subway dungeons.  In Borealis at 637x463 (south part of city).  In Galyway Shire at 168x874, just outside the east gates of Rome Blue.  And in Old Athen at 487x439, just NE of town center.</info>
+</location>
+<location>
+    <name>Cyborg Baracks</name>
+    <aka></aka>
+    <pfid>647</pfid>
+    <coords>3230x2340</coords>
+    <info>Cyborg Barracks is located in the northeast part of the world, in Greater Tir County at 3230x2340. Recommended for teams of lvl 70-90.</info>
+</location>
+<location>
+    <name>Dancing Atrox Bar</name>
+    <aka>Relax Bar</aka>
+    <pfid>716</pfid>
+    <coords>300x1850</coords>
+    <info>Dancing Atrox Bar is at 300x1850, Omni-1 Screening Area (Omni Forest).  You may know this place as called Relax Bar.</info>
+</location>
+<location>
+    <name>Deep Arterial Valley</name>
+    <aka>DAV</aka>
+    <pfid>595</pfid>
+    <coords>na</coords>
+    <info>Deep Artery Valley is located in the mideastern part of the world. No grid and no whompa. To the north of Deep Artery Valley is Greater Tir County (but a force field blocks you from zoning north), south is Belial Forest, west is Central Artery Valley and Southern Artery Valley, no zone to east.</info>
+</location>
+<location>
+    <name>Dungeons</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>Dungeons I know about: Temple of the Three Winds, Will to Fight, Condemned Subway, Steps of Madness, BioMaRe, Cyborg Barracks, Smugglers Den, Camelot, and Crypt of Home</info>
+</location>
+<location>
+    <name>Eastern Fouls Plain</name>
+    <aka>EFP</aka>
+    <pfid>620</pfid>
+    <coords>na</coords>
+    <info>Eastern Fouls Plain is located in the southeast part of the world. No grid or whompa. North of E.Fouls Plain is Belial Forest (but a force field keeps you from zoning north), south is Southern Fouls Hills, north west is Milky Way, southwest is Pleasant Meadow. No zone avail to the east.</info>
+</location>
+<location>
+    <name>Eden Cafe</name>
+    <aka></aka>
+    <pfid>705</pfid>
+    <coords>744x417</coords>
+    <info>Eden Cafe is in Omni Entertainment, South 744x417</info>
+</location>
+<location>
+    <name>Enjoy It While It Lasts</name>
+    <aka></aka>
+    <pfid>646</pfid>
+    <coords>650x400</coords>
+    <info>Enjoy it While it Lasts is at 650x400, Tir City</info>
+</location>
+<location>
+    <name>Varmint Woods Outpost</name>
+    <aka>Eric Mendelson Outpost</aka>
+    <pfid>600</pfid>
+    <coords>2450x2100</coords>
+    <info>Eric Mendelson Outpost is located in Varmint Woods at 2450x2100. There are mission terms, insure term and shopping terms.</info>
+</location>
+<location>
+    <name>Freedom Outpost</name>
+    <aka></aka>
+    <pfid>550</pfid>
+    <coords>1553x370</coords>
+    <info>Freedom Outpost is located in Athen Shire at 1553x370. Insure terms, shops and mission terms and banks are available here. Directly beside the outpost is the zone to Wailing Wastes.</info>
+</location>
+<location>
+    <name>Galway Castle Model</name>
+    <aka></aka>
+    <pfid>685</pfid>
+    <coords>1110x1000</coords>
+    <info>Galway Castle Model is at 1110x1000 in Galway County </info>
+</location>
+<location>
+    <name>Castle</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>Galway Castle or Camelot Castle?</info>
+</location>
+<location>
+    <name>Galway County</name>
+    <aka></aka>
+    <pfid>685</pfid>
+    <coords>na</coords>
+    <info>Galway County is located in the southwest part of the world. It has a grid access point at 1416x1091 and whompas at 2530x1175 to Outpost 10-3, Omni-1 Trade, and Rome . West is Galway Shire, east is Clondyke, no zones avail to north and south.</info>
+</location>
+<location>
+    <name>Galway</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>Galway County or Galway Shire? Galway Castle is in Galway County. Please try again.</info>
+</location>
+<location>
+    <name>Galway Shire</name>
+    <aka></aka>
+    <pfid>687</pfid>
+    <coords>na</coords>
+    <info>Galway Shire is located in the southwest part of the world. No grid access or whompa. East is Galway County, west is Broken Shores, no zones avail to north and south. Rome is located midway in Galway Shire on far west side.</info>
+</location>
+<location>
+    <name>Greater Omni Forest</name>
+    <aka></aka>
+    <pfid>717</pfid>
+    <coords>na</coords>
+    <info>Greater Omni Forest is located in the southeast part of the world. No grid or whompa.</info>
+</location>
+<location>
+    <name>Hot Spring</name>
+    <aka></aka>
+    <pfid>647</pfid>
+    <coords>2850x1650</coords>
+    <info>Greater Tir County Hotsprings is at 2850x1650 in Greater Tir County</info>
+</location>
+<location>
+    <name>Greater Tir County</name>
+    <aka></aka>
+    <pfid>647</pfid>
+    <coords>na</coords>
+    <info>Greater Tir County is located in the northeast part of the world. Grid access in Tir City at 555x527 and a whompa in Tir City at 475x466 to Newland City. To the south of Greater Tir County is Tir County, west is Varmint Woods, no zones avail to north or east.</info>
+</location>
+<location>
+    <name>Harry's</name>
+    <aka>Harry's Outpost</aka>
+    <pfid>695</pfid>
+    <coords>na</coords>
+    <info>Harry's Outpost is located in Lush Feilds.  You can grid to Harrys or take the west exit from Omni-Trade.  Or take the teleportal from the west side of Pleasent Meadows.</info>
+</location>
+<location>
+    <name>Holes in the Wall</name>
+    <aka></aka>
+    <pfid>791</pfid>
+    <coords>na</coords>
+    <info>Holes in the Wall is located in the west central part of the world. No grid access and no whompa. North of Holes in the Wall is Athen Shire, south and east is Stret West bank, Borealis to the west.</info>
+</location>
+<location>
+    <name>Hope</name>
+    <aka></aka>
+    <pfid>560</pfid>
+    <coords>2888x1909</coords>
+    <info>Hope is a neutral city in Mort.  It has whompas to Stret West Bank and Newland Desert at 2888x1909</info>
+</location>
+<location>
+    <name>You now</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>I am hanging out at the bronto burger, munching on some cheetos with some friends.</info>
+</location>
+<location>
+    <name>ICC</name>
+    <aka></aka>
+    <pfid>655</pfid>
+    <coords>3250x900</coords>
+    <info>ICC is located in Andromeda at 3250x900.  Whompas to ICC come from Newland, Omni Trade and Tir.</info>
+</location>
+<location>
+    <name>Cheetos</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>In my stomach.</info>
+</location>
+<location>
+    <name>Klapam Forest</name>
+    <aka></aka>
+    <pfid>635</pfid>
+    <coords>na</coords>
+    <info>Klapam Forest is in Stret East Bank</info>
+</location>
+<location>
+    <name>:Leet Crater</name>
+    <aka></aka>
+    <pfid>716</pfid>
+    <coords>na</coords>
+    <info>Leet Crater is just south east of Omni-Pol Barracks region in Omni Forrest, which is just south outside Omni Entertainment's City Gates.</info>
+</location>
+<location>
+    <name>Lush Fields</name>
+    <aka>Lush Hills Resort</aka>
+    <pfid>695</pfid>
+    <coords>na</coords>
+    <info>Lush Fields is located in the south central part of the world. Lush Fields has grid access at 1443x667 (Lush Hills Resort) and at Harry's at 3115x3183. Ferrys to Harry's at 3563x916, ferrys to PM OT outpost at 3391x797 and 3195x3178 and ferry to Omni Trade at 3295x2917. No whompa. NW is Andromeda, northeast is Milky Way, west is Clondyke, east is Pleasant Meadows. MutantDomain is located centrally on eastern border.</info>
+</location>
+<location>
+    <name>Majestik Woods</name>
+    <aka></aka>
+    <pfid>687</pfid>
+    <coords>400x2520</coords>
+    <info>Majestik Woods is at 400x2520 northeast of Rome Blue</info>
+</location>
+<location>
+    <name>Spaceship Crash Site</name>
+    <aka></aka>
+    <pfid>625</pfid>
+    <coords>3300x700</coords>
+    <info>Milky Way Spaceship Crash Site is at 3300x700 in Milky Way</info>
+</location>
+<location>
+    <name>Milky Way</name>
+    <aka></aka>
+    <pfid>625</pfid>
+    <coords>na</coords>
+    <info>Milky Way is located in the southeast part of the world. No grid access or whompa. North of Milky Way is S.Artery Valley, nw is Stret East Bank, west is Andromeda, sw is Lush Fields, south is Pleasant Meadows, SE is Eastern Foul Plains, NE is Belial Forest.</info>
+</location>
+<location>
+    <name>Miner Beetles</name>
+    <aka></aka>
+    <pfid>630</pfid>
+    <coords>1100x2300</coords>
+    <info>Miner Beetles is at 1100x2300 in Pleasant Meadows</info>
+</location>
+<location>
+    <name>Mort</name>
+    <aka></aka>
+    <pfid>560</pfid>
+    <coords>na</coords>
+    <info>Mort is located in the northeast part of the world.  It has whompas to Stret West Bank and Newland Desert at 2888x1909. Grid access is at 1928x1255 (Sentinels). There is no zones available to the north or west of Mort, to the south is Newland, to the east is Perpetual Wastelands.</info>
+</location>
+<location>
+    <name>Mutant Domain</name>
+    <aka></aka>
+    <pfid>696</pfid>
+    <coords>na</coords>
+    <info>Mutant Domain is located in the west central part of the world. No grid access or whompa. To the north, south and west of Mutant Domain is Lush Fields, east is Pleasant Meadows. This zone lies centrally on the eastern border of Lush Fields.</info>
+</location>
+<location>
+    <name>Your mom</name>
+    <aka>Your mother</aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>My mother is living it up on the dance floor in Reets, last time I saw her.</info>
+</location>
+<location>
+    <name>Netrom</name>
+    <aka></aka>
+    <pfid>610</pfid>
+    <coords>1988x606</coords>
+    <info>Netrom is a small outpost type ruins in Southern Artery Valley at coords 1988x606</info>
+</location>
+<location>
+    <name>Neuters 'R Us</name>
+    <aka></aka>
+    <pfid>566</pfid>
+    <coords>447x340</coords>
+    <info>Neuters 'R Us is a club located in Newland City at 447x340.</info>
+</location>
+<location>
+    <name>Newland City</name>
+    <aka>NLC</aka>
+    <pfid>566</pfid>
+    <coords>na</coords>
+    <info>Newland City is located in the north east part of the world. It has a grid access point outside city west gate at 1172x482 and whompas to the ICC, Tir, and Borealis at 390x300. To the north, east, south and west of Newland City is Newland.</info>
+</location>
+<location>
+    <name>Newland Desert</name>
+    <aka>NLD</aka>
+    <pfid>565</pfid>
+    <coords>na</coords>
+    <info>Newland Desert is located in the northeast part of the world. It has a grid access point at 1172x482 and whompas to Newland City and Hope at 2200x1575.  To the north is Newland, to the south is Varmint Woods. There are currently no zones available to the east or west.</info>
+</location>
+<location>
+    <name>Meetmedere</name>
+    <aka>MMD</aka>
+    <pfid>565</pfid>
+    <coords>1527x2767</coords>
+    <info>Meetmedere an outpost located within Newland Desert. It has a Grid access, neutral basic shop, insurance, and mission terminals.  Uncle Bazzit's workshop is located here.</info>
+</location>
+<location>
+    <name>Newland</name>
+    <aka></aka>
+    <pfid>567</pfid>
+    <coords>na</coords>
+    <info>Newland is located in the northeast part of the world. Grid access at 1527,x2767 (Meetmedere), whompas inside Newland City to ICC, Newland Desert, and Borealis at 390x300. To the north of Newland is Mort, to the south is Newland Desert. Currently no zones available to the east or west.</info>
+</location>
+<location>
+    <name>Notum Cannon</name>
+    <aka></aka>
+    <pfid>670</pfid>
+    <coords>1200x3400</coords>
+    <info>Notum Cannons is at 1200x3400 in Clondyke</info>
+</location>
+<location>
+    <name>Notum Tree</name>
+    <aka></aka>
+    <pfid>505</pfid>
+    <coords>2450x1300</coords>
+    <info>Notum Tree is at 2450x1300 in Avalon</info>
+</location>
+<location>
+    <name>Waldo</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>Oh, aren't you the smart ass today.</info>
+</location>
+<location>
+    <name>Omni Forest</name>
+    <aka></aka>
+    <pfid>716</pfid>
+    <coords>na</coords>
+    <info>Omni Forest (not to be confused with Greater Omni Forest) is located in the southeast part of the world. No grid access or whompa. North of Omni Forest is Pleasant Meadows, northeast is Eastern Foul Plains, east us Southern Foul Plains.  To the west is Omni Entertainment.</info>
+</location>
+<location>
+    <name>Omni-1 Entertainment District</name>
+    <aka></aka>
+    <pfid>705</pfid>
+    <coords>na</coords>
+    <info>Omni-1 Entertainment is located in the southeast part of the world. It has a grid access point at 879x579 and 582x337.  Whompa in the north east of town at 890x671 lead to 20K.  Whompas in south east at 900x470 lead to Omni-1 Trade and Rome Red.</info>
+</location>
+<location>
+    <name>Omni-1 HQ</name>
+    <aka>Omni-1 Headquarters</aka>
+    <pfid>700</pfid>
+    <coords>na</coords>
+    <info>Omni-1 HQ is located in the southeast part of the world. It has a grid access point at 602x468.</info>
+</location>
+<location>
+    <name>Omni-1 Trade District</name>
+    <aka></aka>
+    <pfid>710</pfid>
+    <coords>na</coords>
+    <info>Omni-1 Trade is located in the southeast part of the world. It has a grid access point at 407x575.   Whompas to ICC, Omni Entertainment, and Galway Castle at 370x380.  Out the east gate is Omni1 HQ.  Out the west gate is Lush Fields.</info>
+</location>
+<location>
+    <name>Outpost 10-3</name>
+    <aka></aka>
+    <pfid>610</pfid>
+    <coords>1150x2340</coords>
+    <info>Outpost 10-3 is located in Southern Artery Valley with whompas to Galway Castle, 2HO, and 20K at 1150x2340.</info>
+</location>
+<location>
+    <name>Penultimate Ditch</name>
+    <aka></aka>
+    <pfid>790</pfid>
+    <coords>428x1401</coords>
+    <info>Penultimate Ditch, follow the road from Borealis to Stret West Bank. Zoning. Then take straight to North (no more zoning) until you reach position 428x1401</info>
+</location>
+<location>
+    <name>Perpetual Wastelands</name>
+    <aka>PW</aka>
+    <pfid>570</pfid>
+    <coords>na</coords>
+    <info>Perpetual Wastelands is located in the northeast part of the world. It has no grid access point and no whompa. To the west is Mort and there are currently no zones available to the east, north or south.</info>
+</location>
+<location>
+    <name>Pleasant Meadows</name>
+    <aka>20K</aka>
+    <pfid>630</pfid>
+    <coords>na</coords>
+    <info>Pleasant Meadows (aka 20K) is located in the southeast part of the world. It has a ferry grid to Harry's at 360x1568, grid ferry to Omni Outpost in Lush Fields at 360x1565.  Whompas at 1261x2300 to Outpost 10-3, OmniEntertainment, and 4HOles . North is Milky Way, south is Omni Forest, east is Eastern Foul Plains, west is Lush Fields.</info>
+</location>
+<location>
+    <name>Me</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>Press P to see the world map.  Also, press F9 to see some more info about where you are.</info>
+</location>
+<location>
+    <name>Reet Retreat</name>
+    <aka>Reet's</aka>
+    <pfid>790</pfid>
+    <coords>1206x2807</coords>
+    <info>Reet Retreat is a club located in Last Ditch in Stret West Bank at 1206x2807.</info>
+</location>
+<location>
+    <name>Rhino Cockpit</name>
+    <aka>Rhinoman Valley</aka>
+    <pfid>565</pfid>
+    <coords>3140x1920</coords>
+    <info>Rhino Cockpit is at 3140x1920 in Newland Desert. You can get there by going NE from Newland City, zone and continue NE once in Newland Desert. Rhino Cockpit has become a pretty popular site for L 25-35 groups.</info>
+</location>
+<location>
+    <name>Rhompa Bar</name>
+    <aka></aka>
+    <pfid>705</pfid>
+    <coords>714x698</coords>
+    <info>Rhompa Bar is located in Omni Entertainment at 714x698.</info>
+</location>
+<location>
+    <name>Rising Sun</name>
+    <aka></aka>
+    <pfid>585</pfid>
+    <coords>600x1100</coords>
+    <info>Rising Sun is located south of Wartorn Valley. It is a neighborhood in the south part of the Aegean zone.</info>
+</location>
+<location>
+    <name>Rome Blue District</name>
+    <aka></aka>
+    <pfid>735</pfid>
+    <coords>na</coords>
+    <info>Rome Blue is located in the southwest part of the world.  Out the west gates is Rome Red where the whompas are.  Out the east gate is Galway Shire.</info>
+</location>
+<location>
+    <name>Rome Green District</name>
+    <aka></aka>
+    <pfid>740</pfid>
+    <coords>na</coords>
+    <info>Rome Green is located in the southwest part of the world. Out the east gate is Rome Red where the whompas are.</info>
+</location>
+<location>
+    <name>Rome Red District</name>
+    <aka></aka>
+    <pfid>730</pfid>
+    <coords>na</coords>
+    <info>Rome Red is located in the southwest part of the world. It has a grid access point at 251x318.  Whompas at 350x315 to Omni Entertainment, Galway Castle, and Broken Shores.  Rome Blue is to the east and Rome Green is to the west.</info>
+</location>
+<location>
+    <name>Rome</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>Rome Red, Rome Blue, or Rome Green? Please try again.</info>
+</location>
+<location>
+    <name>Southern Artery Valley</name>
+    <aka>SAV</aka>
+    <pfid>610</pfid>
+    <coords>na</coords>
+    <info>S.Artery Valley is located in the mideastern part of the world. No grid access. Whompas to Galway Castle, 2HO, and 20K at 1150x2340. North of S.Artery Valley is Central Artery Valley, south is Milky Way (but a force field will not allow you to zone south), west is Stret East Bank and east is (ne) Deep Artery Valley (se) Belial Forest.</info>
+</location>
+<location>
+    <name>Southern Fouls Hills</name>
+    <aka></aka>
+    <pfid>615</pfid>
+    <coords>na</coords>
+    <info>S. Fouls Hills is located in the southeast corner of the world. No grid and no whompa.North of S.Fouls Hills is Eastern Foul Plains, west is Omni Forest, northwest is Pleasant Meadows. No zones avail to south or east.</info>
+</location>
+<location>
+    <name>Sabulum</name>
+    <aka></aka>
+    <pfid>570</pfid>
+    <coords>1050x2400</coords>
+    <info>Sabulum is neutral town located near 1050x2400 in Perpetual Wastelands.</info>
+</location>
+<location>
+    <name>All</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>Well, press and hold the left-arrow key and pay attention.  Seriously, I know about quite a few locations.  Try asking me.</info>
+</location>
+<location>
+    <name>Your Anus</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>Sick!  When will you grow up?!</info>
+</location>
+<location>
+    <name>Smuggler's Den</name>
+    <aka></aka>
+    <pfid>615</pfid>
+    <coords>1755x872</coords>
+    <info>Smuggler's Den is located in the southeast corner of the world, in Southern Foul Hills at 1755x872.</info>
+</location>
+<location>
+    <name>Southern</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>Southern Artery Valley or Southern Foul Hills?  Please try again.</info>
+</location>
+<location>
+    <name>Artery Valley</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>Southern, Northern, Deep, or Central Artery Valley? Please try again.</info>
+</location>
+<location>
+    <name>Steps of Madness</name>
+    <aka>SoM</aka>
+    <pfid>716</pfid>
+    <coords>800x2800</coords>
+    <info>Steps of Madness is located in the southeast part of the world, in Omni Forest at 800x2800. Leave Omni Ent by the east gate to reach the dungeon. Recommended for teams of lvl 35-45.</info>
+</location>
+<location>
+    <name>Stoltz Outpost</name>
+    <aka></aka>
+    <pfid>565</pfid>
+    <coords>2172x1543</coords>
+    <info>Stoltz Outpost is located just across the Newland Desert zone line in Newland at 2172x1543. It has food machines only.</info>
+</location>
+<location>
+    <name>Stret East Bank</name>
+    <aka>2H0</aka>
+    <pfid>635</pfid>
+    <coords>na</coords>
+    <info>Stret East Bank is located in the mid-west part of the world. Grid access in 2HO at 667x1638, whompas at 783x1599 to Outpost 10-3 and 4 Holes.  Ferry to 4 HOles at 820x1977. To the north of Stret East Bank is Upper Stret East Bank, to the northwest is Stret West Bank, to the northeast is Central Artery Valley, to the southwest is Andromeda, to the southeast is Milky Way, to the east is Southern Artery Valley and to the west is 4 Holes.</info>
+</location>
+<location>
+    <name>stret</name>
+    <aka>street</aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>Stret East Bank or Stret West Bank or Upper Stret East Bank?  Please try again.</info>
+</location>
+<location>
+    <name>Street West Bank</name>
+    <aka></aka>
+    <pfid>790</pfid>
+    <coords>na</coords>
+    <info>Stret West Bank is located in the west central part of the world. It has a ferry to Stret East Bank at 1141x529 and whompa at 1279x2894 (in Last Ditch) to Borealis and to Hope. North is Aegean(ne) and Athen Shire(nw), south is 4HOles, east is Upper Stret East Bank, west is Borealis.</info>
+</location>
+<location>
+    <name>Striking Ant Tir Outpost</name>
+    <aka></aka>
+    <pfid>646</pfid>
+    <coords>1915x1492</coords>
+    <info>Striking Ant Tir Outpost is located northwest of Tir at 1915x1492. The outpost has mission terms, shops, banks and insure terms.</info>
+</location>
+<location>
+    <name>Temple of the Three Winds</name>
+    <aka>ToTW</aka>
+    <pfid>647</pfid>
+    <coords>1800x2700</coords>
+    <info>Temple of the Three Winds out the Tir west gate and go north.  Only Clan players can safely enter Tir, so there is a shortcut teleportal in the SE part of Rome Green near 426x242 (behind some red boxes) as well as next to the whompa in Newland Desert at 2205x1553.  Give the Windcaller at those locations 1000 credits and he will give you a piece of paper.  Use the paper on the portal to be warped directly to the entrance of the temple. You must be L 60 or below to enter.</info>
+</location>
+<location>
+    <name>Broken Falls</name>
+    <aka></aka>
+    <pfid>665</pfid>
+    <coords>1450x3100</coords>
+    <info>The Broken Falls is at 1450x3100 in Broken Shores</info>
+</location>
+<location>
+    <name>Carbon Crystal</name>
+    <aka></aka>
+    <pfid>610</pfid>
+    <coords>2600x2900</coords>
+    <info>The Carbon Crystal is at 2600x2900 in Southern Artery Valley</info>
+</location>
+<location>
+    <name>The Cup</name>
+    <aka></aka>
+    <pfid>545</pfid>
+    <coords>452x415</coords>
+    <info>The Cup is a quiet little club located in West Athen directly beside the grid access at 452x415.</info>
+</location>
+<location>
+    <name>Enigma House</name>
+    <aka></aka>
+    <pfid>590</pfid>
+    <coords>1900x1400</coords>
+    <info>The Enigma House is at 1900x1400 in Central Artery Valley </info>
+</location>
+<location>
+    <name>Eremite Statue</name>
+    <aka></aka>
+    <pfid>595</pfid>
+    <coords>1300x2300</coords>
+    <info>The Eremite Statue is at 1300x2300 in Deep Artery Valley</info>
+</location>
+<location>
+    <name>Fixer Grid</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>The Fixer Grid is accessable from any grid post.  You must first complete the Fixer quest, or get a L100+ fixer to help you get inside.</info>
+</location>
+<location>
+    <name>Forest Watch Trees</name>
+    <aka>Lookout Trees</aka>
+    <pfid>615</pfid>
+    <coords>1650x1650</coords>
+    <info>The Lookout Trees is at 1650x1650 in Southern Fouls Hills</info>
+</location>
+<location>
+    <name>Happy Rebel</name>
+    <aka>Chick Fight</aka>
+    <pfid>640</pfid>
+    <coords>550x550</coords>
+    <info>The Happy Rebel is at 550x550 in Tir City</info>
+</location>
+<location>
+    <name>The Longest Road</name>
+    <aka>TLR</aka>
+    <pfid>795</pfid>
+    <coords>na</coords>
+    <info>The Longest Road is located in the northwest part of the world. No grid access, has woompa access to Avalon, Athen Old, and Broken Shores at 3700x1615 in the town of Bliss.  Athen Shire is to the east. No zones to the north, south, or west. There is a neutral outpost at 3650x560 with an ICC scanner and more.  Biomare (dungeon) is located at 1930x775</info>
+</location>
+<location>
+    <name>Treehouse</name>
+    <aka></aka>
+    <pfid>590</pfid>
+    <coords>1700x2500</coords>
+    <info>The Treehouse 1700x2500 Central Artery Valley </info>
+</location>
+<location>
+    <name>Satellite Dish</name>
+    <aka></aka>
+    <pfid>800</pfid>
+    <coords>350x350</coords>
+    <info>The Satellite Dish is at 350x350 in Borealis</info>
+</location>
+<location>
+    <name>Fixer Shop</name>
+    <aka></aka>
+    <pfid>800</pfid>
+    <coords>440x400</coords>
+    <info>The fixer shop is at 440x400 in Borealis zone. It looks like a pile of junk and you need 180 Breaking and Entering to use it as well as being a fixer :)</info>
+</location>
+<location>
+    <name>Tower Research Facility</name>
+    <aka>Tower Shops</aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>There are 3 tower shops.  One in Borealis at 730x650, one in Rome Blue at 670x350, one in a Old Athen at 479x284</info>
+</location>
+<location>
+    <name>Basic Shop</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>There are basic shops in almost every city.  Far too many to list here.</info>
+</location>
+<location>
+    <name>Claw Camp</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>There are claw camps in many different zones.  To many to list here</info>
+</location>
+<location>
+    <name>Grid Access Terminal</name>
+    <aka>Whompas</aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>There are whompas and grid terminals in most major cities.  Try /tell me !whereis [city]</info>
+</location>
+<location>
+    <name>City of Jobe</name>
+    <aka></aka>
+    <pfid>4530</pfid>
+    <coords>na</coords>
+    <info>Jobe is comprised of several zones, including Jobe Harbor, Jobe Market, Jobe Plaza, Jobe Research, and Jobe Platform.  Subscribers to the Shadowlands expansion can enter Jobe via one of three whompas which are located in Borealis (736x690), Rome Green District (415x314), or Old Athens (345x276).</info>
+</location>
+<location>
+    <name>Help</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>This will give you info about a places in OA.  For example send me a tell with !whereis Southern Fouls Hills.  If you want information about NPCs, try the !npc command.  If you want information about a particular unique mob or boss, try the !boss command.</info>
+</location>
+<location>
+    <name>Tir County</name>
+    <aka></aka>
+    <pfid>646</pfid>
+    <coords>na</coords>
+    <info>Tir County (not to be confused with Greater Tir County) is located in the northeast part of the world. Grid access and whompa in Tir City. To the north is Greater Tir County, south is Deep Artery Valley (but a force field blocks you from zoning south), west is Varmint Woods, southeast is Central Artery Valley, no zones avail to east.</info>
+</location>
+<location>
+    <name>Tir</name>
+    <aka>City of Tir</aka>
+    <pfid>640</pfid>
+    <coords>na</coords>
+    <info>Tir is located in the north east part of the world. It has a grid access point at 555x527 and a whompas at 475x466 to Varmint Woods, ICC, and Athen. To the north, south, east and west of Tir is Tir County.</info>
+</location>
+<location>
+    <name>Trader shop</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>Trader shops are located inside any of the superior special stores, some times called Luxury stores.  You must be a trader level 25 or above.</info>
+</location>
+<location>
+    <name>Twin Altars</name>
+    <aka></aka>
+    <pfid>665</pfid>
+    <coords>400x2250</coords>
+    <info>Twin Altars is at 400x2250 in Broken Shores</info>
+</location>
+<location>
+    <name>Upper Stret East Bank</name>
+    <aka></aka>
+    <pfid>650</pfid>
+    <coords>na</coords>
+    <info>Upper Stret East Bank is located in the central part of the world. No grid access or whompa. To the north (w) of Upper Stret East Bank is Aegean and north (e) Varmint Woods, to the east is Central Artery Valley, to the west is Stret West Bank, southeast is 4Holes, south is Stret East Bank, se is S.Artery Valley.</info>
+</location>
+<location>
+    <name>Varmint Woods</name>
+    <aka></aka>
+    <pfid>600</pfid>
+    <coords>na</coords>
+    <info>Varmint Woods is located in the southeast part of the world. No grid but there are woompa's to Tir, Wine, and Wailing Wastes at 2484x2106. To the north of Varmnit Woods is Newland Desert, to the south is Central Artery Valley and Stret East bank, east is Greater Tir County, west is Aegean</info>
+</location>
+<location>
+    <name>Wailing Wastes</name>
+    <aka></aka>
+    <pfid>551</pfid>
+    <coords>na</coords>
+    <info>Wailing Wastes is located in the northwest part of the world. No grid access, but has whompas  at 1370x1735 to Athens, Avalon, and Varmit Woods. To the north is Avalon, to the south is Athen Shire, no zones to east and west.  Clan OP with scanner at 2430x3380</info>
+</location>
+<location>
+    <name>Wartorn Valley</name>
+    <aka></aka>
+    <pfid>586</pfid>
+    <coords>na</coords>
+    <info>Wartorn Valley is located in the northeast part of the world. No grid or whompa. To the north, east and west of Wartorn Valley is Aegean, to the south is gate to Athen Old.</info>
+</location>
+<location>
+    <name>Will to Fight</name>
+    <aka></aka>
+    <pfid>790</pfid>
+    <coords>2245x3124</coords>
+    <info>Will To Fight is in Stret West Bank, east of Reet Retreet, at 2245x3124.  You must be L75 or above to enter and has 25% suppression gas.</info>
+</location>
+<location>
+    <name>Wine</name>
+    <aka></aka>
+    <pfid>605</pfid>
+    <coords>2150x2319</coords>
+    <info>Wine is a clan town in Belial Forest (east side of the world) with whompas to Broken Shores and Varmint Woods at 2150x2319.</info>
+</location>
+<location>
+    <name>Helpbot</name>
+    <aka></aka>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <info>You might as well ask where is Waldo?</info>
+</location>
+</whereis>

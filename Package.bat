@@ -5,6 +5,7 @@ echo Creating directories
 rmdir /s /q Package
 mkdir Package
 mkdir Package\Plugins
+mkdir Package\data
 
 echo Copying Assemblies
 copy /Y AoLib\bin\Release\AoLib.dll Package\
@@ -26,3 +27,4 @@ copy /Y Plugins.Default\*.dll Package\Plugins\
 copy /Y Plugins.Raid\*.cs Package\Plugins\
 copy /Y Plugins.Raid\*.dll Package\Plugins\
 copy /Y Extra\* Package\
+copy /Y Extra\data\* Package\data\

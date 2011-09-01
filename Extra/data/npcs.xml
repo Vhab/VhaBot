@@ -1,0 +1,542 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<npcs>
+  <version>1.0</version>
+  <npc>
+    <name>Dr. Hercules Lincoln</name>
+    <location>Outpost 10-3, Southern Arrtery Valley</location>
+    <pfid>610</pfid>
+    <coords>1135x2375</coords>
+    <questline>Biomare/Foreman's - Collar of Amplification</questline>
+    <info>Dr. Hercules Lincoln is situated near the Whom-Pahs in Outpost 10-3</info>
+  </npc>
+  <npc>
+    <name>Linda Osmos</name>
+    <location>Biomare/Foreman's</location>
+    <pfid>na</pfid>
+    <coords>150x365</coords>
+    <questline>Biomare/Foreman's - Collar of Amplification/Security Pass</questline>
+    <info>Linda Osmos is in a dead end room with 2-3 robots. Careful with trains here. From the reception room go right in the next room and follow it to the dead end.</info>
+  </npc>
+  <npc>
+    <name>Data Analyst - Theresa Cameron</name>
+    <location>Biomare/Foreman's</location>
+    <pfid>na</pfid>
+    <coords>255x35</coords>
+    <questline>Biomare/Foreman's - Collar of Amplification</questline>
+    <info>She is in the SE corner of the hanger. After you speak to her, she begins walking to the emergency exit. Now anything in the hanger will aggro you. Best to clear it before hand. When she meeps out, she leaves behind a encrypted datacube on the floor. Use your encryption key on it to get a decrypted datacube in your inventory. The datacube will stay on the floor for about 5 minutes for the whole team to finish the mission. Be very careful of your reflects around her. On one team, she hit a enforcer with a 50k nuke after she took reflected damage.</info>
+  </npc>
+  <npc>
+    <name>Lab Assistant - Evelynn Shead</name>
+    <location>Biomare/Foreman's</location>
+    <pfid>na</pfid>
+    <coords>381.1x215</coords>
+    <questline>Biomare/Foreman's - Kill T.I.M</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Investigator - Ace Starr</name>
+    <location>The Longest Road</location>
+    <pfid>795</pfid>
+    <coords>1855x1215</coords>
+    <questline>Biomare/Foreman's - Collar of Amplification</questline>
+    <info>Investigator - Ace Starr is stationed North of Biomare near some abandoned buildings.</info>
+  </npc>
+  <npc>
+    <name>Maintenance Worker - Rodriguez</name>
+    <location>Biomare/Foreman's</location>
+    <pfid>na</pfid>
+    <coords>280x365</coords>
+    <questline>Biomare/Foreman's - Collar of Amplification/Security Pass</questline>
+    <info>To find Maintenance Worker - Rodriguez turn left after the '+' room, and turn left at the next 'T' room until you reach a dead end room.</info>
+  </npc>
+  <npc>
+    <name>Inventor Bobic</name>
+    <location>Tir County</location>
+    <pfid>646</pfid>
+    <coords>1910x1400</coords>
+    <questline>Inventor Bobic - Notum Hood of Bobic</questline>
+    <info>The 3 items he wants are Flexible Alloy Legs, a Visual T.R.A.C. Scanner and a Brain Module X349. Flexible Alloy Legs drop off Mutilated Shade Y-42, they are scattered all over Tir County. Visual T.R.A.C. Scanner drops of Mutilated Claw-C22, there is small camp of them east of Bobic's location. Brain Module X349 is hardest to find, it drops of Eye-Q93.</info>
+  </npc>
+  <npc>
+    <name>High Commander Brock</name>
+    <location>Tir County</location>
+    <pfid>646</pfid>
+    <coords>2860x740</coords>
+    <questline>High Command Brock - Tir Rings</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Nodda Gregg</name>
+    <location>Tir County</location>
+    <pfid>646</pfid>
+    <coords>1935x1500</coords>
+    <questline>Nodda Gregg - Hydraulic armor</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Berta the Bronto Fliper</name>
+    <location>Tir</location>
+    <pfid>640</pfid>
+    <coords>450x370</coords>
+    <questline>Nodda Gregg - Hydraulic armor</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Good Time Party Mixer</name>
+    <location>Newland City</location>
+    <pfid>566</pfid>
+    <coords>465x340</coords>
+    <questline>Party Mixer - Living Cyber Armor</questline>
+    <info>Although there are Good Time Party Mixers in Omni Ent and Old Athens.  This one is centrally located in Newland City which is safe for both sides to visit and easy to find.</info>
+  </npc>
+  <npc>
+    <name>Bjorn Krax </name>
+    <location>Wartorn Valley</location>
+    <pfid>586</pfid>
+    <coords>753x584</coords>
+    <questline>Party Mixer - Living Cyber Armor</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Sarah Winter </name>
+    <location>Newland</location>
+    <pfid>567</pfid>
+    <coords>640x780</coords>
+    <questline>Party Mixer - Living Cyber Armor</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Ofoz</name>
+    <location>Newland City</location>
+    <pfid>566</pfid>
+    <coords>262x320</coords>
+    <questline>Ofoz - Fixer Grid</questline>
+    <info>Ofoz stands in front of the billboards near the mission terminals by the West gate of Newland City.</info>
+  </npc>
+  <npc>
+    <name>Smokey Willy</name>
+    <location>Omni-1 Entertainment</location>
+    <pfid>705</pfid>
+    <coords>470x1042</coords>
+    <questline>Ofoz - Fixer Grid</questline>
+    <info>Smokey Willy is in the north western corner of Omni-Ent sewers.</info>
+  </npc>
+  <npc>
+    <name>A Spoiled Brat</name>
+    <location>Omni-1 Entertainment</location>
+    <pfid>705</pfid>
+    <coords>946x350</coords>
+    <questline>Ofoz - Fixer Grid</questline>
+    <info>'A Spolied Brat' is in a park in Omni-Ent.</info>
+  </npc>
+  <npc>
+    <name>Brenda Diamond</name>
+    <location>Broken Shores</location>
+    <pfid>665</pfid>
+    <coords>430x2216</coords>
+    <questline>Ofoz - Fixer Grid</questline>
+    <info>Brenda Diamond is outside of the Crypt of Home in Broken Shores</info>
+  </npc>
+  <npc>
+    <name>Sally Tall</name>
+    <location>Newland Desert</location>
+    <pfid>565</pfid>
+    <coords>1480x2760</coords>
+    <questline>Ofoz - Fixer Grid</questline>
+    <info>Sally Tall is by the cliff walls in Meetmedere almost due south from the grid exit.</info>
+  </npc>
+  <npc>
+    <name>Coco</name>
+    <location>The Cup</location>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <questline>Ofoz - Fixer Grid</questline>
+    <info>Coco is next to the bar in 'The Cup', in West Athen.</info>
+  </npc>
+  <npc>
+    <name>A Dancing Fool</name>
+    <location>Baboons</location>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <questline>Ofoz - Fixer Grid</questline>
+    <info>A Dancing Fool is located in Baboons (located in Omni Entertainment at 766x766).</info>
+  </npc>
+  <npc>
+    <name>Sirocco</name>
+    <location>Old Athen</location>
+    <pfid>540</pfid>
+    <coords>282x210</coords>
+    <questline>Ofoz - Fixer Grid</questline>
+    <info>Sirocco is in the SW corner of Old Athen next to Clan Backyard 14.</info>
+  </npc>
+  <npc>
+    <name>Pietro Molla</name>
+    <location>Agean</location>
+    <pfid>585</pfid>
+    <coords>535x346</coords>
+    <questline>Gianna Molla - This Means Furniture</questline>
+    <info>Pietro Molla is near the Rhinoman Village in Southern Agean.  If you are attempting to complete the furniture quest, be careful to talk to him (right-click) before you target him (left-click), otherwise you will complete "find person" quest without first getting his wedding ring from him.</info>
+  </npc>
+  <npc>
+    <name>Gianna Molla</name>
+    <location>Stret West Bank</location>
+    <pfid>790</pfid>
+    <coords>1285x2980</coords>
+    <questline>Gianna Molla - This Means Furniture</questline>
+    <info>Gianna Molla in Last Ditch in Stret West Bank.</info>
+  </npc>
+  <npc>
+    <name>Alvin Odeleder</name>
+    <location>Lush Fields</location>
+    <pfid>695</pfid>
+    <coords>1540x2500</coords>
+    <questline>Alvin Odeleder - Omni Shoulderpads</questline>
+    <info>Alvin Odeleder is located in an omni outpost in the middle of Lush Fields.</info>
+  </npc>
+  <npc>
+    <name>Dodga Demercel</name>
+    <location>Aegean</location>
+    <pfid>585</pfid>
+    <coords>600x1100</coords>
+    <questline>Dodga Demercel - Clan Shoulderpads</questline>
+    <info>Dodga Demercel is within a clan outpost called Rising Sun in Aegean</info>
+  </npc>
+  <npc>
+    <name>Bonzo</name>
+    <location>Beer and Booze</location>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <questline>na</questline>
+    <info>Bonzo is at Beer and Booze Bar, Mort at 2835x1930</info>
+  </npc>
+  <npc>
+    <name>Brutus Leonidis</name>
+    <location>Athen Shire</location>
+    <pfid>550</pfid>
+    <coords>1550x300</coords>
+    <questline>na</questline>
+    <info>Brutus Leonidis is at 1550x300 in Athen Shire</info>
+  </npc>
+  <npc>
+    <name>Captain Lewison</name>
+    <location>Reet Retreat</location>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <questline>na</questline>
+    <info>Captain Lewison is at Reet Retreat, Stret West Bank</info>
+  </npc>
+  <npc>
+    <name>Daedra Iberra</name>
+    <location>Pleasent Meadows</location>
+    <pfid>630</pfid>
+    <coords>1510x720</coords>
+    <questline>na</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Eddie</name>
+    <location>Stret West Bank</location>
+    <pfid>790</pfid>
+    <coords>1212x2828</coords>
+    <questline>na</questline>
+    <info>Eddie is in Stret West Bank (outside Reets Retreat) at 1212x2828.  He sells some random items, it seems.  Some of which your sweetheart may like.</info>
+  </npc>
+  <npc>
+    <name>Elmer Ragg</name>
+    <location>Mort</location>
+    <pfid>560</pfid>
+    <coords>1731x942</coords>
+    <questline>na</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Eric Mendelson</name>
+    <location>Varmint Woods</location>
+    <pfid>600</pfid>
+    <coords>2500x2150</coords>
+    <questline>na</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>General Freewheeler</name>
+    <location>Avalon</location>
+    <pfid>505</pfid>
+    <coords>1800x1200</coords>
+    <questline>General Freewheeler - Omni Token Guns</questline>
+    <info>General Freewheeler is located at the Main OT Base in Avalon near 1800x1200</info>
+  </npc>
+  <npc>
+    <name>General Hardcastle</name>
+    <location>Avalon</location>
+    <pfid>505</pfid>
+    <coords>1800x1200</coords>
+    <questline>General Hardcastle - Omni Token Guns</questline>
+    <info>General Hardcastle is located at the Main OT Base in Avalon near 1800x1200</info>
+  </npc>
+  <npc>
+    <name>Genghis Pan</name>
+    <location>Tir</location>
+    <pfid>640</pfid>
+    <coords>na</coords>
+    <questline>Clan Start-up</questline>
+    <info>Genghis Pan is at Mongol Meat, Tir</info>
+  </npc>
+  <npc>
+    <name>Grid Man</name>
+    <location>Fixer Grid</location>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <questline>na</questline>
+    <info>Gridman is in the Fixer Grid, at the top</info>
+  </npc>
+  <npc>
+    <name>Harry</name>
+    <location>Lush Fields</location>
+    <pfid>695</pfid>
+    <coords>na</coords>
+    <questline>na</questline>
+    <info>Harry, himself, is at Harrys Outpost in Lush Fields</info>
+  </npc>
+  <npc>
+    <name>High Commander Fielding</name>
+    <location>Wailing Wastes</location>
+    <pfid>551</pfid>
+    <coords>2700x3500</coords>
+    <questline>High Commander Fielding - Clan Token Guns</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>High Commander Hoover</name>
+    <location>Wailing Wastes</location>
+    <pfid>551</pfid>
+    <coords>2700x3500</coords>
+    <questline>High Commander Hoover - Clan Token Guns</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Horatio Campbell</name>
+    <location>Omni-1 Trade</location>
+    <pfid>710</pfid>
+    <coords>300x200</coords>
+    <questline>na</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Ida Schuller</name>
+    <location>Omni-1 Trade</location>
+    <pfid>710</pfid>
+    <coords>na</coords>
+    <questline>na</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Information Officer Stiller</name>
+    <location>Avalon</location>
+    <pfid>505</pfid>
+    <coords>1800x1288</coords>
+    <questline>na</questline>
+    <info>Information Officer Stiller is in Avalon at the main OTAF base, at 1800x1288</info>
+  </npc>
+  <npc>
+    <name>Iziris Agathon</name>
+    <location>Omni-1 Trade</location>
+    <pfid>710</pfid>
+    <coords>na</coords>
+    <questline>na</questline>
+    <info>Iziris Agathon is in Northeastern Omni-Trade</info>
+  </npc>
+  <npc>
+    <name>Janella Gheron</name>
+    <location>Cyborg Barracks</location>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <questline>Janella Gheron - Jack the Legchopper</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Kendric Kuzio</name>
+    <location>Deep Artery Valley</location>
+    <pfid>595</pfid>
+    <coords>1532x999</coords>
+    <questline>na</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Marvin</name>
+    <location>Southern Artery Valley</location>
+    <pfid>610</pfid>
+    <coords>1250x2350</coords>
+    <questline>na</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Mick Nugget McMullet</name>
+    <location>Clondyke</location>
+    <pfid>670</pfid>
+    <coords>1100x3700</coords>
+    <questline>na</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Monday Kline</name>
+    <location>Stret East Bank</location>
+    <pfid>635</pfid>
+    <coords>1300x890</coords>
+    <questline>Monday Kline is at Stret E at 1300x890 at TRA only</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Moog</name>
+    <location>Southern Artery Valley</location>
+    <pfid>160</pfid>
+    <coords>1850x2550</coords>
+    <questline>na</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Nolan Deslandes</name>
+    <location>Neuters R Us</location>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <questline>na</questline>
+    <info>Nolan Deslandes is in Neuters R Us, Newland City</info>
+  </npc>
+  <npc>
+    <name>Notum Profundis</name>
+    <location>Eastern Fouls Plains</location>
+    <pfid>620</pfid>
+    <coords>773x1430</coords>
+    <questline>na</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Obediency Inspector</name>
+    <location>Eastern Fouls Plains</location>
+    <pfid>620</pfid>
+    <coords>1225x2800</coords>
+    <questline>na</questline>
+    <info>Obediency Inspector is at Eastern Fouls Plains, at the lake, near 1225x2800</info>
+  </npc>
+  <npc>
+    <name>Qi Qiao Jie</name>
+    <location>Borealis</location>
+    <pfid>800</pfid>
+    <coords>720x675</coords>
+    <questline>na</questline>
+    <info>Qi Qiao Jie appears during the second week of February and sells valentines items.</info>
+  </npc>
+  <npc>
+    <name>Quintus Romulus</name>
+    <location>Biomare</location>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <questline>na</questline>
+    <info>Quintus Romulus is at Foreman's Office</info>
+  </npc>
+  <npc>
+    <name>Red</name>
+    <location>Agean</location>
+    <pfid>585</pfid>
+    <coords>650x1450</coords>
+    <questline>na</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Richelieu</name>
+    <location>Southern Artery Valley</location>
+    <pfid>610</pfid>
+    <coords>1850x2550</coords>
+    <questline>na</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Robin Raag</name>
+    <location>Smuggler's Den</location>
+    <pfid>na</pfid>
+    <coords>na</coords>
+    <questline>na</questline>
+    <info>Robin Raag is at Smuggler's Den, behind Ash at 21x217</info>
+  </npc>
+  <npc>
+    <name>Ron McBain</name>
+    <location>Stret East Bank</location>
+    <pfid>635</pfid>
+    <coords>750x1700</coords>
+    <questline>na</questline>
+    <info>Ron McBain is at 750x1700 in Stret East Bank, at the 2HO Outpost.</info>
+  </npc>
+  <npc>
+    <name>Sam Chin</name>
+    <location>Tir County</location>
+    <pfid>646</pfid>
+    <coords>2725x620</coords>
+    <questline>Clan Start-up</questline>
+    <info>Sam Chin is located in Inquisitive Wasp, southeast of Tir City, at 2725x620. Deliver the supply crate from Genghis Pan in Tir.</info>
+  </npc>
+  <npc>
+    <name>Stanley Adams</name>
+    <location>Varmint Woods</location>
+    <pfid>600</pfid>
+    <coords>3850x1900</coords>
+    <questline>na</questline>
+    <info></info>
+  </npc>
+  <npc>
+    <name>Susan Furor</name>
+    <location>Galway County</location>
+    <pfid>685</pfid>
+    <coords>1219x1940</coords>
+    <questline>na</questline>
+    <info>Susan Furor is at Poole, Galway County at 1219x1940 at AGT only</info>
+  </npc>
+  <npc>
+    <name>Tribo Ratcatcher</name>
+    <location>West Athen</location>
+    <pfid>545</pfid>
+    <coords>325x362</coords>
+    <questline>Clan Start-up</questline>
+    <info>Tribo Ratcatcher is at West Athen at 325x362  at (low lvl quest)</info>
+  </npc>
+  <npc>
+    <name>Tsunayoshi Smith</name>
+    <location>Southern Artery Valley</location>
+    <pfid></pfid>
+    <coords>2600x2900</coords>
+    <questline>na</questline>
+    <info>Tsunayoshi Smith is at 2600x2900 in Southern Artery Valley near the Largest Soul Fragment.  He sells some melee weapons.</info>
+  </npc>
+  <npc>
+    <name>Zibell the Wanderer</name>
+    <location>Central Artery Valley</location>
+    <pfid>590</pfid>
+    <coords>3432x2649</coords>
+    <questline>na</questline>
+    <info>Zibell the Wanderer is an npc guy who's crazy..in the Area: The great bulk, in Central Artery Valley near 3432x2649</info>
+  </npc>
+  <npc>
+    <name>Zoftig Blimp</name>
+    <location>Mort</location>
+    <pfid>560</pfid>
+    <coords>na</coords>
+    <questline>na</questline>
+    <info>Zoftig Blimp is located in the City of Hope in Mort.  He sells some unique items, but unfortunately at exorbitant prices.</info>
+  </npc>
+  <npc>
+    <name>Thin Bernice</name>
+    <location>Perpetual Wastlands</location>
+    <pfid>570</pfid>
+    <coords>na</coords>
+    <questline>na</questline>
+    <info>Thin Bernice is located in the town of Sabulum in Perpetual Wastelands.  She sells tank armors and battle suits at various qualities, but she seems to no longer carry heavy tank amors.</info>
+  </npc>
+
+  <npc>
+    <name></name>
+    <location></location>
+    <pfid></pfid>
+    <coords></coords>
+    <questline></questline>
+    <info></info>
+  </npc>
+
+</npcs>

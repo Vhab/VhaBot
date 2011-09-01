@@ -1,0 +1,1379 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<premadeimps>
+	<implant>
+		<slot>chest</slot>
+		<booth>Adv</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Max Health</shiny>
+		<bright>Mat Met</bright>
+		<faded>Sensory Imp</faded>
+	</implant>
+	<implant>
+		<slot>chest</slot>
+		<booth>Agent</booth>
+		<abilityreq>Psychic</abilityreq>
+		<shiny>Nano Pool</shiny>
+		<bright>Bio Met</bright>
+		<faded>Sensory Imp</faded>
+	</implant>
+	<implant>
+		<slot>chest</slot>
+		<booth>Crat</booth>
+		<abilityreq>Psychic</abilityreq>
+		<shiny>Nano Pool</shiny>
+		<bright>Bio Met</bright>
+		<faded>Sensory Imp</faded>
+	</implant>
+	<implant>
+		<slot>chest</slot>
+		<booth>Doc</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Max Health</shiny>
+		<bright>Mat Met</bright>
+		<faded>Max Nano</faded>
+	</implant>
+	<implant>
+		<slot>chest</slot>
+		<booth>Enf</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Max Health</shiny>
+		<bright>Mat Met</bright>
+		<faded>2h Blunt</faded>
+	</implant>
+	<implant>
+		<slot>chest</slot>
+		<booth>Eng</booth>
+		<abilityreq>Psychic</abilityreq>
+		<shiny>Nano Pool</shiny>
+		<bright>Bio Met</bright>
+		<faded>NanoC Init</faded>
+	</implant>
+	<implant>
+		<slot>chest</slot>
+		<booth>Fixer</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Max Health</shiny>
+		<bright>Mat Met</bright>
+		<faded>Sensory Imp</faded>
+	</implant>
+	<implant>
+		<slot>chest</slot>
+		<booth>Keeper</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Max Health</shiny>
+		<bright>Bio Meta</bright>
+		<faded>Strength</faded>
+	</implant>
+	<implant>
+		<slot>chest</slot>
+		<booth>MA</booth>
+		<abilityreq>Psychic</abilityreq>
+		<shiny>Dimach</shiny>
+		<bright>Bio Met</bright>
+		<faded>Sensory Imp</faded>
+	</implant>
+	<implant>
+		<slot>chest</slot>
+		<booth>MP</booth>
+		<abilityreq>Psychic</abilityreq>
+		<shiny>Nano Pool</shiny>
+		<bright>Mat Met</bright>
+		<faded>Sensory Imp</faded>
+	</implant>
+	<implant>
+		<slot>chest</slot>
+		<booth>NT</booth>
+		<abilityreq>Psychic</abilityreq>
+		<shiny>Nano Pool</shiny>
+		<bright>Mat Met</bright>
+		<faded>Sensory Imp</faded>
+	</implant>
+	<implant>
+		<slot>chest</slot>
+		<booth>Sol</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Max Health</shiny>
+		<bright>Proj AC</bright>
+		<faded>Max Nano</faded>
+	</implant>
+	<implant>
+		<slot>chest</slot>
+		<booth>Trader</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Stamina</shiny>
+		<bright>Mat Met</bright>
+		<faded>Strength</faded>
+	</implant>
+	<implant>
+		<slot>ear</slot>
+		<booth>Adv</booth>
+		<abilityreq>Sense</abilityreq>
+		<shiny>Perception</shiny>
+		<bright>Tutoring</bright>
+		<faded>Intelligence</faded>
+	</implant>
+	<implant>
+		<slot>ear</slot>
+		<booth>Agent</booth>
+		<abilityreq>Sense</abilityreq>
+		<shiny>Perception</shiny>
+		<bright>Concealment</bright>
+		<faded>Psycho Mod</faded>
+	</implant>
+	<implant>
+		<slot>ear</slot>
+		<booth>Crat</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Psychology</bright>
+		<faded>Psycho Mod</faded>
+	</implant>
+	<implant>
+		<slot>ear</slot>
+		<booth>Doc</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Tutoring</bright>
+		<faded>Intelligence</faded>
+	</implant>
+	<implant>
+		<slot>ear</slot>
+		<booth>Enf</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Concealment</bright>
+		<faded>Psycho Mod</faded>
+	</implant>
+	<implant>
+		<slot>ear</slot>
+		<booth>Eng</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Tutoring</bright>
+		<faded>Intelligence</faded>
+	</implant>
+	<implant>
+		<slot>ear</slot>
+		<booth>Fixer</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Turoring</bright>
+		<faded>Psychic</faded>
+	</implant>
+	<implant>
+		<slot>ear</slot>
+		<booth>Keeper</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Psychology</bright>
+		<faded>Psycho Mod</faded>
+	</implant>
+	<implant>
+		<slot>ear</slot>
+		<booth>MA</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Tutoring</bright>
+		<faded>Psycho Mod</faded>
+	</implant>
+	<implant>
+		<slot>ear</slot>
+		<booth>MP</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Tutoring</bright>
+		<faded>Intelligence</faded>
+	</implant>
+	<implant>
+		<slot>ear</slot>
+		<booth>NT</booth>
+		<abilityreq>Sense</abilityreq>
+		<shiny>Perception</shiny>
+		<bright>Tutoring</bright>
+		<faded>Intelligence</faded>
+	</implant>
+	<implant>
+		<slot>ear</slot>
+		<booth>Sol</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Concealment</bright>
+		<faded>Psycho Mod</faded>
+	</implant>
+	<implant>
+		<slot>ear</slot>
+		<booth>Trader</booth>
+		<abilityreq>Sense</abilityreq>
+		<shiny>Perception</shiny>
+		<bright>Tutoring</bright>
+		<faded>Intelligence</faded>
+	</implant>
+	<implant>
+		<slot>eye</slot>
+		<booth>adv</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Heavy Weapons</bright>
+		<faded>Matter Crea</faded>
+	</implant>
+	<implant>
+		<slot>eye</slot>
+		<booth>Agent</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Rifle</shiny>
+		<bright>Psycho Mod</bright>
+		<faded>Time Space</faded>
+	</implant>
+	<implant>
+		<slot>eye</slot>
+		<booth>Crat</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>Elec Eng</shiny>
+		<bright>Psycho Mod</bright>
+		<faded>Time Space</faded>
+	</implant>
+	<implant>
+		<slot>eye</slot>
+		<booth>Doc</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Treatment</bright>
+		<faded>Matter Crea</faded>
+	</implant>
+	<implant>
+		<slot>eye</slot>
+		<booth>Enf</booth>
+		<abilityreq>Psychic</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Sensory Imp</bright>
+		<faded>Matter Crea</faded>
+	</implant>
+	<implant>
+		<slot>eye</slot>
+		<booth>Eng</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>Tutoring</shiny>
+		<bright>Intelligence</bright>
+		<faded>Time Space</faded>
+	</implant>
+	<implant>
+		<slot>eye</slot>
+		<booth>Fixer</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>Tutoring</shiny>
+		<bright>Sensory Imp</bright>
+		<faded>Time Space</faded>
+	</implant>
+	<implant>
+		<slot>eye</slot>
+		<booth>Keeper</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Psycho Modi</bright>
+		<faded>Time Space</faded>
+	</implant>
+	<implant>
+		<slot>eye</slot>
+		<booth>MA</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>Tutoring</shiny>
+		<bright>Psycho Mod</bright>
+		<faded>Time Space</faded>
+	</implant>
+	<implant>
+		<slot>eye</slot>
+		<booth>MP</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>Tutoring</shiny>
+		<bright>Psycho Mod</bright>
+		<faded>Time Space</faded>
+	</implant>
+	<implant>
+		<slot>eye</slot>
+		<booth>NT</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>Tutoring</shiny>
+		<bright>Comp Lit</bright>
+		<faded>Matter Crea</faded>
+	</implant>
+	<implant>
+		<slot>eye</slot>
+		<booth>Sol</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Aimed Shot</shiny>
+		<bright>Ranged Energy</bright>
+		<faded>Assault Rifle</faded>
+	</implant>
+	<implant>
+		<slot>eye</slot>
+		<booth>Trader</booth>
+		<abilityreq>Sense</abilityreq>
+		<shiny>Map Nav</shiny>
+		<bright>Psycho Mod</bright>
+		<faded>Time Space</faded>
+	</implant>
+	<implant>
+		<slot>feet</slot>
+		<booth>Adv</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Melee Init</shiny>
+		<bright>Agility</bright>
+		<faded>Duck Explosions</faded>
+	</implant>
+	<implant>
+		<slot>feet</slot>
+		<booth>Agent</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Concealment</shiny>
+		<bright>Agility</bright>
+		<faded>Duck Explosions</faded>
+	</implant>
+	<implant>
+		<slot>feet</slot>
+		<booth>Crat</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Evade Close</shiny>
+		<bright>Dodge Ranged</bright>
+		<faded>Duck Explosions</faded>
+	</implant>
+	<implant>
+		<slot>feet</slot>
+		<booth>Doc</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Evade Close</shiny>
+		<bright>Dodge Ranged</bright>
+		<faded>Duck Explosions</faded>
+	</implant>
+	<implant>
+		<slot>feet</slot>
+		<booth>Enf</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Evade Close</shiny>
+		<bright>Agility</bright>
+		<faded>Duck Explosions</faded>
+	</implant>
+	<implant>
+		<slot>feet</slot>
+		<booth>Eng</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Evade Close</shiny>
+		<bright>Agility</bright>
+		<faded>Duck Explosions</faded>
+	</implant>
+	<implant>
+		<slot>feet</slot>
+		<booth>Fixer</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Evade Close</shiny>
+		<bright>Agility</bright>
+		<faded>Duck Explosions</faded>
+	</implant>
+	<implant>
+		<slot>feet</slot>
+		<booth>Keeper</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Melee Init</shiny>
+		<bright>Dodge Ranged</bright>
+		<faded>N/A</faded>
+	</implant>
+	<implant>
+		<slot>feet</slot>
+		<booth>MA</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Phys Init</shiny>
+		<bright>Martial Arts</bright>
+		<faded>Duck Explosions</faded>
+	</implant>
+	<implant>
+		<slot>feet</slot>
+		<booth>MP</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Evade Close</shiny>
+		<bright>Agility</bright>
+		<faded>Duck Explosions</faded>
+	</implant>
+	<implant>
+		<slot>feet</slot>
+		<booth>NT</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Evade Close</shiny>
+		<bright>Dodge Ranged</bright>
+		<faded>Duck Explosions</faded>
+	</implant>
+	<implant>
+		<slot>feet</slot>
+		<booth>Sol</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Evade Close</shiny>
+		<bright>Agility</bright>
+		<faded>Duck Explosions</faded>
+	</implant>
+	<implant>
+		<slot>feet</slot>
+		<booth>Trader</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Evade Close</shiny>
+		<bright>Agility</bright>
+		<faded>Duck Explosions</faded>
+	</implant>
+	<implant>
+		<slot>head</slot>
+		<booth>Adv</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>Bio Met</shiny>
+		<bright>Map Nav</bright>
+		<faded>Sense</faded>
+	</implant>
+	<implant>
+		<slot>head</slot>
+		<booth>Agent</booth>
+		<abilityreq>Psychic</abilityreq>
+		<shiny>Sensory Imp</shiny>
+		<bright>Ranged Init</bright>
+		<faded>Sense</faded>
+	</implant>
+	<implant>
+		<slot>head</slot>
+		<booth>Crat</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>Matter Crea</shiny>
+		<bright>Nano Pool</bright>
+		<faded>Tutoring</faded>
+	</implant>
+	<implant>
+		<slot>head</slot>
+		<booth>Doc</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>Bio Met</shiny>
+		<bright>Nano Pool</bright>
+		<faded>Sense</faded>
+	</implant>
+	<implant>
+		<slot>head</slot>
+		<booth>Enf</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Bio Met</shiny>
+		<bright>N/A</bright>
+		<faded>Sense</faded>
+	</implant>
+	<implant>
+		<slot>head</slot>
+		<booth>Eng</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>Matter Crea</shiny>
+		<bright>Nano Pool</bright>
+		<faded>Tutoring</faded>
+	</implant>
+	<implant>
+		<slot>head</slot>
+		<booth>Fixer</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>Psychic</shiny>
+		<bright>Nano Pool</bright>
+		<faded>Tutoring</faded>
+	</implant>
+	<implant>
+		<slot>head</slot>
+		<booth>Keeper</booth>
+		<abilityreq>Psychic</abilityreq>
+		<shiny>Sensory Imp</shiny>
+		<bright>Dimach</bright>
+		<faded>Sense</faded>
+	</implant>
+	<implant>
+		<slot>head</slot>
+		<booth>MA</booth>
+		<abilityreq>Sense</abilityreq>
+		<shiny>First Aid</shiny>
+		<bright>Dimach</bright>
+		<faded>Sense</faded>
+	</implant>
+	<implant>
+		<slot>head</slot>
+		<booth>MP</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>Matter Crea</shiny>
+		<bright>Nano Pool</bright>
+		<faded>Sense</faded>
+	</implant>
+	<implant>
+		<slot>head</slot>
+		<booth>NT</booth>
+		<abilityreq>Psychic</abilityreq>
+		<shiny>Matter Crea</shiny>
+		<bright>Nano Pool</bright>
+		<faded>N/A</faded>
+	</implant>
+	<implant>
+		<slot>head</slot>
+		<booth>Sol</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Ranged Energy</shiny>
+		<bright>Ranged Init</bright>
+		<faded>N/A</faded>
+	</implant>
+	<implant>
+		<slot>head</slot>
+		<booth>Trader</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>Psycho Mod</shiny>
+		<bright>Ranged Init</bright>
+		<faded>Sense</faded>
+	</implant>
+	<implant>
+		<slot>left arm</slot>
+		<booth>Adv</booth>
+		<abilityreq>Strength</abilityreq>
+		<shiny>Brawling</shiny>
+		<bright>Strength</bright>
+		<faded>Mat Met</faded>
+	</implant>
+	<implant>
+		<slot>left arm</slot>
+		<booth>Agent</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Breaking Entering</bright>
+		<faded>Mat Met</faded>
+	</implant>
+	<implant>
+		<slot>left arm</slot>
+		<booth>Crat</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Breaking Entering</bright>
+		<faded>Mat Met</faded>
+	</implant>
+	<implant>
+		<slot>left arm</slot>
+		<booth>Doc</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Strength</bright>
+		<faded>Mat Met</faded>
+	</implant>
+	<implant>
+		<slot>left arm</slot>
+		<booth>Enf</booth>
+		<abilityreq>Strength</abilityreq>
+		<shiny>Brawling</shiny>
+		<bright>2h Blunt</bright>
+		<faded>Mat Met</faded>
+	</implant>
+	<implant>
+		<slot>left arm</slot>
+		<booth>Eng</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>N/A</bright>
+		<faded>Mat Met</faded>
+	</implant>
+	<implant>
+		<slot>left arm</slot>
+		<booth>Fixer</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Breaking Entering</bright>
+		<faded>Mat Met</faded>
+	</implant>
+	<implant>
+		<slot>left arm</slot>
+		<booth>Keeper</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Brawling</shiny>
+		<bright>2h Edged</bright>
+		<faded>N/A</faded>
+	</implant>
+	<implant>
+		<slot>left arm</slot>
+		<booth>MA</booth>
+		<abilityreq>Strength</abilityreq>
+		<shiny>Brawling</shiny>
+		<bright>Strength</bright>
+		<faded>Phys Init</faded>
+	</implant>
+	<implant>
+		<slot>left arm</slot>
+		<booth>MP</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Breaking Entering</bright>
+		<faded>Mat Met</faded>
+	</implant>
+	<implant>
+		<slot>left arm</slot>
+		<booth>NT</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>N/A</bright>
+		<faded>Mat Met</faded>
+	</implant>
+	<implant>
+		<slot>left arm</slot>
+		<booth>Sol</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Strength</bright>
+		<faded>Mat Met</faded>
+	</implant>
+	<implant>
+		<slot>left arm</slot>
+		<booth>Trader</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Strength</bright>
+		<faded>Mat Met</faded>
+	</implant>
+	<implant>
+		<slot>legs</slot>
+		<booth>Adv</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Agility</shiny>
+		<bright>Melee Init</bright>
+		<faded>Max Health</faded>
+	</implant>
+	<implant>
+		<slot>legs</slot>
+		<booth>Agent</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Agility</shiny>
+		<bright>Evade Close</bright>
+		<faded>N/A</faded>
+	</implant>
+	<implant>
+		<slot>legs</slot>
+		<booth>Crat</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Agility</shiny>
+		<bright>Evade Close</bright>
+		<faded>Body Dev</faded>
+	</implant>
+	<implant>
+		<slot>legs</slot>
+		<booth>Doc</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Dodge Ranged</shiny>
+		<bright>Evade Close</bright>
+		<faded>Max Health</faded>
+	</implant>
+	<implant>
+		<slot>legs</slot>
+		<booth>Enf</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Dodge Ranged</shiny>
+		<bright>Evade Close</bright>
+		<faded>Max Health</faded>
+	</implant>
+	<implant>
+		<slot>legs</slot>
+		<booth>Eng</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Agility</shiny>
+		<bright>Evade Close</bright>
+		<faded>N/A</faded>
+	</implant>
+	<implant>
+		<slot>legs</slot>
+		<booth>Keeper</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Dodge Ranged</shiny>
+		<bright>Evade Close</bright>
+		<faded>Max Health</faded>
+	</implant>
+	<implant>
+		<slot>legs</slot>
+		<booth>MA</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Agility</shiny>
+		<bright>Evade Close</bright>
+		<faded>Max Health</faded>
+	</implant>
+	<implant>
+		<slot>legs</slot>
+		<booth>MP</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Agility</shiny>
+		<bright>Stamina</bright>
+		<faded>Run Speed</faded>
+	</implant>
+	<implant>
+		<slot>legs</slot>
+		<booth>NT</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Dodge Ranged</shiny>
+		<bright>Evade Close</bright>
+		<faded>Body Dev</faded>
+	</implant>
+	<implant>
+		<slot>legs</slot>
+		<booth>Sol</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Agility</shiny>
+		<bright>Stamina</bright>
+		<faded>Max Health</faded>
+	</implant>
+	<implant>
+		<slot>legs</slot>
+		<booth>Trader</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Agility</shiny>
+		<bright>Evade Close</bright>
+		<faded>Max Health</faded>
+	</implant>
+	<implant>
+		<slot>left hand</slot>
+		<booth>Adv</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Fast Attack</shiny>
+		<bright>Trap Disarm</bright>
+		<faded>First Aid</faded>
+	</implant>
+	<implant>
+		<slot>left hand</slot>
+		<booth>Agent</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Trap Disarm</bright>
+		<faded>First Aid</faded>
+	</implant>
+	<implant>
+		<slot>left hand</slot>
+		<booth>Crat</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Fire AC</bright>
+		<faded>First Aid</faded>
+	</implant>
+	<implant>
+		<slot>left hand</slot>
+		<booth>Doc</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Fire AC</bright>
+		<faded>First Aid</faded>
+	</implant>
+	<implant>
+		<slot>left hand</slot>
+		<booth>Enf</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Fast Attack</shiny>
+		<bright>Fire AC</bright>
+		<faded>Cold AC</faded>
+	</implant>
+	<implant>
+		<slot>left hand</slot>
+		<booth>Eng</booth>
+		<abilityreq>Sense</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>N/A</bright>
+		<faded>First Aid</faded>
+	</implant>
+	<implant>
+		<slot>left hand</slot>
+		<booth>Fixer</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Trap Disarm</bright>
+		<faded>First Aid</faded>
+	</implant>
+	<implant>
+		<slot>left hand</slot>
+		<booth>Keeper</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Fast Attack</shiny>
+		<bright>N/A</bright>
+		<faded>First Aid</faded>
+	</implant>
+	<implant>
+		<slot>left hand</slot>
+		<booth>MA</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Fire AC</bright>
+		<faded>Martial Arts</faded>
+	</implant>
+	<implant>
+		<slot>left hand</slot>
+		<booth>MP</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Fire AC</bright>
+		<faded>First Aid</faded>
+	</implant>
+	<implant>
+		<slot>left hand</slot>
+		<booth>NT</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Trap Disarm</bright>
+		<faded>First Aid</faded>
+	</implant>
+	<implant>
+		<slot>left hand</slot>
+		<booth>Sol</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Fire AC</bright>
+		<faded>Ranged Energy</faded>
+	</implant>
+	<implant>
+		<slot>left hand</slot>
+		<booth>Trader</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Fire AC</bright>
+		<faded>First Aid</faded>
+	</implant>
+	<implant>
+		<slot>left wrist</slot>
+		<booth>Adv</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Multi Melee</shiny>
+		<bright>Run Speed</bright>
+		<faded>Nano Resist</faded>
+	</implant>
+	<implant>
+		<slot>left wrist</slot>
+		<booth>Agent</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Run Speed</bright>
+		<faded>Rifle</faded>
+	</implant>
+	<implant>
+		<slot>left wrist</slot>
+		<booth>Crat</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Multi Ranged</shiny>
+		<bright>Run Speed</bright>
+		<faded>Nano Resist</faded>
+	</implant>
+	<implant>
+		<slot>left wrist</slot>
+		<booth>Doc</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Run Speed</bright>
+		<faded>Nano Resist</faded>
+	</implant>
+	<implant>
+		<slot>left wrist</slot>
+		<booth>Enf</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Multi Melee</shiny>
+		<bright>Run Speed</bright>
+		<faded>Nano Resist</faded>
+	</implant>
+	<implant>
+		<slot>left wrist</slot>
+		<booth>Eng</booth>
+		<abilityreq>Psychic</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>N/A</bright>
+		<faded>Nano Resist</faded>
+	</implant>
+	<implant>
+		<slot>left wrist</slot>
+		<booth>Fixer</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Run Speed</bright>
+		<faded>Nano Resist</faded>
+	</implant>
+	<implant>
+		<slot>left wrist</slot>
+		<booth>Keeper</booth>
+		<abilityreq>Psychic</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Run Speed</bright>
+		<faded>N/A</faded>
+	</implant>
+	<implant>
+		<slot>left wrist</slot>
+		<booth>MA</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Run Speed</bright>
+		<faded>Nano Resist</faded>
+	</implant>
+	<implant>
+		<slot>left wrist</slot>
+		<booth>MP</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Multi Melee</shiny>
+		<bright>Run Speed</bright>
+		<faded>Nano Resist</faded>
+	</implant>
+	<implant>
+		<slot>left wrist</slot>
+		<booth>NT</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Run Speed</bright>
+		<faded>Nano Resist</faded>
+	</implant>
+	<implant>
+		<slot>left wrist</slot>
+		<booth>Sol</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Run Speed</bright>
+		<faded>Nano Resist</faded>
+	</implant>
+	<implant>
+		<slot>left wrist</slot>
+		<booth>Trader</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Multi Ranged</shiny>
+		<bright>Run Speed</bright>
+		<faded>Nano Resist</faded>
+	</implant>
+	<implant>
+		<slot>right arm</slot>
+		<booth>Adv</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>1h Edged</shiny>
+		<bright>Brawling</bright>
+		<faded>Fast Attack</faded>
+	</implant>
+	<implant>
+		<slot>right arm</slot>
+		<booth>Agent</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Fling Shot</shiny>
+		<bright>Swimming</bright>
+		<faded>Mech Eng</faded>
+	</implant>
+	<implant>
+		<slot>right arm</slot>
+		<booth>Crat</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Shotgun</shiny>
+		<bright>Chem AC</bright>
+		<faded>Mech Eng</faded>
+	</implant>
+	<implant>
+		<slot>right arm</slot>
+		<booth>Doc</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Breaking Entering</shiny>
+		<bright>Chem AC</bright>
+		<faded>Rad AC</faded>
+	</implant>
+	<implant>
+		<slot>right arm</slot>
+		<booth>Enf</booth>
+		<abilityreq>Strength</abilityreq>
+		<shiny>1h Blunt</shiny>
+		<bright>Brawling</bright>
+		<faded>Fast Attack</faded>
+	</implant>
+	<implant>
+		<slot>right arm</slot>
+		<booth>Enf</booth>
+		<abilityreq>Strength</abilityreq>
+		<shiny>2h Blunt</shiny>
+		<bright>Brawling</bright>
+		<faded>Fast Attack</faded>
+	</implant>
+	<implant>
+		<slot>right arm</slot>
+		<booth>Fixer</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>MG/SMG</shiny>
+		<bright>Chem AC</bright>
+		<faded>Rad AC</faded>
+	</implant>
+	<implant>
+		<slot>right arm</slot>
+		<booth>Keeper</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>2h Edged</shiny>
+		<bright>Brawling</bright>
+		<faded>Fast Attack</faded>
+	</implant>
+	<implant>
+		<slot>right arm</slot>
+		<booth>MA</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Strength</shiny>
+		<bright>Phys Init</bright>
+		<faded>Rad AC</faded>
+	</implant>
+	<implant>
+		<slot>right arm</slot>
+		<booth>MP</booth>
+		<abilityreq>Strength</abilityreq>
+		<shiny>1h Blunt</shiny>
+		<bright>Chem AC</bright>
+		<faded>Rad AC</faded>
+	</implant>
+	<implant>
+		<slot>right arm</slot>
+		<booth>Sol</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Assault Rifle</shiny>
+		<bright>Swimming</bright>
+		<faded>Rad AC</faded>
+	</implant>
+	<implant>
+		<slot>right arm</slot>
+		<booth>Trader</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Shotgun</shiny>
+		<bright>Chem AC</bright>
+		<faded>Rad AC</faded>
+	</implant>
+	<implant>
+		<slot>right hand</slot>
+		<booth>Adv</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Fast Attack</bright>
+		<faded>1h Edged</faded>
+	</implant>
+	<implant>
+		<slot>right hand</slot>
+		<booth>Adv</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Trap Disarm</shiny>
+		<bright>Pistol</bright>
+		<faded>Burst</faded>
+	</implant>
+	<implant>
+		<slot>right hand</slot>
+		<booth>Agent</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Time Space</bright>
+		<faded>Comp Lit</faded>
+	</implant>
+	<implant>
+		<slot>right hand</slot>
+		<booth>Crat</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Time Space</bright>
+		<faded>Treatment</faded>
+	</implant>
+	<implant>
+		<slot>right hand</slot>
+		<booth>Doc</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Matter Crea</bright>
+		<faded>Treatment</faded>
+	</implant>
+	<implant>
+		<slot>right hand</slot>
+		<booth>Enf</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Matter Crea</bright>
+		<faded>1h Blunt</faded>
+	</implant>
+	<implant>
+		<slot>right hand</slot>
+		<booth>Enf</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Matter Crea</bright>
+		<faded>Treatment</faded>
+	</implant>
+	<implant>
+		<slot>right hand</slot>
+		<booth>Eng</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Time Space</bright>
+		<faded>Treatment</faded>
+	</implant>
+	<implant>
+		<slot>right hand</slot>
+		<booth>Fixer</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Time Space</bright>
+		<faded>Burst</faded>
+	</implant>
+	<implant>
+		<slot>right hand</slot>
+		<booth>Keeper</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Time Space</bright>
+		<faded>Treatment</faded>
+	</implant>
+	<implant>
+		<slot>right hand</slot>
+		<booth>MA</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Martial Arts</shiny>
+		<bright>First Aid</bright>
+		<faded>Treatment</faded>
+	</implant>
+	<implant>
+		<slot>right hand</slot>
+		<booth>MP</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Time Space</bright>
+		<faded>1h Blunt</faded>
+	</implant>
+	<implant>
+		<slot>right hand</slot>
+		<booth>NT</booth>
+		<abilityreq>Intelligence</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Matter Crea</bright>
+		<faded>Comp Lit</faded>
+	</implant>
+	<implant>
+		<slot>right hand</slot>
+		<booth>Sol</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Assault Rifle</bright>
+		<faded>Burst</faded>
+	</implant>
+	<implant>
+		<slot>right hand</slot>
+		<booth>Trader</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Trap Disarm</shiny>
+		<bright>Time Space</bright>
+		<faded>Comp Lit</faded>
+	</implant>
+	<implant>
+		<slot>right wrist</slot>
+		<booth>Adv</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Parry</shiny>
+		<bright>1h Edged</bright>
+		<faded>Multi Melee</faded>
+	</implant>
+	<implant>
+		<slot>right wrist</slot>
+		<booth>Adv</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Pistol</shiny>
+		<bright>Multi Ranged</bright>
+		<faded>Fling Shot</faded>
+	</implant>
+	<implant>
+		<slot>right wrist</slot>
+		<booth>Agent</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Ranged Init</shiny>
+		<bright>Rifle</bright>
+		<faded>Fling Shot</faded>
+	</implant>
+	<implant>
+		<slot>right wrist</slot>
+		<booth>Crat</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Ranged Init</shiny>
+		<bright>Nano Resist</bright>
+		<faded>Fling Shot</faded>
+	</implant>
+	<implant>
+		<slot>right wrist</slot>
+		<booth>Doc</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Pistol</shiny>
+		<bright>Nano Resist</bright>
+		<faded>Fling</faded>
+	</implant>
+	<implant>
+		<slot>right wrist</slot>
+		<booth>Enf</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Run Speed</shiny>
+		<bright>1h Blunt</bright>
+		<faded>Multi Melee</faded>
+	</implant>
+	<implant>
+		<slot>right wrist</slot>
+		<booth>Enf</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Run Speed</shiny>
+		<bright>Nano Resist</bright>
+		<faded>Multi Melee</faded>
+	</implant>
+	<implant>
+		<slot>right wrist</slot>
+		<booth>Eng</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Pistol</shiny>
+		<bright>Nano Resist</bright>
+		<faded>Fling</faded>
+	</implant>
+	<implant>
+		<slot>right wrist</slot>
+		<booth>Fixer</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Run Speed</shiny>
+		<bright>Burst</bright>
+		<faded>N/A</faded>
+	</implant>
+	<implant>
+		<slot>right wrist</slot>
+		<booth>Keeper</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Parry</shiny>
+		<bright>N/A</bright>
+		<faded>N/A</faded>
+	</implant>
+	<implant>
+		<slot>right wrist</slot>
+		<booth>MA</booth>
+		<abilityreq>Psychic</abilityreq>
+		<shiny>Riposite</shiny>
+		<bright>Nano Resist</bright>
+		<faded>N/A</faded>
+	</implant>
+	<implant>
+		<slot>right wrist</slot>
+		<booth>MP</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Run Speed</shiny>
+		<bright>1h Blunt</bright>
+		<faded>Multi Melee</faded>
+	</implant>
+	<implant>
+		<slot>right wrist</slot>
+		<booth>NT</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Pistol</shiny>
+		<bright>Nano Resist</bright>
+		<faded>Fling</faded>
+	</implant>
+	<implant>
+		<slot>right wrist</slot>
+		<booth>Sol</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Run Speed</shiny>
+		<bright>Burst</bright>
+		<faded>Fling Shot</faded>
+	</implant>
+	<implant>
+		<slot>right wrist</slot>
+		<booth>Trader</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>Ranged Init</shiny>
+		<bright>Burst</bright>
+		<faded>Fling Shot</faded>
+	</implant>
+	<implant>
+		<slot>waist</slot>
+		<booth>Adv</booth>
+		<abilityreq>Sense</abilityreq>
+		<shiny>Chem AC</shiny>
+		<bright>Sense</bright>
+		<faded>Agility</faded>
+	</implant>
+	<implant>
+		<slot>waist</slot>
+		<booth>Adv</booth>
+		<abilityreq>Strength</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>N/A</bright>
+		<faded>Brawling</faded>
+	</implant>
+	<implant>
+		<slot>waist</slot>
+		<booth>Agent</booth>
+		<abilityreq>Agility</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Duck Explosions</bright>
+		<faded>Bio Met</faded>
+	</implant>
+	<implant>
+		<slot>waist</slot>
+		<booth>Crat</booth>
+		<abilityreq>Sense</abilityreq>
+		<shiny>Rad AC</shiny>
+		<bright>Max Nano</bright>
+		<faded>Shotgun</faded>
+	</implant>
+	<implant>
+		<slot>waist</slot>
+		<booth>Doc</booth>
+		<abilityreq>Sense</abilityreq>
+		<shiny>Chem AC</shiny>
+		<bright>Max Nano</bright>
+		<faded>Stamina</faded>
+	</implant>
+	<implant>
+		<slot>waist</slot>
+		<booth>Enf</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Cold AC</shiny>
+		<bright>Max Health</bright>
+		<faded>Brawling</faded>
+	</implant>
+	<implant>
+		<slot>waist</slot>
+		<booth>Eng</booth>
+		<abilityreq>Psychic</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Max Nano</bright>
+		<faded>Bio Met</faded>
+	</implant>
+	<implant>
+		<slot>waist</slot>
+		<booth>Fixer</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Fire AC</shiny>
+		<bright>Max Health</bright>
+		<faded>Stamina</faded>
+	</implant>
+	<implant>
+		<slot>waist</slot>
+		<booth>Keeper</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Max Health</bright>
+		<faded>Bio Meta</faded>
+	</implant>
+	<implant>
+		<slot>waist</slot>
+		<booth>MA</booth>
+		<abilityreq>Sense</abilityreq>
+		<shiny>Rad AC</shiny>
+		<bright>Max Health</bright>
+		<faded>Evade Close</faded>
+	</implant>
+	<implant>
+		<slot>waist</slot>
+		<booth>MP</booth>
+		<abilityreq>Sense</abilityreq>
+		<shiny>Chem AC</shiny>
+		<bright>Max Nano</bright>
+		<faded>Bio Met</faded>
+	</implant>
+	<implant>
+		<slot>waist</slot>
+		<booth>NT</booth>
+		<abilityreq>Psychic</abilityreq>
+		<shiny>N/A</shiny>
+		<bright>Max Nano</bright>
+		<faded>Bio Met</faded>
+	</implant>
+	<implant>
+		<slot>waist</slot>
+		<booth>Sol</booth>
+		<abilityreq>Stamina</abilityreq>
+		<shiny>Cold AC</shiny>
+		<bright>Max Health</bright>
+		<faded>Stamina</faded>
+	</implant>
+	<implant>
+		<slot>waist</slot>
+		<booth>Trader</booth>
+		<abilityreq>Sense</abilityreq>
+		<shiny>Chem AC</shiny>
+		<bright>Max Nano</bright>
+		<faded>Shotgun</faded>
+	</implant>
+</premadeimps>
