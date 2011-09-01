@@ -1,9 +1,11 @@
-0.7.7a
-- Will update this shortly.
+0.7.8
+- Dunno!
 
+0.7.7a
+- Dunno!
 
 0.7.7
-
+- Dunno!
 
 0.7.6
 - Updated XML addresses as FC changed those
@@ -23,7 +25,9 @@
 - Added an option to disable !motd to make it display on any tell
 
 0.7.5
-- A new loader has been added, VhaBot.Lite. It accepts a config file as argument and loads only the first bot from the specified config file.
+- A new loader has been added, VhaBot.Lite. It accepts a config file as argument and loads only the first bot from the specified 
+
+config file.
 - Chat server addresses have been updated
 - Fixed a problem caused by running bots with the same bot name and account on multiple dimensions
 - Fixed the test live address
@@ -44,7 +48,9 @@
 - Gave !is support for checking multiple people at once
 - Added !level, !xp, !research, !axp, !mission commands
 - Removed some (BETA) tags from the plugin names as the entire bot is beta
-- Changed the alts management commands: 'alts add/remove' is now 'alts admin add/remove'. 2 new commands for members have been added: 'alts add/remove'. Be sure to read the updated help
+- Changed the alts management commands: 'alts add/remove' is now 'alts admin add/remove'. 2 new commands for members have been 
+
+added: 'alts add/remove'. Be sure to read the updated help
 - Added automated reinvites to the Private Group Manager
 - Made the notification targets of the Private Group Manager configurable
 - Added the !bio command (ported from Iriche's 0.5 branch plugin)
@@ -147,10 +153,16 @@
 0.5.1
 - WARNING: due to configuration changes some plugins may have lost their settings with this release
 - New command: configuration. This will allow you to configure plugins that support it
-- New ShellModule: BotShell.Configuration has been added, this module will eventually replace BotShell.Config so please start using it.
+- New ShellModule: BotShell.Configuration has been added, this module will eventually replace BotShell.Config so please start 
+
+using it.
 - New Event: BotShell.Events.ConfigurationChangedEvent. This event will fire when a configuration setting has been changed
-- Added BotShell.IsBot(string username). This function allows you to check whether the given username is a bot (the main bot or one of it's slaves)
-- SimpleIRC has been extended with several new features like !whois, !is and notifying when people join or leave the private channel
+- Added BotShell.IsBot(string username). This function allows you to check whether the given username is a bot (the main bot or 
+
+one of it's slaves)
+- SimpleIRC has been extended with several new features like !whois, !is and notifying when people join or leave the private 
+
+channel
 - SimpleIRC output is now send using notices instead of spamming the channel
 - AoLib.Utils.Format has been added. This class allows you to format whois results, time and dates.
 - BotShell.UppercaseFirst() has been deprecated, please use AoLib.Utils.Format.UppercaseFirst()
@@ -180,25 +192,37 @@
 0.5.0 Beta
 - WARNING: Major changes to the configuration. Please delete your config directory.
 - WARNING: The tell event now also triggers on the bot's own tells. Check e.Self before processing!
-- WARNING: Config lib changed! No longer using namespace System.Data.Common, but instead System.Data. Use IDbCommand instead of DbCommand. Use IDataReader instead of DbDataReader
+- WARNING: Config lib changed! No longer using namespace System.Data.Common, but instead System.Data. Use IDbCommand instead of 
+
+DbCommand. Use IDataReader instead of DbDataReader
 - VhaBot is now likely to run on mono (untested)
 - To setup bots use Configure.exe before starting VhaBot
 - BotCommandRights has been deprecated. Use CommandRights
 - BotCommandType has been deprecated. Use CommandType
 - Many internal changes, Recompile all plugins before using them
-- Configuration structure revamped. Plugins are recommended to use their own config file if they have their own tables: new Config(this.Bot.ToString(), this.Settings.InternalName, false);
-- this.Bot.ID (or sender.ID) is no longer reliable and should not be used for longer than 1 session as it may change the next reboot. use this.Bot.ToString() (or sender.ToString()) to identify the bot. (Will return a string with Character@Dimension)
+- Configuration structure revamped. Plugins are recommended to use their own config file if they have their own tables: new 
+
+Config(this.Bot.ToString(), this.Settings.InternalName, false);
+- this.Bot.ID (or sender.ID) is no longer reliable and should not be used for longer than 1 session as it may change the next 
+
+reboot. use this.Bot.ToString() (or sender.ToString()) to identify the bot. (Will return a string with Character@Dimension)
 - Many core classes starting with Bot* (except BotShell) have been renamed and moved to a different Namespace
 - Many changes done to make BotShell more independant with as ultimate goal to have it run on a seperate application domain
 - Several Members, Methods and Types called Guild or having Guild in their name have been renamed to Organization
-- New PluginState: "Core". This state is only to be used as default state for essential plugins that are loaded by default and can't be unloaded. Also Core plugins can't have dependencies
+- New PluginState: "Core". This state is only to be used as default state for essential plugins that are loaded by default and 
+
+can't be unloaded. Also Core plugins can't have dependencies
 - Plugin Loading revamped. All plugin related functions have been renamed and moved to BotShell.Plugins
 - New plugin manager plugin
-- Command rights storage revamped. Command rights will only be stored in the database when they are non-default. Functions to modify or read rights are located at BotShell.Commands
+- Command rights storage revamped. Command rights will only be stored in the database when they are non-default. Functions to 
+
+modify or read rights are located at BotShell.Commands
 - New command rights manager plugin
 - It's now possible to register/unregister commands at runtime. Look at BotShell.Commands on which functions to use.
 - New timers events. BotShell.Timers holds various events you can register to for time based events
-- BotShell.SendReply(args, message, windows[]) // Will send the message for each window available, also will try to use only 1 slave for outputting
+- BotShell.SendReply(args, message, windows[]) // Will send the message for each window available, also will try to use only 1 
+
+slave for outputting
 - Extended MessageArgs with boolean .Self, indicates if it was the bot who send this message.
 - SimpleIRC: Now using a different irc lib and some internal changes for stability
 - SimpleIRC: Now converts itemrefs to url's and back
