@@ -53,7 +53,6 @@ namespace VhaBot.Plugins
 
     public class VhPocketBoss : PluginBase
     {
-        private readonly string _urlSymbs = @"http://items.vhabot.net/symbiants.xml";
         private readonly string _dataPath = "data";
 
         public VhPocketBoss()
@@ -73,10 +72,8 @@ namespace VhaBot.Plugins
                 new Command("pocketboss", "pb")
             };
         }
-        public override void OnLoad(BotShell bot)
-        {
-            this.Download("symbs.xml", this._urlSymbs);
-        }
+
+        public override void OnLoad(BotShell bot) { }
 
         public override void OnUnload(BotShell bot) { }
 
@@ -256,25 +253,6 @@ namespace VhaBot.Plugins
                 }
             }
             catch { return null; }
-        }
-
-        public bool Download(string file, string url)
-        {
-            file = this._dataPath + Path.DirectorySeparatorChar + file;
-            try
-            {
-                if (!Directory.Exists(this._dataPath))
-                {
-                    Directory.CreateDirectory(this._dataPath);
-                }
-                using (WebClient Client = new WebClient())
-                {
-                    Client.DownloadFile(url, file);
-                    if (File.Exists(file)) return true;
-                }
-            }
-            catch { }
-            return false;
         }
 
         public override string OnHelp(BotShell bot, string command)

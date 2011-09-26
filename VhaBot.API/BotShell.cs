@@ -20,9 +20,9 @@ namespace VhaBot
 {
     public sealed class BotShell
     {
-        public static readonly string VERSION = "0.7.8";
+        public static readonly string VERSION = "0.7.9";
         public static readonly string BRANCH = "Beta";
-        public static readonly int BUILD = 20100208;
+        public static readonly int BUILD = 20110926;
 #if ADVANCED
         public static readonly string EDITION = "Advanced";
         public static readonly bool Advanced = true;

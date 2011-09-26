@@ -12,8 +12,7 @@ namespace VhaBot.Plugins
 {
     public class Items : PluginBase
     {
-        //private string Server = "items.vhabot.net";
-        private string Server = "cidb.xyphos.com";
+        private string Server = "cidb.botsharp.net";
         private string UrlTemplate = "http://{0}/?bot=VhaBot&search={1}&ql={2}&max={3}&output=xml";
         private int Max = 100;
         private int NonPageSize = 3;

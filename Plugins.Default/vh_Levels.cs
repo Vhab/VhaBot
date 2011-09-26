@@ -102,9 +102,6 @@ namespace VhaBot.Plugins
 
     public class VhLevels : PluginBase
     {
-        private readonly string _urlLevels = @"http://tools.vhabot.net/data.php?id=1&output=xml";
-        private readonly string _urlDefenderRanks = @"http://tools.vhabot.net/data.php?id=2&output=xml";
-        private readonly string _urlResearchLevels = @"http://tools.vhabot.net/data.php?id=3&output=xml";
         private readonly string _dataPath = "data";
 
         public VhLevels()
@@ -130,10 +127,7 @@ namespace VhaBot.Plugins
             };
         }
 
-        public override void OnLoad(BotShell bot)
-        {
-            this.DownloadAll();
-        }
+        public override void OnLoad(BotShell bot) { }
 
         public override void OnUnload(BotShell bot) { }
 
@@ -377,32 +371,6 @@ namespace VhaBot.Plugins
                 }
             }
             catch { return null; }
-        }
-
-        public bool Download(string file, string url)
-        {
-            file = this._dataPath + Path.DirectorySeparatorChar + file;
-            try
-            {
-                if (!Directory.Exists(this._dataPath))
-                {
-                    Directory.CreateDirectory(this._dataPath);
-                }
-                using (WebClient Client = new WebClient())
-                {
-                    Client.DownloadFile(url, file);
-                    if (File.Exists(file)) return true;
-                }
-            }
-            catch { }
-            return false;
-        }
-
-        public void DownloadAll()
-        {
-            this.Download("levels.xml", this._urlLevels);
-            this.Download("dr.xml", this._urlDefenderRanks);
-            this.Download("research.xml", this._urlResearchLevels);
         }
 
         public void OnTokensCommand(BotShell bot, CommandArgs e)

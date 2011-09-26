@@ -25,6 +25,9 @@ cd /d %1
 mkdir VhaBot.Test\bin\%3\Plugins
 del /Q VhaBot.Test\bin\%3\Plugins\*
 
+mkdir VhaBot.Test\bin\%3\data
+copy /Y Extra\data\* VhaBot.Test\bin\%3\data
+
 copy /Y Plugins.Default\*.cs VhaBot.Test\bin\%3\Plugins\
 copy /Y Plugins.Default\*.dll VhaBot.Test\bin\%3\Plugins\
 copy /Y Plugins.Raid\*.cs VhaBot.Test\bin\%3\Plugins\

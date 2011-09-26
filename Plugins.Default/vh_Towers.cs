@@ -52,7 +52,6 @@ namespace VhaBot.Plugins
         private Config _database;
         private bool _sendgc = true;
         private bool _sendpg = true;
-        private readonly string _urlLCA = @"http://items.vhabot.net/lca.xml";
         private readonly string _dataPath = "data";
 
         public VhTowers()
@@ -77,7 +76,6 @@ namespace VhaBot.Plugins
             this._database.ExecuteNonQuery("CREATE TABLE IF NOT EXISTS towerhistory (history_id integer PRIMARY KEY AUTOINCREMENT, victory INT NOT NULL, time INT NOT NULL, atkrSide VARCHAR(10), atkrOrg VARCHAR(50), atkrName VARCHAR(20), defSide VARCHAR(10) NOT NULL, defOrg VARCHAR(50) NOT NULL, zone VARCHAR(50) NOT NULL, xCoord INT, yCoord INT, LCA INT)");
             bot.Configuration.Register(ConfigType.Boolean, this.InternalName, "sendgc", "Send notifications to the organization channel", this._sendgc);
             bot.Configuration.Register(ConfigType.Boolean, this.InternalName, "sendpg", "Send notifications to the private channel", this._sendpg);
-            this.Download("lca.xml", this._urlLCA);
             this.LoadConfiguration(bot);
         }
 
@@ -414,25 +412,6 @@ namespace VhaBot.Plugins
                 }
             }
             catch { return null; }
-        }
-
-        public bool Download(string file, string url)
-        {
-            file = this._dataPath + Path.DirectorySeparatorChar + file;
-            try
-            {
-                if (!Directory.Exists(this._dataPath))
-                {
-                    Directory.CreateDirectory(this._dataPath);
-                }
-                using (WebClient Client = new WebClient())
-                {
-                    Client.DownloadFile(url, file);
-                    if (File.Exists(file)) return true;
-                }
-            }
-            catch { }
-            return false;
         }
 
         private int grabLCA(string zone, int x, int y)
