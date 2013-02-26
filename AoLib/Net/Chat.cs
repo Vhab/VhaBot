@@ -14,9 +14,7 @@ namespace AoLib.Net
 {
     public enum Server
     {
-        Atlantean = 1,
-        Rimor = 2,
-        DieNeueWelt = 3,
+        RubiKa = 5,
         Test = 0
     }
 
@@ -118,17 +116,9 @@ namespace AoLib.Net
                     this._dimension = value;
                     switch (this._dimension)
                     {
-                        case Server.Atlantean:
+                        case Server.RubiKa:
                             this._serverAddress = "chat.d1.funcom.com";
-                            this._port = 7101;
-                            break;
-                        case Server.Rimor:
-                            this._serverAddress = "chat.d2.funcom.com";
-                            this._port = 7102;
-                            break;
-                        case Server.DieNeueWelt:
-                            this._serverAddress = "chat.d3.funcom.com";
-                            this._port = 7103;
+                            this._port = 7105;
                             break;
                         case Server.Test:
                             this._serverAddress = "chat.dt.funcom.com";
@@ -238,7 +228,7 @@ namespace AoLib.Net
 
                 if (this._serverAddress == String.Empty || this._serverAddress == null || this._port == 0)
                 {
-                    this.Dimension = Server.Atlantean;
+                    this.Dimension = Server.RubiKa;
                 }
             }
         }

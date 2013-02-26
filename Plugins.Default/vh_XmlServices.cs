@@ -23,7 +23,6 @@ namespace VhaBot.Plugins
             this.Version = 100;
             this.Commands = new Command[] {
                 new Command("whois", true, UserLevel.Guest),
-                new Command("whoisall", true, UserLevel.Guest),
                 new Command("history", true, UserLevel.Guest),
                 new Command("organization", true, UserLevel.Guest),
                 new Command("org", "organization"),
@@ -47,16 +46,6 @@ namespace VhaBot.Plugins
                         return;
                     }
                     OnWhoisCommand(bot, e, bot.Dimension, false);
-                    break;
-                case "whoisall":
-                    if (e.Args.Length < 1)
-                    {
-                        bot.SendReply(e, "Correct Usage: whoisall [username]");
-                        return;
-                    }
-                    OnWhoisCommand(bot, e, AoLib.Net.Server.Atlantean, true);
-                    OnWhoisCommand(bot, e, AoLib.Net.Server.Rimor, true);
-                    OnWhoisCommand(bot, e, AoLib.Net.Server.DieNeueWelt, true);
                     break;
                 case "history":
                     if (e.Args.Length < 1)
@@ -92,7 +81,7 @@ namespace VhaBot.Plugins
         {
             if (!showDimension && dimension == AoLib.Net.Server.Test)
             {
-                bot.SendReply(e, "The whois command is not available on the test server. Please use 'whoisall' instead");
+                bot.SendReply(e, "The whois command is not available on the test server.");
                 return;
             }
             if (dimension == bot.Dimension)
@@ -541,9 +530,6 @@ namespace VhaBot.Plugins
             {
                 case "whois":
                     return "Gathers and displays information about a user. Information like Level, Breed and Profession\n" +
-                        "Usage: /tell " + bot.Character + " whois [username]";
-                case "whoisall":
-                    return "Gathers and displays information about users matching the specified username on all dimensions.\n" +
                         "Usage: /tell " + bot.Character + " whois [username]";
                 case "history":
                     return "Gathers and displays the history of a user.\n" +

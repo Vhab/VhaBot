@@ -101,7 +101,7 @@ namespace VhaBot.Configuration
             this.txtAccount.Text = string.Empty;
             this.txtPassword.Text = string.Empty;
             this.txtCharacter.Text = string.Empty;
-            this.cbDimension.Text = "Atlantean";
+            this.cbDimension.Text = "RubiKa";
             this.txtAdmin.Text = string.Empty;
             this.cbEnabled.Checked = false;
         }

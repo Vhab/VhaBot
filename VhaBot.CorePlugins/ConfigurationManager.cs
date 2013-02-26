@@ -331,7 +331,7 @@ namespace VhaBot.CorePlugins
                         break;
                     case ConfigType.Dimension:
                         string value7 = bot.Configuration.GetDimension(entry.Section, entry.Key, (Server)entry.DefaultValue).ToString();
-                        window.AppendMultiBox(command, value7, Server.Atlantean.ToString(), Server.Rimor.ToString(), Server.DieNeueWelt.ToString(), Server.Test.ToString());
+                        window.AppendMultiBox(command, value7, Server.RubiKa.ToString(), Server.Test.ToString());
                         break;
                     case ConfigType.Color:
                         string value8 = bot.Configuration.GetColor(entry.Section, entry.Key, (string)entry.DefaultValue);

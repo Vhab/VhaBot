@@ -20,9 +20,9 @@ namespace VhaBot
 {
     public sealed class BotShell
     {
-        public static readonly string VERSION = "0.7.9";
+        public static readonly string VERSION = "0.7.10";
         public static readonly string BRANCH = "Beta";
-        public static readonly int BUILD = 20110926;
+        public static readonly int BUILD = 20130226;
 #if ADVANCED
         public static readonly string EDITION = "Advanced";
         public static readonly bool Advanced = true;
@@ -43,7 +43,7 @@ namespace VhaBot
         };
 
         private string _character;
-        private Server _dimension = Server.Atlantean;
+        private Server _dimension = Server.RubiKa;
         private BotState _state = BotState.Disconnected;
         private string _admin;
         private string _id;

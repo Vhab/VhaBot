@@ -52,7 +52,7 @@ namespace VhaBot.Plugins
                     
                     int messageID;
                     MessageResult messageResult;
-                    messageResult = bot.SendRemotePluginMessage(this.InternalName, "vhanet@atlantean", "VhanetMassInviteHost", "announce", out messageID, group, bot.Character, e.Sender, message);
+                    messageResult = bot.SendRemotePluginMessage(this.InternalName, "vhanet@rubika", "VhanetMassInviteHost", "announce", out messageID, group, bot.Character, e.Sender, message);
 
                     if (messageResult != MessageResult.Success)
                     {

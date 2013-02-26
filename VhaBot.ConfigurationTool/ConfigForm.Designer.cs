@@ -197,9 +197,7 @@ namespace VhaBot.Configuration
             this.cbDimension.Enabled = false;
             this.cbDimension.FormattingEnabled = true;
             this.cbDimension.Items.AddRange(new object[] {
-            "Atlantean",
-            "Rimor",
-            "DieNeueWelt",
+            "RubiKa",
             "Test"});
             this.cbDimension.Location = new System.Drawing.Point(266, 59);
             this.cbDimension.Name = "cbDimension";

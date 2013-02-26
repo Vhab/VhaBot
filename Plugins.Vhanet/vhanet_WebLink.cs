@@ -159,7 +159,7 @@ namespace VhaBot.Plugins
         private void OnActivateCommand(BotShell bot, CommandArgs e)
         {
             // Beta process only allows clan, tl7, vhanet member
-            if (bot.Dimension != AoLib.Net.Server.Atlantean)
+            if (bot.Dimension != AoLib.Net.Server.RubiKa)
             {
                 bot.SendReply(e, "The activation process is currently disabled on this dimension. For more information read the public beta information on: http://www.vhabot.net/static.php?id=register");
                 return;
@@ -219,14 +219,8 @@ namespace VhaBot.Plugins
             string dimension = null;
             switch (bot.Dimension)
             {
-                case AoLib.Net.Server.Atlantean:
-                    dimension = "rk1";
-                    break;
-                case AoLib.Net.Server.Rimor:
-                    dimension = "rk2";
-                    break;
-                case AoLib.Net.Server.DieNeueWelt:
-                    dimension = "dnw";
+                case AoLib.Net.Server.RubiKa:
+                    dimension = "rk5";
                     break;
                 default:
                     bot.SendReply(e, "Gridnet accounts are not available for characters on your dimension");
