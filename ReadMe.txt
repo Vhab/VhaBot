@@ -1,3 +1,10 @@
+DEPRECATION NOTICE!
+
+VhaBot is no longer maintained and this version should not be used.
+However, I highly encourage you the use Llie's fork of VhaBot: https://bitbucket.org/Llie/llie_vhabot
+
+
+
 This instruction file will explain how to run and debug VhaBot from source.
 
 First of all, to run and debug VhaBot you need an Anarchy Online account and character to run the bot on.
